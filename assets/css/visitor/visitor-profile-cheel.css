@@ -1,0 +1,27 @@
+.max-width{
+    width: 99%;
+    margin: 0;
+}
+.cheels-backgroud{
+    width: 10%;
+    background-color: #31046c;
+    border-radius: 50%;
+    color: white;
+    height: 125px;
+    margin-left: 40px;
+}
+
+.search-icon-bottom{
+    width: 70%;
+    margin: 0 auto;
+}
+.btn-icon-search{
+    border-radius: 40px;
+   color: wheat;
+   border-color: wheat;
+   padding: 10px;
+
+}
+.btn-icon-search1{
+    border-radius: 30px;
+}

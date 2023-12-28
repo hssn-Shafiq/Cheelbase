@@ -1,0 +1,181 @@
+.right-sidebar-section{
+    width: 20%;
+    padding: 2px 3px;
+    height: fit-content;
+}
+.video{
+    height: 360px;
+}
+.video img{
+    height: 100%;
+}
+.video .btn{
+    position: absolute;
+    right: 0px;
+    top: 61px;
+color: red;
+
+}
+.feature .h6{
+    color: #308AFF;
+}
+.feature-child{
+    background-color: rgb(224, 227, 238);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature-child .col-sm-6 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature-child .col-sm-6 p {
+    font-size: xx-small;
+}
+
+.Sprd{
+    background-color: #FCC810;
+    padding: 8px;
+    padding-top: 0px;
+    border-radius: 10px;
+    height: 265px;
+
+}
+.sprd-content{
+    height: 10%;
+    padding: 3px 0px;
+}
+.Sprd img{
+    height: 90%;
+    border-radius: 13px;
+}
+.Sprd .h6{
+    color: red;
+    
+    
+}
+.Sprd .btn i{
+    color: pink !important;
+    background-color: white; 
+    font-size: 24px;
+    border-radius: 50%;
+    
+}
+.food-order{
+    margin-top: 7.3rem;
+}
+.food-order img{
+    position: relative;
+    z-index: 1;
+}
+
+.food-order .food{
+    border-radius: 12px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    margin: 15px auto;
+    width: 80%;
+
+}
+.food-order .food{
+    height: 250px;
+    background: white;
+    position: relative;
+    box-shadow: 6px 5px 4px #000000c2;
+    
+}
+
+.food-order .food:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 90px solid white;
+    border-left: 177px solid white;
+    border-radius: 8px;
+
+}
+  
+.food-order .food .btn{
+    color: #eb001b;
+}
+.food-order .food p i{
+    color: gold;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.apartment2{
+    background-color: #D9D9D9;
+    padding-bottom: 19px;
+  border-radius: 10px;
+}
+.apartment2 .col-sm-6{
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    width: 100%;
+    margin: 0px auto;
+}
+.apartment2 .price{
+    color: #FCC810;
+    padding: 0px 5px;
+}
+.apartment2 .apart-content,.icons{
+    margin-top: -10px;
+    padding: 0px 5px;
+}
+.apartment2 .apart-content .title{
+font-size: 11px;
+margin-top: 5px;
+}
+.apartment2 .rent-btn{
+    background-color:#FCC810;
+    color: black;
+  font-size: 11px;
+  padding: 2px 10px;
+}
+.apartment2 .address i{
+    color: #FCC810;
+    font-size: 15px;
+    margin-right: 2px;
+}
+.apartment2 .address{
+    color: grey;
+    font-size: 11px;
+    padding: 0px 5px;
+
+}
+
+
+.apartment2 .icons p{
+    font-size: 12px;
+}
+.apartment2 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.sub{
+    border:2px solid #FCC810;
+    padding: 40px 2px 2px 2px;
+    border-radius: 10px;
+}
+.sub .capt{
+
+    padding: 5px 0px 0px 0px;
+
+}
+
+.sub img{
+    border-radius: 12px !important;
+}
+.sub .h6{
+    font-size: 14px;
+ text-align: center;
+}
+.sub .btn{
+    background-color: red !important;
+    color: white;
+    border-radius: 20px;
+}

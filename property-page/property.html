@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="/assets/css/nav.css">
+    <link rel="stylesheet" href="/assets/css/Rightsider.css">
+    <link rel="stylesheet" href="/assets/css/sidebar-left-chats.css">
+    <link rel="stylesheet" href="/assets/css/video-page-css/video-nextpart.css">
+    <link rel="stylesheet" href="/assets/css/property.css">
+    <link rel="stylesheet" href="/assets/css/video-page-css/video.css">
+    <title> Property</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#">Cheelbase</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="btn btn-primary dropdown cursor-pointer create-btn" href="#" id="dropdownId"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Create</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Video</a>
+                                <a class="dropdown-item" href="#">Cheels</a>
+                                <a class="dropdown-item" href="#">Gallery</a>
+                                <a class="dropdown-item" href="#">Products</a>
+                                <a class="dropdown-item" href="#">Food Items</a>
+                                <a class="dropdown-item" href="#">Properties</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex  nav-icon">
+
+                        <div class="call">
+                            <i class="fa-solid fa-camera"></i>
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="notifications">
+                            <i class="fa-regular fa-message"></i>
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="user d-flex flex-row ">
+                            <ul class=" me-auto mt-2 mt-lg-0">
+                                <li class=" dropdown">
+                                    <i class="fa-solid fa-user user-icon dropdown" id="dropdownId"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i>General
+                                            Settings</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fa-regular fa-address-book"></i>Contact</a>
+                                        <a class="dropdown-item" href="#"><i class="fa-solid fa-phone"></i>Calls</a>
+                                        <a class="dropdown-item" href="#"><i class="fa-regular fa-message"></i>Save
+                                            Messeges</a>
+                                        <a class="dropdown-item" href="#"><i class="fa-solid fa-people-group"></i>Invite
+                                            Friends</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fa-regular fa-circle-question"></i>Cheelbase FAQ</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <label for="user" class="mt-1">Marina</label>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="container-fliud container-width">
+        <div class="row">
+            <div class="col-md-3 left-sidebar-main ">
+                <div class="searchbar d-flex align-items-center mt-0">
+                    <li class="dropdown">
+                        <i class="fa-solid fa-bars dropdown" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"></i>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i>Business Tool</a>
+                            <a class="dropdown-item" href="#"><i class="fa-solid fa-photo-film"></i>Gallery</a>
+                            <a class="dropdown-item" href="#"><i class="fa-solid fa-mobile"></i>Cheels</a>
+                            <a class="dropdown-item" href="#"><i class="fa-solid fa-store"></i>Store</a>
+                            <a class="dropdown-item" href="#"><i class="fa-solid fa-utensils"></i>Resturants </a>
+                            <a class="dropdown-item" href="#"><i class="fa-solid fa-hand-holding-dollar"></i>Property
+                                Listing</a>
+                            <a class="dropdown-item" href="#"><i class="fa-solid fa-wallet"></i>Monitization</a>
+                        </div>
+                    </li>
+
+                    <i class="fa fa-search"></i>
+                    <!-- <input class="form-control searchbar-input" type="search" placeholder="Search" aria-label="Search"> -->
+                    <input class="text-center" type="search" placeholder="Search user,groups">
+
+                </div>
+                <!-- Sidebar -->
+                <nav id="sidebar" class="d-md-block sidebar">
+                    <div>
+                        <ul class="nav flex-column">
+                            <li class="nav-item child">
+                                <h2>Recent Chats</h2>
+                                <!-- Chat items -->
+                                <div class="parent">
+                                    <div> <img src="/assets/images/hug shark  banner.jpeg" alt="Chat 1"
+                                            class="chat-image">
+                                    </div>
+                                    <div>
+                                        <span class="profile-name">Matheus</span>
+                                        <p class="text-muted">Bora jogar aquele?</p>
+
+                                    </div>
+                                    <div class="tticon"><span class="time">11:45 AM</span>
+                                        <i class="fa-solid fa-check-double"></i>
+                                    </div>
+                                </div>
+                                <div class="parent">
+                                    <div> <img src="/assets/images/open thumb.jpg" alt="Chat 1" class="chat-image">
+                                    </div>
+                                    <div>
+                                        <span class="profile-name">Matheus</span>
+                                        <p class="text-muted">Bora jogar aquele?</p>
+
+                                    </div>
+                                    <div class="tticon"><span class="time">11:45 AM</span>
+                                        <i class="fa-solid fa-check-double"></i>
+                                    </div>
+                                </div>
+                                <div class="parent">
+                                    <div> <img src="/assets/images/life in two bannn.jpeg" alt="Chat 1"
+                                            class="chat-image">
+                                    </div>
+                                    <div>
+                                        <span class="profile-name">Matheus</span>
+                                        <p class="text-muted">Bora jogar aquele?</p>
+
+                                    </div>
+                                    <div class="tticon"><span class="time">11:45 AM</span>
+                                        <i class="fa-solid fa-check-double"></i>
+                                    </div>
+                                </div>
+                                <div class="parent">
+                                    <div> <img src="/assets/images/lawless thumb.jpg" alt="Chat 1" class="chat-image">
+                                    </div>
+                                    <div>
+                                        <span class="profile-name">Matheus</span>
+                                        <p class="text-muted">Bora jogar aquele?</p>
+
+                                    </div>
+                                    <div class="tticon"><span class="time">11:45 AM</span>
+                                        <i class="fa-solid fa-check-double"></i>
+                                    </div>
+                                </div>
+                                <div class="parent">
+                                    <div> <img src="/assets/images/garage thumb.jpeg" alt="Chat 1" class="chat-image">
+                                    </div>
+                                    <div>
+                                        <span class="profile-name">Matheus</span>
+                                        <p class="text-muted">Bora jogar aquele?</p>
+
+                                    </div>
+                                    <div class="tticon"><span class="time">11:45 AM</span>
+                                        <i class="fa-solid fa-check-double"></i>
+                                    </div>
+                                </div>
+                                <!-- Add more chat items as needed -->
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-5">
+                        <div class="channels-heading ">
+                            <h3>Channels</h3>
+                        </div>
+
+                        <ul class="nav flex-column">
+                            <li class="nav-item child">
+                                <h2>Recent Channels</h2>
+                                <!-- Chat items -->
+                                <div class="parent">
+                                    <div> <img src="/assets/images/hug shark  banner.jpeg" alt="Chat 1"
+                                            class="chat-image">
+                                    </div>
+                                    <div>
+                                        <span class="profile-name">Matheus</span>
+                                        <p class="text-muted">Bora jogar aquele?</p>
+
+                                    </div>
+                                    <div class="tticon"><span class="time">11:45 AM</span>
+                                        <i class="fa-solid fa-check-double"></i>
+                                    </div>
+                                </div>
+                                <div class="parent">
+                                    <div> <img src="/assets/images/open thumb.jpg" alt="Chat 1" class="chat-image">
+                                    </div>
+                                    <div>
+                                        <span class="profile-name">Matheus</span>
+                                        <p class="text-muted">Bora jogar aquele?</p>
+
+                                    </div>
+                                    <div class="tticon"><span class="time">11:45 AM</span>
+                                        <i class="fa-solid fa-check-double"></i>
+                                    </div>
+                                </div>
+                                <div class="parent">
+                                    <div> <img src="/assets/images/life in two bannn.jpeg" alt="Chat 1"
+                                            class="chat-image">
+                                    </div>
+                                    <div>
+                                        <span class="profile-name">Matheus</span>
+                                        <p class="text-muted">Bora jogar aquele?</p>
+
+                                    </div>
+                                    <div class="tticon"><span class="time">11:45 AM</span>
+                                        <i class="fa-solid fa-check-double"></i>
+                                    </div>
+                                </div>
+                                <div class="parent">
+                                    <div> <img src="/assets/images/lawless thumb.jpg" alt="Chat 1" class="chat-image">
+                                    </div>
+                                    <div>
+                                        <span class="profile-name">Matheus</span>
+                                        <p class="text-muted">Bora jogar aquele?</p>
+
+                                    </div>
+                                    <div class="tticon"><span class="time">11:45 AM</span>
+                                        <i class="fa-solid fa-check-double"></i>
+                                    </div>
+                                </div>
+                                <div class="parent">
+                                    <div> <img src="/assets/images/garage thumb.jpeg" alt="Chat 1" class="chat-image">
+                                    </div>
+                                    <div>
+                                        <span class="profile-name">Matheus</span>
+                                        <p class="text-muted">Bora jogar aquele?</p>
+
+                                    </div>
+                                    <div class="tticon"><span class="time">11:45 AM</span>
+                                        <i class="fa-solid fa-check-double"></i>
+                                    </div>
+                                </div>
+                                <!-- Add more chat items as needed -->
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- sidebar ends -->
+            </div>
+
+            <div class="col-lg-6 add-width">
+                <div class="row">
+                    <div class="">
+                        <div style="width: 51%; margin: 0 auto; " class="input-group text-light ">
+                            <input type="text" class="form-control search-bar search-bar1 text-dark "
+                                placeholder="Search videos, others">
+                            <div class="input-group-prepend ">
+                                <button style="  right: 40px; font-size: 14px;  border-radius: 53%;"
+                                    class="btn btn-outline-light" type="button">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h6 style="margin-left: 20px; ">Featured</h6>
+                    <div class="Featured">
+                        <div class="property-feature">
+                            <a href="property-nextpart.html"><img class="property-img"
+                                    src="/assets/images/Rectangle 7.png" width="90%" height="100%"></a>
+                        </div>
+                        <div class="property-feature">
+                            <a href="property-nextpart.html"><img class="property-img"
+                                    src="/assets/images/Rectangle 7.png" width="90%" height="100%" alt=""></a>
+                        </div>
+                        <div class="property-feature">
+                            <a href="property-nextpart.html"> <img class="property-img"
+                                    src="/assets/images/Rectangle 7.png" width="90%" height="100%" alt=""></a>
+                        </div>
+                        <div class="property-feature">
+                            <a href="property-nextpart.html">
+                                <img class="property-img" src="/assets/images/Rectangle 7.png" width="90%" height="100%"
+                                    alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-5 property-small-width">
+                        <div class="col-lg-5 property-small-width1">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="property-small-img">
+                                        <img src="/assets/images/Rectangle 9.png" width="100px" height="100px" alt="">
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="property-small-text">
+                                        <h6 class="property-small-text1">RANCH HOME</h6>
+                                        <p class="property-small-text2">520 N Btoudry Ave Los Angeles</p>
+                                        <div class="property-small-img2">
+                                            <img class="property-small-img1" src="/assets/images/Group 1.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 2.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 property-small-width1 ms-5 ">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="property-small-img">
+                                        <img src="/assets/images/Rectangle 9.png" width="84px" height="100px" alt="">
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="property-small-text">
+                                        <h6 class="property-small-text1">RANCH HOME</h6>
+                                        <p class="property-small-text2">520 N Btoudry Ave Los Angeles</p>
+                                        <div class="property-small-img2">
+                                            <img class="property-small-img1" src="/assets/images/Group 1.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 2.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row mt-2 property-small-width">
+                        <div class="col-lg-6 property-small-width1">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="property-small-img">
+                                        <img src="/assets/images/Rectangle 9.png" width="84px" height="100px" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="property-small-text">
+                                        <h6 class="property-small-text1">RANCH HOME</h6>
+                                        <p class="property-small-text2">520 N Btoudry Ave Los Angeles</p>
+                                        <div class="property-small-img2">
+                                            <img class="property-small-img1" src="/assets/images/Group 1.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 2.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 property-small-width1 ms-5">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="property-small-img">
+                                        <img src="/assets/images/Rectangle 9.png" width="84px" height="100px" alt="">
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="property-small-text">
+                                        <h6 class="property-small-text1">RANCH HOME</h6>
+                                        <p class="property-small-text2">520 N Btoudry Ave Los Angeles</p>
+                                        <div class="property-small-img2">
+                                            <img class="property-small-img1" src="/assets/images/Group 1.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 2.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-2 property-small-width">
+                        <div class="col-lg-6 property-small-width1 ">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="property-small-img">
+                                        <img src="/assets/images/Rectangle 9.png" width="84px" height="100px" alt="">
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="property-small-text">
+                                        <h6 class="property-small-text1">RANCH HOME</h6>
+                                        <p class="property-small-text2">520 N Btoudry Ave Los Angeles</p>
+                                        <div class="property-small-img2">
+                                            <img class="property-small-img1" src="/assets/images/Group 1.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 2.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6  property-small-width1 ms-5">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="property-small-img">
+                                        <img src="/assets/images/Rectangle 9.png" width="84px" height="100px" alt="">
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="property-small-text">
+                                        <h6 class="property-small-text1">RANCH HOME</h6>
+                                        <p class="property-small-text2">520 N Btoudry Ave Los Angeles</p>
+                                        <div class="property-small-img2">
+                                            <img class="property-small-img1" src="/assets/images/Group 1.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 2.png" alt="">
+                                            <img class="property-small-img1" src="/assets/images/Group 3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-lg-4"><img class="img-product" src="/assets/images/product.jpeg" width="100%" alt="">
+                    </div>
+                    <div class="col-lg-4"><img class="img-product" src="/assets/images/product.jpeg" width="100%" alt="">
+                    </div>
+                    <div class="col-lg-4"><img class="img-product" src="/assets/images/product.jpeg" width="100%" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-3  row-width right-sidebar-section">
+                <!-- section right-side-bar start -->
+                <div class="continer-fluid ">
+                    <!-- video section -->
+                    <div style="width: 300px;" class="mt-5 Sprd" id="Sponsored">
+                        <div class="d-flex justify-content-between align-items-center  sprd-content">
+                            <div class="h6">Sponsored</div>
+                            <button type="button" onclick="document.getElementById('Sponsored').style.display='none'"
+                                class="btn"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <img src="/assets/images/g4.jpg" width="100%" alt="img">
+                    </div>
+
+                    <!-- feature section -->
+                    <div class="feature mt-3 ">
+                        <div class="h6">Top cheels </div>
+                        <div>
+                            <div class="container-fluid">
+                                <div class="row feature-child p-0">
+                                    <div class="col-sm-6 p-1 mt-0 ">
+                                        <img src="/assets/images/col1.jpg" class="rounded" alt="image">
+                                        <div class="mt-3">
+                                            <div class="p">Lorem ipsum, dolor</div>
+                                            <p>4k View 2Months ago</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 p-1 mt-0 ">
+                                        <img src="/assets/images/col2.jpg" class="rounded" alt="image">
+                                        <div class="mt-3">
+                                            <div class="p">Lorem ipsum, dolor</div>
+                                            <p>1 millions View</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h6>Top Channal</h6>
+                        <div class="col-lg-6"></div>
+                        <div class="col-lg-6"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+
+</html>

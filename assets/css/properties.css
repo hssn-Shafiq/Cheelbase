@@ -1,0 +1,10 @@
+.properties .btn{
+    color: #eb001b;
+    font-size: 18px;
+    font-weight: 500;
+}
+.properties2  img{
+    width: 100%;
+    border-radius: 8px;
+    /* height: 40%; */
+}

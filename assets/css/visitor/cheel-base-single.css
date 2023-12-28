@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.row-max-width{
+    width: 99%;
+}
+.back-img{
+    max-width: 50%;
+height: fit-content;
+}
+.back-img .back-img1{
+    width: 65%;
+    height: 20%;
+}
+.text{
+    width: 60%;
+    position: relative;
+    bottom: 7rem;
+    left: 2rem;
+}
+.text button{
+    text-align: end;
+    margin-left: 203px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+.text button:hover{
+    background-color: black;
+    color: white;
+   
+}
+.text h6{
+    font-size: 10px;
+}
+.like{
+    width: 100px;
+    position: relative;
+    left: 28rem;
+    bottom: 25rem;
+}
+.back-img .sec-img{
+    position: relative;
+    bottom: 26rem;
+}
+.sec-img1{
+    position: relative;
+    bottom: 26rem !important;
+}
+.like1{
+    width: 100px;
+    position: relative;
+    left: 28rem;
+    bottom: 52rem;
+}
+.text1{
+    width: 60%;
+   position: relative;
+   bottom: 33rem;
+   left: 2rem;
+}
+
+.text1 button{
+    text-align: end;
+    margin-left: 203px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+.text1 button:hover{
+    background-color: black;
+    color: white;
+   
+}
+.text1 h6{
+    font-size: 10px;
+}
+.vector {
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.vector1 {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #110C46;
+    padding: 10px;
+}
+
+.side1 {
+    width: 99%;
+  height: fit-content;
+}
+
+.Marina-text {
+    width: 33%;
+    display: flex;
+    background: #110C46;
+    padding: 10px;
+    gap: 10px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-right: 50px !important;
+
+}
+
+.Marina-text h6 {
+    color: #FFE5E5E5;
+    font-weight: 600;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Marina-text img {
+    width: 20px;
+    height: 23px;
+    line-height: 10px;
+}
+.position-img-below{
+    position: relative;
+    top: 100px;
+}
+.second-img{
+    position: relative;
+    
+    width: 83%;
+}
+.position-img{
+    position: relative;
+    width: 68%;
+    top: 650px;
+}
+.side-img1-down{
+    width: 50%;
+}
+.side-img1-down .side-img1-down-right{
+    width: 100%;
+}
+.fourth-img{
+    position: relative;
+    bottom: 52rem;
+    height: 100px;
+}
+.fourth-img .fourth-img1{
+    height: 90vh;
+    width: 70vh;
+}

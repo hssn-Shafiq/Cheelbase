@@ -1,0 +1,499 @@
+.container-width {
+    width: 99%;
+}
+
+.bg-img {
+    background-image: url(col4.jpg);
+    width: 30%;
+    height: 700px;
+    background-size: cover;
+
+}
+
+.position1 {
+    position: absolute;
+}
+
+.position {
+    position: relative;
+    width: 95%;
+    top: 630px;
+    left: 25px;
+    right: 20px;
+
+}
+
+.position h6 {
+    width: 62%;
+    font-size: 10px;
+}
+
+.button {
+    width: 80px;
+    text-align: center;
+    margin-left: 30px;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 30px;
+}
+
+.small-img {
+    width: 65%;
+}
+
+.button {
+    width: 44%;
+}
+
+.button :hover {
+    background-color: black !important;
+    color: #FFFFFF !important;
+}
+
+.like {
+    position: absolute;
+}
+
+.position-like {
+    position: relative;
+    left: 420px;
+    top: 250px;
+}
+
+/* navbar css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #100B43;
+    /* color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1;
+}
+
+.notifications i {
+    color: #FCC810;
+    margin-left: 12px;
+}
+
+.dropdown-item i {
+    margin-right: 12px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.navbar-brand {
+    color: #FCC810;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+.navbar-brand:hover {
+    color: #FCC810;
+}
+
+.navbar .create-btn {
+    background: #FCC810;
+    color: black;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 3px 25px;
+}
+
+.call {
+    margin-right: 20px;
+}
+
+.notifications i,
+.call i,
+.lines i {
+    padding: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.lines {
+    margin-right: -80px;
+}
+
+.call i,
+.lines i {
+    color: white;
+}
+
+.navbar .user .user-icon {
+    background: white;
+    color: black;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar .user label {
+    color: white;
+    margin-left: 5px;
+}
+
+/* navbar css closed */
+
+
+
+/* right navbar css */
+.right-sidebar-section {
+    width: 25%;
+    margin-left: 100px;
+    padding: 2px 3px;
+    height: fit-content;
+}
+
+.video {
+    height: 360px;
+}
+
+.video img {
+    height: 100%;
+}
+
+.video .btn {
+    position: absolute;
+    right: 0px;
+    top: 61px;
+    color: red;
+
+}
+
+.feature .h6 {
+    color: #308AFF;
+}
+
+.feature-child {
+    background-color: rgb(224, 227, 238);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature-child .col-sm-6 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature-child .col-sm-6 p {
+    font-size: xx-small;
+}
+
+.Sprd {
+    background-color: #FCC810;
+    padding: 8px;
+    padding-top: 0px;
+    border-radius: 10px;
+    height: 265px;
+
+}
+
+.sprd-content {
+    height: 10%;
+    padding: 3px 0px;
+}
+
+.Sprd img {
+    height: 90%;
+    border-radius: 13px;
+}
+
+.Sprd .h6 {
+    color: red;
+
+
+}
+
+.Sprd .btn i {
+    color: pink !important;
+    background-color: white;
+    font-size: 24px;
+    border-radius: 50%;
+
+}
+
+.food-order {
+    margin-top: 7.3rem;
+}
+
+.food-order img {
+    position: relative;
+    z-index: 1;
+}
+
+.food-order .food {
+    border-radius: 12px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    margin: 15px auto;
+    width: 80%;
+
+}
+
+.food-order .food {
+    height: 250px;
+    background: white;
+    position: relative;
+    box-shadow: 6px 5px 4px #000000c2;
+
+}
+
+.food-order .food:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 90px solid white;
+    border-left: 177px solid white;
+    border-radius: 8px;
+
+}
+
+.food-order .food .btn {
+    color: #eb001b;
+}
+
+.food-order .food p i {
+    color: gold;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.apartment2 {
+    background-color: #D9D9D9;
+    padding-bottom: 19px;
+    border-radius: 10px;
+}
+
+.apartment2 .col-sm-6 {
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.apartment2 .price {
+    color: #FCC810;
+    padding: 0px 5px;
+}
+
+.apartment2 .apart-content,
+.icons {
+    margin-top: -10px;
+    padding: 0px 5px;
+}
+
+.apartment2 .apart-content .title {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.apartment2 .rent-btn {
+    background-color: #FCC810;
+    color: black;
+    font-size: 11px;
+    padding: 2px 10px;
+}
+
+.apartment2 .address i {
+    color: #FCC810;
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+.apartment2 .address {
+    color: grey;
+    font-size: 11px;
+    padding: 0px 5px;
+
+}
+
+
+.apartment2 .icons p {
+    font-size: 12px;
+}
+
+.apartment2 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.sub {
+    border: 2px solid #FCC810;
+    padding: 40px 2px 2px 2px;
+    border-radius: 10px;
+}
+
+.sub .capt {
+
+    padding: 5px 0px 0px 0px;
+
+}
+
+.sub img {
+    border-radius: 12px !important;
+}
+
+.sub .h6 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.sub .btn {
+    background-color: red !important;
+    color: white;
+    border-radius: 20px;
+}
+
+/* right navabr css end */
+
+
+
+/* left side bar */
+.left-sidebar-main {
+    width: 20%;
+    background-color: #100B43;
+    height: fit-content;
+    padding-bottom: 103px;
+}
+
+.child {
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.sidebar {
+    padding: 16px 0px 0px 0px;
+    background-color: #100B43;
+}
+
+.searchbar {
+    gap: 4px;
+}
+
+.searchbar .dropdown {
+    margin-top: -16px;
+}
+
+.searchbar .fa-bars {
+    cursor: pointer;
+}
+
+.searchbar a i {
+    color: black;
+    font-size: 20px;
+}
+
+.searchbar .fa-search {
+    position: absolute;
+    left: 43px;
+    font-size: 15px;
+    color: white;
+}
+
+.searchbar i {
+    color: #fcc810;
+    font-size: 25px;
+}
+
+.searchbar input {
+    padding: 5px;
+    padding-left: 31px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+
+.searchbar input::placeholder {
+    color: #FFFFFF;
+}
+
+.chat-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.parent {
+    display: flex;
+}
+
+.parent .profile-name {
+    color: #0e1f12;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17.6px;
+    letter-spacing: -0.27px;
+}
+
+.parent .time {
+    font-size: 9px;
+}
+
+.parent p {
+    font-size: 13.2px;
+    font-weight: 400px;
+    letter-spacing: -0.14px;
+    font-family: sans-serif;
+    line-height: 10px;
+}
+
+.parent .tticon {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 6px;
+    margin-left: 11px;
+}
+
+.parent .tticon i {
+    color: #3ab795;
+}
+
+.sidebar h2 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #160966;
+}
+
+.channels-heading h3 {
+    color: #160966;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.channels-heading {
+    background: rgb(217, 217, 217);
+    text-align: center;
+    padding: 5px;
+    margin: -49px 14px -7px;
+    box-shadow: rgb(185, 185, 185) 1px 0px 2px;
+}
+
+/* left side bar end  */

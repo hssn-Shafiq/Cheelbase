@@ -1,0 +1,10 @@
+.gallery .btn{
+    color: #eb001b;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.gallery2 .col-sm-3 img{
+    width: 100%;
+    border-radius: 8px;
+}

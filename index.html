@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/channel.css">
+    <link rel="stylesheet" href="assets/css/icon-sec.css">
+    <link rel="stylesheet" href="assets/css/sidebar-left-chats.css">
+    <link rel="stylesheet" href="assets/css/stories.css">
+    <link rel="stylesheet" href="assets/css/product-section.css">
+    <link rel="stylesheet" href="assets/css/ads.css">
+    <link rel="stylesheet" href="assets/css/cheel.css">
+    <link rel="stylesheet" href="assets/css/order.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <link rel="stylesheet" href="assets/css/gallery-page-css/gallery-page.css">
+    <link rel="stylesheet" href="assets/css/properties.css">
+    <link rel="stylesheet" href="assets/css/apartment.css">
+    <link rel="stylesheet" href="assets/css/Rightsider.css">
+</head>
+
+
+<body>
+    <!-- navbar starts -->
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/cheelbase-logo.png" alt="" width="25">
+                    Cheelbase</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="javascript:void(0);collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0 gap-3">
+                        <li class="nav-item dropdown">
+                            <a class="btn dropdown cursor-pointer create-btn" href="javascript:void(0);" id="dropdownId"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Create <i
+                                    class="fas fa-plus-circle"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="video.html">Video</a>
+                                <a class="dropdown-item" href="cheels.html">Cheels</a>
+                                <a class="dropdown-item" href="/channels-pages/channels-main.html">Gallery</a>
+                                <a class="dropdown-item" href="productpage.html">Products</a>
+                                <a class="dropdown-item" href="javascript:void(0);">Food Items</a>
+                                <a class="dropdown-item" href="property.html">Properties</a>
+                            </div>
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="javascript:void(0);">Chats <span>174</span></a>
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="javascript:void(0);">Calls <span>4</span></a>
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="/status-pages/status.html">Status <span>14</span></a>
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="javascript:void(0);">Updates <span>7</span></a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex  nav-icon">
+                        <!-- <input class="form-control me-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                        <div class="notifications d-flex">
+                           
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-message"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-bell"></i>
+                            </div>
+                            <div>
+                                <li class="dropdown dropstart" id="dropdownId"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa-solid fa-camera"></i>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <h4 class="p-2">Post to</h4>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img src="assets/images/icons/camera.png" alt=""
+                                        width="25" class="mx-3">Status</a>
+                                <a class="dropdown-item" href="/channels-pages/channels-main.html"><img
+                                        src="assets/images/icons/mobile-video.png" class="mx-3" alt=""
+                                        width="25">Contact Chats</a>
+                                <a class="dropdown-item" href="cheels.html"><img src="assets/images/icons/tv-monitor.png"
+                                        alt="" class="mx-3" width="25">Channel</a>
+                                <a class="dropdown-item" href="video.html"><img
+                                        src="assets/images/icons/picture.png" alt="" class="mx-3"
+                                        width="25">Gallery</a>
+                                </div>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="user d-flex flex-row ">
+                            <img src="assets/images/thubnail.jpeg" alt="Chat 1" class=" rounded-circle" width="30"
+                                height="30">
+                            <label for="user" class="mt-1">@marinaojak</label>
+                        </div>
+                        <div class="lines">
+                            <li class="dropdown dropstart account-dropdown">
+                                <i class="fa-solid fa-ellipsis-vertical dropdown" id="dropdownId"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                <div class="dropdown-menu account-dropdown-menu" aria-labelledby="dropdownId">
+                                    <div class="accounts-title d-flex align-items-center justify-content-evenly">
+                                        <div class="user d-flex flex-row ">
+                                            <img src="assets/images/thubnail.jpeg" alt="Chat 1" class=" rounded-circle"
+                                                width="30" height="30">
+                                            <label for="user" class="mt-1">@marinaojak</label>
+                                        </div>
+                                    </div>
+
+                                    <a class="dropdown-item wallet-items" href="javascript:void(0);"><img
+                                            src="assets/images/icons/wallet.png" alt="" width="20" class="mx-3">Wallet:
+                                        <span>$800,09</span></a>
+                                    <a class="dropdown-item wallet-items" href="gallery.html"><img
+                                            src="assets/images/icons/point.png" class="mx-3" alt="" width="20">Points:
+                                        <span>14,701</span></a>
+                                    <a href="javascript:void(0);" class="dropdown-item text-end cheelbase-pro-btn">
+                                        <button class="btn ">Cheelbase pro</button>
+                                    </a>
+                                    <hr class="dropdown-divider">
+                                    </hr>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img src="assets/images/icons/setting.png" alt=""
+                                            width="25" class="mx-3"> Settings</a>
+                                    <a class="dropdown-item" href="/channels-pages/channels-main.html"><img
+                                            src="assets/images/icons/connection.png" class="mx-3" alt=""
+                                            width="25">Channels</a>
+                                    <a class="dropdown-item" href="cheels.html"><img src="assets/images/icons/group.png"
+                                            alt="" class="mx-3" width="25">Full
+                                        Groups</a>
+                                    <a class="dropdown-item" href="video.html"><img
+                                            src="assets/images/icons/contact-book.png" alt="" class="mx-3"
+                                            width="25">Contact</a>
+                                    <a class="dropdown-item" href="resturants.html"><img
+                                            src="assets/images/icons/phone-call.png" class="mx-3" alt=""
+                                            width="25">Calls </a>
+                                    <a class="dropdown-item" href="property.html"><img
+                                            src="assets/images/icons/link.png" alt="" class="mx-3" width="25">Link
+                                        Devices</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img src="assets/images/icons/agenda.png" alt=""
+                                            class="mx-3" width="25">Save Messeges</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img src="assets/images/icons/crowd.png" alt=""
+                                            class="mx-3" width="25">Invite Friends</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img
+                                            src="assets/images/icons/customer-service.png" alt="" class="mx-3"
+                                            width="25">Cheelbase FAQ's</a>
+                                </div>
+
+                            </li>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- navbar ends  -->
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- sidebar column starts -->
+                <div class="col-md-3 left-sidebar-main ">
+                    <div class="searchbar d-flex align-items-center mt-0">
+                        <li class="dropdown account-dropdown">
+                            <i class="fa-solid fa-bars dropdown" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"></i>
+                            <div class="dropdown-menu account-dropdown-menu" aria-labelledby="dropdownId">
+                                <div class="accounts-title d-flex align-items-center justify-content-evenly">
+                                    <h4>Account Manager</h4>
+                                    <img src="assets/images/user-account.png" class="c-pointer mt-[-2px]"
+                                        alt="switch account" width="25">
+                                </div>
+                                <a class="dropdown-item" href="/visitors-profile.html"><img src="assets/images/icons/user.png" alt=""
+                                        width="25" class="mx-3"> Profile</a>
+                                <a class="dropdown-item" href="/channels-pages/channels-main.html"><img
+                                        src="assets/images/icons/shortcut-script-app.png" class="mx-3" alt=""
+                                        width="25">Cheels</a>
+                                <a class="dropdown-item" href="cheels.html"><img
+                                        src="assets/images/icons/tv-monitor.png" alt="" class="mx-3" width="25">Full
+                                    Video</a>
+                                <a class="dropdown-item" href="video.html"><img src="assets/images/icons/picture.png"
+                                        alt="" class="mx-3" width="25">Gallery</a>
+                                <a class="dropdown-item" href="resturants.html"><img
+                                        src="assets/images/icons/conveyor-belt.png" class="mx-3" alt=""
+                                        width="25">Resturants </a>
+                                <a class="dropdown-item" href="property.html"><img src="assets/images/icons/user.png"
+                                        alt="" class="mx-3" width="25">Products</a>
+                                <a class="dropdown-item" href="javascript:void(0);"><img src="assets/images/icons/house.png" alt=""
+                                        class="mx-3" width="25">Properties</a>
+
+                                <hr class="dropdown-divider">
+                                </hr>
+                                <a class="dropdown-item" href="verification-pages/profile-verification/verification-main.html"><img src="assets/images/icons/verified.png" alt=""
+                                        width="25" class="mx-3"> Verification</a>
+                                <a class="dropdown-item" href="/channels-pages/channels-main.html"><img src="assets/images/icons/money.png"
+                                        class="mx-3" alt="" width="25">Monitization</a>
+
+                                <hr class="dropdown-divider">
+                                <a class="dropdown-item" href="javascript:void(0);"><img src="assets/images/icons/convenience-store.png"
+                                        alt="" width="25" class="mx-3"> Marketplace</a>
+                                <a class="dropdown-item" href="/channels-pages/channels-main.html"><img
+                                        src="assets/images/icons/smartphone-call.png" class="mx-3" alt=""
+                                        width="25">Device Setting</a>
+                                <a class="dropdown-item" href="/channels-pages/channels-main.html"><img src="assets/images/icons/hotspot.png"
+                                        class="mx-3" alt="" width="25">Updates</a>
+                                <hr class="dropdown-divider mb-3">
+                            </div>
+
+                        </li>
+
+                        <i class="fa fa-search"></i>
+                        <!-- <input class="form-control searchbar-input" type="search" placeholder="Search" aria-label="Search"> -->
+                        <input class="text-center" type="search" placeholder="Search user,groups,channels">
+                    </div>
+                    <!-- Sidebar -->
+                    <nav id="sidebar" class="d-md-block sidebar">
+                        <div class="row mb-3 buttons-group d-flex flex-row justify-content-evenly">       
+                          <button href="javascript:void(0);" class=" rounded-circle p-2"><img src="assets/images/icons/home.png " width="18" alt=""></button>
+                          <button href="javascript:void(0);" class="rounded-circle p-2">All</button>
+                          <button href="javascript:void(0);" class="rounded-5 p-2">In-Contacts <span>174</span></button>
+                          <button href="javascript:void(0);" class="rounded-5 p-2">Business <span>23</span></button>
+                        </div>
+                        <div class="row buttons-group2 mb-4 d-flex flex-row justify-content-start">       
+                            <button href="javascript:void(0);" class="rounded-5 p-2">Favourites <span>12</span></button>
+                            <button href="javascript:void(0);" class="rounded-5 p-2">Status <span>174</span></button>
+                            <button href="javascript:void(0);" class="rounded-5 p-2">channels <span>23</span></button>
+                          </div>
+                        <div>
+                            <ul class="nav flex-column">
+                                <li class="nav-item child">
+                                    <h2 class="d-flex justify-content-between">Recent Chats <span><a href="#"><i class="fab fa-whatsapp"></i></a></span></h2>
+                                    <!-- Chat items -->
+                                    <div class="parent">
+                                        <div> <img src="assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="parent">
+                                        <div> <img src="assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="parent">
+                                        <div> <img src="assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="parent">
+                                        <div> <img src="assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="parent">
+                                        <div> <img src="assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="parent">
+                                        <div> <img src="assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Add more chat items as needed -->
+                                </li>
+                            </ul>
+                        </div>
+                        <hr color="javascript:void(0);D9D9D9" style="height: 3px;">
+                        <div class="explore-more">
+                            <ul>
+                                <h5>Explore More</h5>
+                                <div class="help">
+                                    <a href="javascript:void(0);"><i class="fa-regular fa-circle-question"></i>help </a>
+                                </div>
+                            </ul>
+                        </div>
+                        <hr color="javascript:void(0);D9D9D9" style="height: 3px;">
+                        <div class="extra-links">
+                            <ul>
+                                <li><a href="javascript:void(0);">Refund Policy</a></li>
+                                <li><a href="javascript:void(0);">Termss OF Use</a></li>
+                                <li><a href="javascript:void(0);">Privacy Policy</a></li>
+                                <li><a href="javascript:void(0);">Affiliates</a></li>
+                                <li><a href="javascript:void(0);">Acceptabel use Policy</a></li>
+                                <li><a href="javascript:void(0);">Cookie Policy</a></li>
+                                <li><a href="javascript:void(0);">Language</a></li>
+                                <li><a href="javascript:void(0);">Monitization</a></li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- sidebar ends -->
+                </div>
+                <!-- sidebar column ends -->
+
+                <!-- center main starts  -->
+                <div class="col-6 center-main">
+                    <!-- /// stories main starts  -->
+
+                    <div class="container-fluid stories-main">
+                        <div class="stories-container">
+                            <div class="content">
+                                <div class="previous-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15.75 19.5L8.25 12l7.5-7.5" />
+                                    </svg>
+                                </div>
+
+                                <div class="stories"></div>
+
+                                <div class="next-btn active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="stories-full-view">
+                            <div class="close-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </div>
+
+                            <div class="content">
+                                <div class="previous-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15.75 19.5L8.25 12l7.5-7.5" />
+                                    </svg>
+                                </div>
+
+                                <div class="story">
+                                    <img src="assets/images/3.jpg" alt="" />
+                                    <div class="author">Author</div>
+                                </div>
+
+                                <div class="next-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- stories main ends  -->
+
+
+                    <!-- icons section start -->
+                    <div class="container-fluid  icon-section">
+                        <a href="javascript:void(0);"  id="icon-btn" onclick="changeBackground()">
+                            <!-- <i class="fa-regular fa-images"></i> -->
+                            <img src="assets/images/vibration.png" alt="">
+                            <p>Cheels</p>
+                        </a>
+                        <a href="javascript:void(0);" id="icon-btn" onclick="changeBackground()"> <img src="assets/images/icons/video-icon-thumb.png" alt="">
+                            <p>Video</p>
+                        </a>
+                        <a href="javascript:void(0);" id="icon-btn" onclick="changeBackground()">
+                            <!-- <i class="fa-regular fa-images"></i> -->
+                            <img src="assets/images/icons/picture-gallery-thumb.png" alt="">
+                            <p>Gallery</p>
+                        </a>
+                        <a href="javascript:void(0);" id="icon-btn" onclick="changeBackground()">
+                            <img src="assets/images/burger.png" alt="">
+                            <p>Resturants</p>
+                        </a>
+                        <a href="javascript:void(0);"id="icon-btn"  onclick="changeBackground()">
+                            <img src="assets/images/shopping-cart.png" alt="">
+
+                            <p>Shop</p>
+                        </a>
+                        <a href="javascript:void(0);"id="icon-btn"  onclick="changeBackground()">
+                            <img src="assets/images/camping-tent.png" alt="">
+                            <p>Properties</p>
+                        </a>
+                    </div>
+                    <!-- icons section ends -->
+
+                    <!-- channel section starts  -->
+                    <div class="container-fluid channels-section">
+                        <div class="container d-flex justify-content-between align-items-center find-Channels">
+                            <div class="h4 main-title">Find Channels</div>
+                            <button type="button" class="btn view-btn">View all</button>
+                        </div>
+                        <div class="row find-Channels-columns">
+                            <div class="col-sm-4 column1">
+                                <img src="assets/images/WhatsApp Image 2023-11-07 at 12.20.48 PM.jpeg"
+                                    class="rounded-circle" alt="image">
+                                <div class="separator">
+                                    <p>1 millions View</p>
+                                    <button class="btn  subscribe-btn">Subscribe</button>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-4 column1">
+                                <img src="assets/images/WhatsApp Image 2023-11-07 at 12.20.48 PM.jpeg"
+                                    class="rounded-circle" alt="image">
+                                <div class="separator">
+                                    <p>1 millions View</p>
+                                    <button class="btn subscribe-btn">Subscribe</button>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-4 column1">
+                                <img src="assets/images/WhatsApp Image 2023-11-07 at 12.20.48 PM.jpeg"
+                                    class="rounded-circle" alt="image">
+                                <div class="separator">
+                                    <p>1 millions View</p>
+                                    <button class="btn subscribe-btn">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- find-Channels ends -->
+
+                    <!-- products section start -->
+
+                    <div class="container-fluid products section">
+                        <div class="container d-flex justify-content-end align-items-center ">
+                            <button type="button" class="btn view-btn">View all</button>
+                        </div>
+                        <div class="row products-cards-columns">
+                            <div class="col-md-4 product1">
+                                <div class="card  product-card">
+                                    <img src="assets/images/product.jpeg " class="card-img-top" alt="Product 1">
+                                    <div class="card-icons">
+                                        <i class="fab fa-whatsapp"></i>
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Product 1</h5>
+                                        <div class="d-flex justify-content-between">
+                                            <p class="card-text">$20.00</p>
+                                            <a href="javascript:void(0);" class="view-more">more</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 product1">
+                                <div class="card  product-card">
+                                    <img src="assets/images/product.jpeg" class="card-img-top" alt="Product 2">
+                                    <div class="card-icons">
+                                        <i class="fab fa-whatsapp"></i>
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Product 1</h5>
+                                        <div class="d-flex justify-content-between">
+                                            <p class="card-text">$20.00</p>
+                                            <a href="javascript:void(0);" class="view-more">more</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 product1">
+                                <div class="card  product-card">
+                                    <img src="assets/images/product.jpeg" class="card-img-top" alt="Product 3">
+                                    <div class="card-icons">
+                                        <i class="fab fa-whatsapp"></i>
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Product 3</h5>
+                                        <div class="d-flex justify-content-between">
+                                            <p class="card-text">$20.00</p>
+                                            <a href="javascript:void(0);" class="view-more">more</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- product section end  -->
+
+                    <!-- section ad start -->
+                    <div class="container-fluid   mainads " id="adsvideo">
+                        <div class="title d-flex justify-content-between">
+                            <div class="h1">Sponsored ad</div>
+                            <button type="button" onclick="document.getElementById('adsvideo').style.display='none'"
+                                class="btn"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <div class="adsvideo">
+                            <iframe width="100%" height="320"
+                                src="https://www.youtube.com/embed/o1fWvomcXt8?si=Hhf6epxhwFAZu__y"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- section ad ends  -->
+
+
+                    <!-- section cheel starts -->
+                    <div class="container-fluid ">
+                        <div class="container d-flex justify-content-between topcheel">
+                            <div class="h4">Top Cheels</div>
+                            <a href="">
+                                <button type="button" class="btn">View all</button>
+
+                            </a>
+                        </div>
+                        <div class="row topcheel-columns">
+                            <div class="col-sm">
+                                <img src="assets/images/col1.jpg" class="rounded" alt="image">
+                                <div class="p">Lorem ipsum, dolor</div>
+                                <p>4k View 2Months ago</p>
+                            </div>
+                            <div class="col-sm">
+                                <img src="assets/images/col2.jpg" class="rounded" alt="image">
+                                <div class="p">Lorem ipsum, dolor</div>
+                                <p>1 millions View</p>
+
+                            </div>
+                            <div class="col-sm">
+                                <img src="assets/images/col3.jpg" class="rounded" alt="image">
+                                <div class="p">Lorem ipsum, dolor</div>
+                                <p>1 millions View</p>
+                            </div>
+                            <div class="col-sm">
+                                <img src="assets/images/col4.jpg" class="rounded" alt="image">
+                                <div class="p">Lorem ipsum, dolor</div>
+                                <p>1 millions View</p>
+                            </div>
+                            <div class="col-sm">
+                                <img src="assets/images/col1.jpg" class="rounded" alt="image">
+                                <div class="p">Lorem ipsum, dolor</div>
+                                <p>4k View 2Months ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- section cheel end -->
+
+                    <!-- section order start -->
+                    <div class="container-fluid ">
+                        <div class="container d-flex justify-content-between topcheel">
+                            <div class="h4">Order Food</div>
+                            <a href="">
+                                <button type="button" class="btn">View all</button>
+                            </a>
+                        </div>
+                        <div class="row gap-3 order-columns-home">
+                            <div class=" col-sm card cards-home" style="width: 18rem;">
+                                <img src="assets/images/order food.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title d-flex justify-content-between">Burger <span>$3.49</span></h5>
+                                  <p class="card-text">This is my whole description for the whole me</p>
+                                  <div class="more d-flex justify-content-between align-items-center">
+                                    <a href="#">more</a>
+                                    <a href="#">
+                                        <span><i class="fab fa-whatsapp"></i></span>
+                                        <span><i class="fas fa-shopping-cart"></i></span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class=" col-sm card cards-home" style="width: 18rem;">
+                                <img src="assets/images/order food.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title d-flex justify-content-between">Burger <span>$3.49</span></h5>
+                                  <p class="card-text">This is my whole description for the whole me</p>
+                                  <div class="more d-flex justify-content-between align-items-center">
+                                    <a href="#">more</a>
+                                    <a href="#">
+                                        <span><i class="fab fa-whatsapp"></i></span>
+                                        <span><i class="fas fa-shopping-cart"></i></span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class=" col-sm card cards-home" style="width: 18rem;">
+                                <img src="assets/images/order food.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title d-flex justify-content-between">Burger <span>$3.49</span></h5>
+                                  <p class="card-text">This is my whole description for the whole me</p>
+                                  <div class="more d-flex justify-content-between align-items-center">
+                                    <a href="#">more</a>
+                                    <a href="#">
+                                        <span><i class="fab fa-whatsapp"></i></span>
+                                        <span><i class="fas fa-shopping-cart"></i></span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <!-- section order end -->
+                    <!-- section gallery start  -->
+                    <div class="container-fluid ">
+                        <div class="container d-flex justify-content-between topcheel">
+                            <div class="h4">Feautred Gallery</div>
+                            <a href="">
+                                <button type="button" class="btn">View all</button>
+                            </a>
+                        </div>
+                        <div class="row gap-1 order-columns-home">
+                            <div class="col-sm card p-1">
+                                <div class="container-fluid d-flex justify-content-between gallery-contact">
+                                    <div class="d-flex">
+                                        <img src="assets/images/gallery dp.png" alt="Chat 1" class="chat-image" />
+                                        <div class="profile-content">
+                                            <span class="profile-name">Camilla</span>
+                                            <p class="text-muted">Mexico City, Mexico</p>
+                                        </div>
+                                    </div>
+                                    <div class="tticon">
+                                        <i class="fa-solid fa-ellipsis"> </i>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <a href="gallerysinglepage.html">
+                                        <img src="assets/images/Gallery-image.png" alt="gallery-image" width="100%" />
+                                    </a>
+                                </div>
+                                <div class="gallery-icon d-flex align-items-center justify-content-between p-2 pt-2 pb-0">
+                                    <div>
+                                        <div class="btn">
+                                            <i class="fa-solid fa-heart"> 5.4K</i>
+                                        </div>
+                                        <i class="fas fa-comment"> 165</i>
+                                        <i class="fas fa-paper-plane"></i>
+                                    </div>
+                                    <div class="download-icons">
+                                        <i class="fas fa-download"></i>
+                                        <i class="fas fa-bookmark"></i>
+                                    </div>
+                                </div>
+                                <div class="gallery-footer mt-1 d-flex align-items-center justify-content-between">
+                                    <div class="images d-flex align-items-center justify-content-between gap-2">
+                                        <div class="footer-images d-flex align-items-center justify-content-around">
+                                            <img src="assets/images/gallery dp.png" alt="Chat 1" class="footer-image1" />
+                                            <img src="assets/images/Ellipse 7.png" alt="Chat 1" class="footer-image2" />
+                                            <img src="assets/images/Ellipse 8.png" alt="Chat 1" class="footer-image3" />
+                                        </div>
+                                        <div class="footer-title">
+                                            Aaron, Hank Adams, John, William...
+                                        </div>
+                                    </div>
+    
+                                    <div class="gallery-footer-btn">more</div>
+                                </div>
+                            </div>
+                            <div class="col-sm card p-1">
+                                <div class="container-fluid d-flex justify-content-between gallery-contact">
+                                    <div class="d-flex">
+                                        <img src="assets/images/gallery dp.png" alt="Chat 1" class="chat-image"  />
+                                        <div class="profile-content">
+                                            <span class="profile-name">Camilla</span>
+                                            <p class="text-muted">Mexico City, Mexico</p>
+                                        </div>
+                                    </div>
+                                    <div class="tticon">
+                                        <i class="fa-solid fa-ellipsis"> </i>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <a href="gallerysinglepage.html">
+                                        <img src="assets/images/Gallery-image.png" alt="gallery-image" width="100%"/>
+                                    </a>
+                                </div>
+                                <div class="gallery-icon d-flex align-items-center justify-content-between p-2 pt-2 pb-0">
+                                    <div>
+                                        <div class="btn">
+                                            <i class="fa-solid fa-heart"> 5.4K</i>
+                                        </div>
+                                        <i class="fas fa-comment"> 165</i>
+                                        <i class="fas fa-paper-plane"></i>
+                                    </div>
+                                    <div class="download-icons">
+                                        <i class="fas fa-download"></i>
+                                        <i class="fas fa-bookmark"></i>
+                                    </div>
+                                </div>
+                                <div class="gallery-footer mt-1 d-flex align-items-center justify-content-between">
+                                    <div class="images d-flex align-items-center justify-content-between gap-2">
+                                        <div class="footer-images d-flex align-items-center justify-content-around">
+                                            <img src="assets/images/gallery dp.png" alt="Chat 1" class="footer-image1" />
+                                            <img src="assets/images/Ellipse 7.png" alt="Chat 1" class="footer-image2" />
+                                            <img src="assets/images/Ellipse 8.png" alt="Chat 1" class="footer-image3" />
+                                        </div>
+                                        <div class="footer-title">
+                                            Aaron, Hank Adams, John, William...
+                                        </div>
+                                    </div>
+    
+                                    <div class="gallery-footer-btn">more</div>
+                                </div>
+                            </div>
+                            <div class="col-sm card p-1">
+                                <div class="container-fluid d-flex justify-content-between gallery-contact">
+                                    <div class="d-flex">
+                                        <img src="assets/images/gallery dp.png" alt="Chat 1" class="chat-image" />
+                                        <div class="profile-content">
+                                            <span class="profile-name">Camilla</span>
+                                            <p class="text-muted">Mexico City, Mexico</p>
+                                        </div>
+                                    </div>
+                                    <div class="tticon">
+                                        <i class="fa-solid fa-ellipsis"> </i>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <a href="gallerysinglepage.html">
+                                        <img src="assets/images/Gallery-image.png" alt="gallery-image" width="100%" />
+                                    </a>
+                                </div>
+                                <div class="gallery-icon d-flex align-items-center justify-content-between p-2 pt-2 pb-0">
+                                    <div>
+                                        <div class="btn">
+                                            <i class="fa-solid fa-heart"> 5.4K</i>
+                                        </div>
+                                        <i class="fas fa-comment"> 165</i>
+                                        <i class="fas fa-paper-plane"></i>
+                                    </div>
+                                    <div class="download-icons">
+                                        <i class="fas fa-download"></i>
+                                        <i class="fas fa-bookmark"></i>
+                                    </div>
+                                </div>
+                                <div class="gallery-footer mt-1 d-flex align-items-center justify-content-between">
+                                    <div class="images d-flex align-items-center justify-content-between gap-2">
+                                        <div class="footer-images d-flex align-items-center justify-content-around">
+                                            <img src="assets/images/gallery dp.png" alt="Chat 1" class="footer-image1" />
+                                            <img src="assets/images/Ellipse 7.png" alt="Chat 1" class="footer-image2" />
+                                            <img src="assets/images/Ellipse 8.png" alt="Chat 1" class="footer-image3" />
+                                        </div>
+                                        <div class="footer-title">
+                                            Aaron, Hank Adams, John, William...
+                                        </div>
+                                    </div>
+    
+                                    <div class="gallery-footer-btn">more</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- gallery section s=ends  -->
+
+                     <!-- section order start -->
+                     <div class="container-fluid ">
+                        <div class="container d-flex justify-content-between topcheel">
+                            <div class="h4">Feautred Video</div>
+                            <a href="">
+                                <button type="button" class="btn">Watch More</button>
+                            </a>
+                        </div>
+                        <div class="row gap-3 order-columns-home">
+                            <div class="col-sm">
+                                <!-- <img src="assets/images/properties.jpg" alt=""> -->
+                                <iframe width="100%" height="250px"
+                                    src="https://www.youtube.com/embed/o1fWvomcXt8?si=Hhf6epxhwFAZu__y"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-sm">
+                                <!-- <img src="assets/images/properties.jpg" alt=""> -->
+                                <iframe width="100%" height="250px"
+                                    src="https://www.youtube.com/embed/o1fWvomcXt8?si=Hhf6epxhwFAZu__y"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-sm">
+                                <!-- <img src="assets/images/properties.jpg" alt=""> -->
+                                <iframe width="100%" height="250px"
+                                    src="https://www.youtube.com/embed/o1fWvomcXt8?si=Hhf6epxhwFAZu__y"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section order end -->
+                </div>
+
+
+                <!-- right sidebar starts  -->
+                <div class="col-3 right-sidebar-section">
+                    <!-- section right-side-bar start -->
+                    <div class="continer-fluid ">
+                        <!-- video section -->
+                        <div class="video" id="video">
+                            <button type="button" onclick="document.getElementById('video').style.display='none'"
+                                class="btn"><i class="fa-solid fa-xmark"></i></button>
+                            <img src="assets/images/video1.png" width="100%" alt="img">
+                        </div>
+                        <!-- feature section -->
+                        <div class="feature mt-3 ">
+                            <div class="h6">Feature </div>
+                            <div>
+                                <div class="container-fluid">
+                                    <div class="row feature-child p-0">
+                                        <div class="col-sm-6 p-1 mt-0 ">
+                                            <img src="assets/images/col1.jpg" class="rounded" alt="image">
+                                            <div class="mt-3">
+                                                <div class="p">Lorem ipsum, dolor</div>
+                                                <p>4k View 2Months ago</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 p-1 mt-0 ">
+                                            <img src="assets/images/col2.jpg" class="rounded" alt="image">
+                                            <div class="mt-3">
+                                                <div class="p">Lorem ipsum, dolor</div>
+                                                <p>1 millions View</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sponsored section -->
+                        <div class="mt-5 Sprd" id="Sponsored">
+                            <div class="d-flex justify-content-between align-items-center  sprd-content">
+                                <div class="h6">Sponsored</div>
+                                <button type="button"
+                                    onclick="document.getElementById('Sponsored').style.display='none'" class="btn"><i
+                                        class="fa-solid fa-xmark"></i></button>
+                            </div>
+                            <img src="assets/images/g4.jpg" width="100%" alt="img">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="assets/js/main.js"></script>
+    <!-- Add FontAwesome icons (WhatsApp and Cart) -->
+</body>
+
+</html>

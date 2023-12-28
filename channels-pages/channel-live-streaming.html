@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>go-live-chatting-page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/nav.css">
+
+</head>
+
+
+<body>
+    <!-- navbar starts -->
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img src="/assets/images/cheelbase-logo.png" alt=""
+                        width="25">
+                    Cheelbase</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="javascript:void(0);collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0 gap-3">
+                        <li class="nav-item dropdown">
+                            <a class="btn dropdown cursor-pointer create-btn" href="javascript:void(0);" id="dropdownId"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Create <i
+                                    class="fas fa-plus-circle"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="video.html">Video</a>
+                                <a class="dropdown-item" href="cheels.html">Cheels</a>
+                                <a class="dropdown-item" href="javascript-void(0);">Gallery</a>
+                                <a class="dropdown-item" href="productpage.html">Products</a>
+                                <a class="dropdown-item" href="javascript:void(0);">Food Items</a>
+                                <a class="dropdown-item" href="property.html">Properties</a>
+                            </div>
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="/channels-pages/channel-chating-page.html" target="_blank">Chats <span>174</span></a>
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="javascript:void(0);">Calls <span>4</span></a>
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="/status-pages/status.html">Status <span>14</span></a>
+
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="javascript:void(0);">Updates <span>7</span></a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex  nav-icon">
+                        <!-- <input class="form-control me-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                        <div class="notifications d-flex">
+                            <div class="camera-div">
+                                <li class="dropdown dropstart" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" data-bs-toggle="modal" href="#exampleModalToggle" role="button" >Go Live</a>
+                                        <a class="dropdown-item" href="video.html">CB-Room</a>
+                                    </div>
+                                </li>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-message"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-bell"></i>
+                            </div>
+                            <div class="camera-div">
+                                <li class="dropdown dropstart" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa-solid fa-camera"></i>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <h4 class="p-2">Post to</h4>
+                                        <a class="dropdown-item" href="javascript:void(0);" ><img
+                                                src="/assets/images/icons/camera.png" alt="" width="25"
+                                                class="mx-3">Status</a>
+                                        <a class="dropdown-item" href="/channels-pages/channels-main.html"><img
+                                                src="/assets/images/icons/mobile-video.png" class="mx-3" alt=""
+                                                width="25">Contact Chats</a>
+                                        <a class="dropdown-item" href="cheels.html"><img
+                                                src="/assets/images/icons/tv-monitor.png" alt="" class="mx-3"
+                                                width="25">Channel</a>
+                                        <a class="dropdown-item" href="video.html"><img
+                                                src="/assets/images/icons/picture.png" alt="" class="mx-3"
+                                                width="25">Gallery</a>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="user d-flex flex-row ">
+                            <img src="/assets/images/thubnail.jpeg" alt="Chat 1" class=" rounded-circle" width="30"
+                                height="30">
+                            <label for="user" class="mt-1">@marinaojak</label>
+                        </div>
+                        <div class="lines">
+                            <li class="dropdown dropstart account-dropdown">
+                                <i class="fa-solid fa-ellipsis-vertical dropdown" id="dropdownId"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                <div class="dropdown-menu account-dropdown-menu" aria-labelledby="dropdownId">
+                                    <div class="accounts-title d-flex align-items-center justify-content-evenly">
+                                        <div class="user d-flex flex-row ">
+                                            <img src="/assets/images/thubnail.jpeg" alt="Chat 1" class=" rounded-circle"
+                                                width="30" height="30">
+                                            <label for="user" class="mt-1">@marinaojak</label>
+                                        </div>
+                                    </div>
+
+                                    <a class="dropdown-item wallet-items" href="javascript:void(0);"><img
+                                            src="/assets/images/icons/wallet.png" alt="" width="20" class="mx-3">Wallet:
+                                        <span>$800,09</span></a>
+                                    <a class="dropdown-item wallet-items" href="gallery.html"><img
+                                            src="/assets/images/icons/point.png" class="mx-3" alt="" width="20">Points:
+                                        <span>14,701</span></a>
+                                    <a href="javascript:void(0);" class="dropdown-item text-end cheelbase-pro-btn">
+                                        <button class="btn ">Cheelbase pro</button>
+                                    </a>
+                                    <hr class="dropdown-divider">
+                                    </hr>
+                                    <a class="dropdown-item" href="javascript:void(0);" ><img
+                                            src="/assets/images/icons/setting.png" alt="" width="25" class="mx-3">
+                                        Settings</a>
+                                    <a class="dropdown-item" href="/channels-pages/channels-main.html"><img
+                                            src="/assets/images/icons/connection.png" class="mx-3" alt=""
+                                            width="25">Channels</a>
+                                    <a class="dropdown-item" href="cheels.html"><img
+                                            src="/assets/images/icons/group.png" alt="" class="mx-3" width="25">Full
+                                        Groups</a>
+                                    <a class="dropdown-item" href="video.html"><img
+                                            src="/assets/images/icons/contact-book.png" alt="" class="mx-3"
+                                            width="25">Contact</a>
+                                    <a class="dropdown-item" href="resturants.html"><img
+                                            src="/assets/images/icons/phone-call.png" class="mx-3" alt=""
+                                            width="25">Calls </a>
+                                    <a class="dropdown-item" href="property.html"><img
+                                            src="/assets/images/icons/link.png" alt="" class="mx-3" width="25">Link
+                                        Devices</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img
+                                            src="/assets/images/icons/agenda.png" alt="" class="mx-3" width="25">Save
+                                        Messeges</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img
+                                            src="/assets/images/icons/crowd.png" alt="" class="mx-3" width="25">Invite
+                                        Friends</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img
+                                            src="/assets/images/icons/customer-service.png" alt="" class="mx-3"
+                                            width="25">Cheelbase FAQ's</a>
+                                </div>
+
+                            </li>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- navbar ends  -->
+
+    <main>
+       
+    </main>
+      
+
+
+    <script src="/assets/js/main.js"></script>
+    <!-- Add FontAwesome icons (WhatsApp and Cart) -->
+</body>
+
+</html>

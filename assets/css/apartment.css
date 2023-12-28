@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.apartment .col-sm-6{
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    width: 49%;
+    margin: 0px auto;
+}
+.apartment .price{
+    color: #FCC810;
+}
+.apartment .address i{
+    color: #FCC810;
+}
+.apartment .address{
+    color: grey;
+}
+
+.apartment .btn{
+    background-color:#FCC810;
+    color: black;
+    width: 100px;
+}
+.apartment .icons p{
+    font-size: 12px;
+}
+.apartment img{
+
+    width: 100%;
+    border-radius: 15px;
+}

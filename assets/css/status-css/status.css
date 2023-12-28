@@ -1,0 +1,51 @@
+.center-main{ 
+    background-color: #110C46;
+    border: 20px;
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+.order-last{
+    width: 33%;
+}
+.order-list-img{
+    width: 57px;
+}
+
+.burger1{
+    margin-top: 10px;
+    width: 50%;
+    
+}
+ .position{
+    position:relative;
+    left: 163px;
+    top: 22px;
+} 
+.position2{
+    position:relative;
+    left: 261px;
+    top: 22px;
+} 
+.position3{
+    position:relative;
+    left: 453px;
+    top: 22px;
+} 
+.position4{
+    position:relative;
+    left: 551px;
+    top: 22px;
+} 
+.position5{
+    position:relative;
+    left: 743px;
+    top: 22px;
+} 
+.position6{
+    position:relative;
+    left: 841px;
+    top: 22px;
+} 

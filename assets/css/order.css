@@ -1,0 +1,100 @@
+
+.order .h4 {
+    background-color: #eb001b;
+    color: #ffffff;
+    padding: 0px 15px;
+    z-index: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.order .btn1 {
+
+    background-color: #eb001b;
+    color: white;
+    padding: 10px 40px;
+    border-radius: none;
+    border: none;
+}
+.order-columns-home .cards-home{
+    padding: 0px !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(151, 151, 151) !important;
+    margin-bottom: 3px !important;
+}
+.order-columns-home .cards-home .card-body{
+    padding: 20px 10px !important;
+}
+.order-columns-home .cards-home .card-body .card-title{
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.order-columns-home .cards-home .card-body .card-title .card-text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+
+}
+.order-columns-home .cards-home .card-body  .more{
+    margin-top: 30px;
+}
+.order-columns-home .cards-home .card-body  .more a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.order-columns-home .cards-home .card-body  .more a .fa-whatsapp{
+    background-color: #fcc810;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+}
+.order-columns-home .cards-home .card-body  .more a .fa-shopping-cart{
+    color: white;
+    background-color: #110c46;
+    padding: 8px;
+    border-radius: 50%;
+}
+.order-columns .col-sm img{
+    position: relative;
+    z-index: 1;
+}
+
+.order-columns {
+    background-color: #eb001b;
+    margin-top: -10px;
+    border-radius: 12px;
+}
+.order-columns .col-sm-4{
+    border-radius: 12px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    margin: 15px auto;
+    width: 28%;
+}
+.order-columns .col-sm-4 {
+    height: 250px;
+    background: white;
+    position: relative;
+    
+}
+
+.order-columns .col-sm-4:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 90px solid #eb001b;
+    border-left: 177px solid white;
+    border-radius: 8px;
+}
+.order-columns .btn{
+    color: #eb001b;
+}
+.order-columns p i{
+    color: gold;
+}

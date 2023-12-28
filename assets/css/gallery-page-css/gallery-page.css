@@ -1,0 +1,73 @@
+.gallery{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    width: 100%;
+}
+.gallery .gallery-image img{
+    width: 100%;
+}
+.gallery .card{
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+    padding: 10px 0px;
+}
+.gallery .profile-content p{
+    font-size: 12px;
+}
+
+.gallery .gallery-icon{
+    font-size: 14px;
+    font-weight:600;
+    /* padding: 0px 10px; */
+    word-spacing: 4px;
+
+}
+.gallery-icon .btn{
+    background-color: #EAEEF1;
+    border: none;
+    color: black;
+    font-size: 14px;
+    border-radius: 50px;
+}
+.gallery-footer{
+    padding:  10px 5px;
+    width: 100%;
+}
+.gallery-footer .images{
+width: 75%;
+}
+.footer-images img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.footer-image1{
+    position: absolute;
+    left: 43px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.footer-image2{
+    position: absolute;
+    left: 22px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.footer-image3{
+    position: absolute;
+    left: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.footer-title{
+    font-size: 8px;
+}
+.gallery-footer .gallery-footer-btn{
+    background: #EAEEF1;
+    color: #040303;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}

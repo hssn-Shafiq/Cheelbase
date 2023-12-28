@@ -1,0 +1,193 @@
+.left-sidebar-main{
+    width: 20%;
+     background-color: #100B43;
+     height: fit-content;
+    padding-bottom: 20px;
+}
+.channels-heading{
+    background: #D9D9D9;
+    text-align: center;
+    padding: 5px;
+    margin: 0px 14px;
+    margin-top: -49px;
+    margin-bottom: -7px;
+    box-shadow: 1px 0px 2px #b9b9b9;
+}
+.channels-heading h3{
+    color: #160966;
+    font-weight: 700;
+    font-size: 18px;
+}
+.child {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px 10px;
+}
+.sidebar {
+    padding: 16px 0px 0px 0px;
+    background-color: #100B43;
+}
+.searchbar .dropdown{
+    margin-top: -16px;
+    margin-right: -7px;
+}
+.searchbar .fa-bars{
+    cursor: pointer;
+}
+.searchbar a i{
+    color: black;
+    font-size: 20px;
+}
+.searchbar .fa-search{
+    position: absolute;
+    left: 44px;
+    font-size: 15px;
+    color: white;
+}
+.searchbar i{
+    color: #fcc810;
+    font-size: 25px;
+}
+.searchbar  input{
+    background: #989796;
+    padding: 5px;
+    padding-left: 31px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 100%;
+
+}
+.searchbar input::placeholder{
+    color: #FFFFFF;
+}
+.buttons-group2{
+    gap: 5px;
+}
+.buttons-group button,.buttons-group2 button{
+width: fit-content;
+border: none;
+color: black;
+font-weight: 600;
+font-family: 'Times New Roman', Times, serif;
+padding: 6px !important;
+background-color: #D9D9D9;
+font-size: 13px;
+}
+.buttons-group button span,.buttons-group2 button span{
+    color: red;
+    margin-left: 2px;
+}
+.buttons-group button:first-child{
+    background: white;
+}
+
+.chat-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.parent {
+    display: flex;
+    box-shadow:#BD9FE9 0px 2px 0px;
+    margin: 17px 0px;
+}
+.parent .profile-name{
+    color: #0e1f12;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.27px;
+}
+.parent .time {
+    font-size: 8.5px;
+}
+
+.parent p {
+    font-size: 10.2px;
+    font-weight: 400px;
+    letter-spacing: -0.14px;
+    font-family: sans-serif;
+    line-height: 10px;
+}
+
+.parent .tticon {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 6px;
+    width: 30%;
+    gap: 10px;
+}
+
+.parent .tticon .number{
+    background:  #5A0FC8;
+    font-size: 11px;
+    border-radius: 3px;
+    color: white;
+    padding: 2px 8px;
+}
+
+.sidebar h2 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #160966;
+}
+.explore-more h5{
+color: white;
+font-size: 16px;
+font-family: Helvetica, sans-serif;
+/* letter-spacing: 1px; */
+text-transform: uppercase;
+}
+.help {
+
+    padding: 0px 8px;
+}
+.help a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+.help a i{
+    margin-right: 10px;
+}
+.extra-links ul li,.extra-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.account-dropdown-menu{
+    width: 270px;
+    margin-top: 20px;
+}
+.account-dropdown-menu a{
+font-size: 18px;
+font-family: 500;
+}
+.accounts-title{
+    border-radius: 9px;
+    margin-bottom: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.accounts-title h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3px;
+}
+.accounts-title img{
+    margin-top: -3px;
+    cursor: pointer;
+}

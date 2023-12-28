@@ -1,0 +1,117 @@
+.container-width{
+    width: 99%;
+}
+
+.property-nextpart-width {
+    width: 60% !important;
+    float: left;
+}
+
+.property-nextpart-width1 {
+    width: 35% !important;
+    float: left;
+    margin-left: 10px;
+    height: fit-content;
+}
+
+.Johny-text {
+    font-size: 10px;
+    font-weight: 500;
+    float: left;
+    margin-top: 6px;
+}
+
+.Johny-text1 {
+    font-size: 8px;
+    float: left;
+    color: #858585;
+    margin-bottom: 0px;
+    margin-top: -14px;
+}
+
+.img-flex {
+    height: fit-content;
+}
+
+.Deskripsi {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.Deskripsi p {
+    font-size: 10px;
+    margin-left: -10px;
+}
+
+.Deskripsi h6 {
+    font-size: 10px;
+    color: #C97B2C;
+    text-align: end;
+    margin-top: -13px;
+
+}
+
+.bgcolor {
+    background: #FCFCFC;
+
+}
+
+.posi {
+    position: relative;
+}
+
+.posi1 {
+    position: absolute;
+    left: 27%;
+    top: 50%;
+}
+
+.ten {
+
+    background: #05050580;
+    color: white;
+    height: 100px;
+    width: 104px;
+    padding: 25px;
+    border-radius: 15px;
+
+}
+
+.map-border {
+    border-radius: 20px;
+}
+
+.btn1-sell {
+    width: 45%;
+    background: #30146C;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Ellipse-btn {
+    background: #30146C;
+    border-radius: 20px;
+    width: 40px;
+}
+
+.btn-whats {
+    width: 50px;
+    margin-top: 5px;
+
+}
+.channels-heading h3 {
+    color: #160966;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.channels-heading {
+    background: rgb(217, 217, 217);
+    text-align: center;
+    padding: 5px;
+    margin: -49px 14px -7px;
+    box-shadow: rgb(185, 185, 185) 1px 0px 2px;
+}

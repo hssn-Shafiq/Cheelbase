@@ -1,0 +1,35 @@
+ .gallery{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .card{
+    width: 50%;
+    margin-top: 10px;
+ }
+ .card .last-sec p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #262626;
+    padding:  5px;
+ }
+ .last-sec-img img{
+    width: 22px;
+ }
+ .lastimage{
+    padding: 5px;
+ }
+ .lastimage .last-sec-icon .fa-heart{
+    color: red;
+ }
+ .lastimage .last-sec-icon .fa-hands{
+    color: rgb(255, 230, 0);
+ }
+ .lastimage .last-sec-title{
+    color: #8E8E8E;
+    font-size: 11px;
+    font-weight: 400;
+ }

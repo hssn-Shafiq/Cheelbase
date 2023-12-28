@@ -1,0 +1,137 @@
+.verification-main .back-arrow i{
+    font-size: 50px;
+    color: #0046F9;
+}
+.verification-main .phone-verification-col-1 .title{
+    margin-left: 30px;
+    color: #110C46;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 0.4px;
+}
+.verification-main .phone-verification-col-1 .profile-box{
+    background-color: #D9F0FA;
+}
+.verification-main .phone-verification-col-1 .profile-box .image i{
+    color: white;
+    background: #0046F9;
+    padding: 3px;
+    font-size: 13px;
+    border-radius: 50%;
+    position: absolute;
+    top: 22em;
+    left: 9.5em;
+    box-shadow: 0px 0px 2px black;
+}
+.verification-main .phone-verification-col-1 .profile-box .content h6{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: #0046F9;
+}
+.verification-main .phone-verification-col-1 .profile-box .content a{
+    color: #0046F9;
+    text-decoration: none;
+}
+.verification-main .phone-verification-col-1 .profile-box .content a h5{
+    font-weight: 600 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:20px !important;
+    font-size: 16px;
+}
+
+.verification-main .phone-verification-col-1 ul{
+    list-style: none;
+    padding-top: 20px;
+}
+.verification-main .phone-verification-col-1 ul li{
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 20px;
+}
+.verification-main .phone-verification-col-1 ul li .list-title{
+font-size: 16px;
+font-weight: 550;
+font-family: sans-serif;
+letter-spacing: 0.5px;
+color: #30146C;
+}
+.verification-main .phone-verification-col-1 ul li .list-text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #30146C;
+    letter-spacing: 0.3px;
+    word-spacing: 2px;
+    margin-top: 20px;
+}
+.phone-verification-col-2{
+    padding-right: 4rem;
+    margin-top: -95px;
+}
+.phone-verification-col-2 .verified-btn {
+    text-align: end;
+}
+.phone-verification-col-2 .verified-btn .btn{
+    background: #30146C !important;
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 2px !important;
+    padding: 10px 30px;
+    text-align: start;
+}
+.phone-verification-col-2 .profile-box{
+    background:  #EFEFEF;
+
+}
+.phone-verification-col-2 .profile-box .content h6{
+font-size: 16px;
+font-family: sans-serif;
+font-weight: 600;
+color: #0046F9;
+}
+.phone-verification-col-2 .profile-box .content h6 span i{
+    color: white;
+    background: #0046F9;
+    padding: 3px;
+    font-size: 13px;
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: 0px 0px 2px black;
+}
+.phone-verification-col-2 .profile-box .content h5{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #0046F9;
+}
+.phone-verification-col-2 .image i{
+    font-weight: 500;
+    font-size: 25px;
+
+}
+.phone-verification-col-2 .content h6{
+    font-size: 16px ;
+    font-weight: 600;
+    color: #0046F9;
+    font-family: sans-serif;
+}
+.phone-verification-col-2 .content a{
+    color: #0046F9;
+    text-decoration: none;
+}
+.phone-verification-col-2 .content a h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 0.2px;
+    margin-top: 10px;
+}
+.phone-verification-col-2 ul li{
+    margin-top: 20px;
+}
+.phone-verification-col-2 ul{
+    list-style: none;
+    margin-top: 40px;
+}
