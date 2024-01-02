@@ -1,0 +1,1006 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Cheelbase | Group making audio call</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="../assets/css/nav.css">
+        <link rel="stylesheet" href="../assets/css/sidebar-left-chats.css">
+        <link rel="stylesheet" href="../assets/css/Rightsider.css">
+        <link rel="stylesheet" href="../assets/css/channels-pages-css/channel-chatting-page.css">
+        <link rel="stylesheet" href="../assets/css/product-section.css">
+        <link rel="stylesheet" href="../assets/css/channels-pages-css/go-live-chatting-page.css">
+    
+
+    </head>
+
+    <body class="bg-color">
+        <header>
+            <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/index.html"><img src="../assets/images/cheelbase-logo.png" alt=""
+                            width="25">
+                        Cheelbase</a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="javascript:void(0);collapsibleNavId" aria-controls="collapsibleNavId"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0 gap-3">
+                            <li class="nav-item dropdown">
+                                <a class="btn dropdown cursor-pointer create-btn" href="javascript:void(0);" id="dropdownId"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Create <i
+                                        class="fas fa-plus-circle"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="video.html">Video</a>
+                                    <a class="dropdown-item" href="cheels.html">Cheels</a>
+                                    <a class="dropdown-item" href="gallery.html">Gallery</a>
+                                    <a class="dropdown-item" href="productpage.html">Products</a>
+                                    <a class="dropdown-item" href="javascript:void(0);">Food Items</a>
+                                    <a class="dropdown-item" href="property.html">Properties</a>
+                                </div>
+                            </li>
+                            <li class="nav-item chat-link-item">
+                                <a class="nav-link" href="javascript:void(0);">Chats <span>78</span></a>
+                            </li>
+                            <li class="nav-item chat-link-item">
+                                <a class="nav-link" href="javascript:void(0);">Calls <span>97</span></a>
+                            </li>
+                            <li class="nav-item chat-link-item">
+                                <a class="nav-link" href="javascript:void(0);">Status <span>5</span></a>
+                            </li>
+                            <li class="nav-item chat-link-item">
+                                <a class="nav-link" href="javascript:void(0);">Updates <span>34</span></a>
+                            </li>
+                        </ul>
+    
+                        <form class="d-flex  nav-icon">
+                            <!-- <input class="form-control me-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                            <div class="notifications d-flex">
+                                
+                                    <li class="dropdown dropstart" id="dropdownId" data-bs-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa-solid fa-circle-plus"></i>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                            <a class="dropdown-item" data-bs-toggle="modal" href="#exampleModalToggle3" role="button" >Make Audio Call</a>
+                                            <a class="dropdown-item" data-bs-toggle="modal" href="#exampleModalToggle4" role="button">View Admin Details</a>
+                                            <a class="dropdown-item" href="#exampleModalToggle">Record Audio Call</a>
+                                        </div>
+                                    </li>
+                                
+                                <div class="notifications mt-2">
+                                    <img src="../assets/images/icons/notifications.png" class="img-icon" alt="">
+                                </div>
+                                <div class="video_chat mt-2">
+                                    <img src="../assets/images/icons/video_chat.png" class="img-icon" alt="">
+                                    
+                                </div>
+    
+                                <div class="add_call mt-2">
+                                    <img src="../assets/images/icons/add_call (1).png" class="img-icon" alt="">
+                                    
+                                </div>
+    
+                                <div>
+                                    <li class="dropdown dropstart" id="dropdownId" data-bs-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        
+                                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                            <h4 class="p-2">Post to</h4>
+                                            <a class="dropdown-item" href="javascript:void(0);"><img
+                                                    src="../assets/images/icons/camera.png" alt="" width="25"
+                                                    class="mx-3">Status</a>
+                                            <a class="dropdown-item" href="gallery.html"><img
+                                                    src="../assets/images/icons/mobile-video.png" class="mx-3" alt=""
+                                                    width="25">Contact Chats</a>
+                                            <a class="dropdown-item" href="cheels.html"><img
+                                                    src="../assets/images/icons/tv-monitor.png" alt="" class="mx-3"
+                                                    width="25">Channel</a>
+                                            <a class="dropdown-item" href="video.html"><img
+                                                    src="../assets/images/icons/picture.png" alt="" class="mx-3"
+                                                    width="25">Gallery</a>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="user d-flex flex-row ">
+                                <img src="../assets/images/Ellipse 341.png" alt="Chat 1" class=" rounded-circle" width="30"
+                                    height="30">
+                                <label for="user" class="mt-1">@marinaojak</label>
+                            </div>
+                            <div class="lines">
+                                <li class="dropdown dropstart account-dropdown">
+                                    <i class="fa-solid fa-ellipsis-vertical dropdown" id="dropdownId"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                    <div class="dropdown-items dropdown-menu ">
+                                        <div class="calling-options d-flex justify-content-center">
+                                            <div class="options justify-content-between mt-5 align-items-center ">
+                                                <div class="voume">
+                                                    <img src="../assets/images/icons/volume_up.png" class="voume" alt="">
+                                                
+                                                </div>
+                                                <div class="camera">
+                                                    <img src="../assets/images/icons/switch-camera-5147.png" class="camera" alt="">
+                                                
+                                                </div>
+                                                <div class="voice">
+                                                    <img src="../assets/images/icons/Group 18517.png" class="voice" alt="">
+                                                
+                                                </div>
+                                                
+                                                <div class="screen_share">
+                                                    <img src="../assets/images/icons/screen_share.png" class="share-screen" alt="">
+                                                
+                                                </div>
+                    
+                                                <div class="decline">
+                                                    <img src="../assets/images/icons/Group 18514.png" class="decline" alt="">
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                         </div>
+                                    </div>
+    
+                                </li>
+                            </div>
+                        </form>
+                    </div>
+    
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                 
+                     <!-- sidebar column starts -->
+                <div class="col-3 left-sidebar-main ">
+                    <div class="searchbar d-flex align-items-center mt-0">
+                        <li class="dropdown account-dropdown">
+                            <i class="fa-solid fa-bars dropdown" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"></i>
+                            <div class="dropdown-menu account-dropdown-menu" aria-labelledby="dropdownId">
+                                <div class="accounts-title d-flex align-items-center justify-content-evenly">
+                                    <h4>Account Manager</h4>
+                                    <img src="../assets/images/user-account.png" class="c-pointer mt-[-2px]"
+                                        alt="switch account" width="25">
+                                </div>
+                                <a class="dropdown-item" href="/visitors-profile.html"><img
+                                        src="../assets/images/icons/user.png" alt="" width="25" class="mx-3"> Profile</a>
+                                <a class="dropdown-item" href="gallery.html"><img
+                                        src="../assets/images/icons/shortcut-script-app.png" class="mx-3" alt=""
+                                        width="25">Cheels</a>
+                                <a class="dropdown-item" href="cheels.html"><img
+                                        src="../assets/images/icons/tv-monitor.png" alt="" class="mx-3" width="25">Full
+                                    Video</a>
+                                <a class="dropdown-item" href="video.html"><img src="../assets/images/icons/picture.png"
+                                        alt="" class="mx-3" width="25">Gallery</a>
+                                <a class="dropdown-item" href="resturants.html"><img
+                                        src="../assets/images/icons/conveyor-belt.png" class="mx-3" alt=""
+                                        width="25">Resturants </a>
+                                <a class="dropdown-item" href="property.html"><img src="../assets/images/icons/user.png"
+                                        alt="" class="mx-3" width="25">Products</a>
+                                <a class="dropdown-item" href="javascript:void(0);"><img
+                                        src="../assets/images/icons/house.png" alt="" class="mx-3"
+                                        width="25">Properties</a>
+
+                                <hr class="dropdown-divider">
+                                </hr>
+                                <a class="dropdown-item"
+                                    href="verification-pages/profile-verification/verification-main.html"><img
+                                        src="../assets/images/icons/verified.png" alt="" width="25" class="mx-3">
+                                    Verification</a>
+                                <a class="dropdown-item" href="gallery.html"><img src="../assets/images/icons/money.png"
+                                        class="mx-3" alt="" width="25">Monitization</a>
+
+                                <hr class="dropdown-divider">
+                                <a class="dropdown-item" href="javascript:void(0);"><img
+                                        src="../assets/images/icons/convenience-store.png" alt="" width="25" class="mx-3">
+                                    Marketplace</a>
+                                <a class="dropdown-item" href="gallery.html"><img
+                                        src="../assets/images/icons/smartphone-call.png" class="mx-3" alt=""
+                                        width="25">Device Setting</a>
+                                <a class="dropdown-item" href="gallery.html"><img src="../assets/images/icons/hotspot.png"
+                                        class="mx-3" alt="" width="25">Updates</a>
+                                <hr class="dropdown-divider mb-3">
+                            </div>
+
+                        </li>
+
+                        <i class="fa fa-search"></i>
+                        <!-- <input class="form-control searchbar-input" type="search" placeholder="Search" aria-label="Search"> -->
+                        <input class="text-center" type="search" placeholder="Search user,groups,channels">
+                    </div>
+                    <!-- Sidebar -->
+                    <nav id="sidebar" class="d-md-block sidebar">
+                        <div class="row mb-3 buttons-group d-flex flex-row justify-content-evenly">
+                            <button href="javascript:void(0);" class=" rounded-circle p-2"><img
+                                    src="../assets/images/icons/home.png " width="18" alt=""></button>
+                            <button href="javascript:void(0);" class="rounded-circle p-2">All</button>
+                            <button href="javascript:void(0);" class="rounded-5 p-2">In-Contacts
+                                <span>174</span></button>
+                            <button href="javascript:void(0);" class="rounded-5 p-2">Business <span>23</span></button>
+                        </div>
+                        <div class="row buttons-group2 mb-4 d-flex flex-row justify-content-start">
+                            <button href="javascript:void(0);" class="rounded-5 p-2">Favourites <span>12</span></button>
+                            <button href="javascript:void(0);" class="rounded-5 p-2">Status <span>174</span></button>
+                            <button href="javascript:void(0);" class="rounded-5 p-2">channels <span>23</span></button>
+                        </div>
+                        <div>
+                            <ul class="nav flex-column">
+                                <li class="nav-item child">
+                                    <h2 class="d-flex justify-content-between">Recent Chats <span><a href="#"><i
+                                                    class="fab fa-whatsapp"></i></a></span></h2>
+                                    <!-- Chat items -->
+                                    <div class="parent">
+                                        <div> <img src="../assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="parent">
+                                        <div> <img src="../assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="parent">
+                                        <div> <img src="../assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="parent">
+                                        <div> <img src="../assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="parent">
+                                        <div> <img src="../assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="parent">
+                                        <div> <img src="../assets/images/thubnail.jpeg" alt="Chat 1" class="chat-image">
+                                        </div>
+                                        <div>
+                                            <span class="profile-name">Metal Exchange</span>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit,</p>
+
+                                        </div>
+                                        <div class="tticon"><span class="time">10 min</span>
+                                            <!-- <i class="fa-solid fa-check-double"></i> -->
+                                            <span class="number">2</span>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Add more chat items as needed -->
+                                </li>
+                            </ul>
+                        </div>
+                        <hr color="javascript:void(0);D9D9D9" style="height: 3px;">
+                        <div class="explore-more">
+                            <ul>
+                                <h5>Explore More</h5>
+                                <div class="help">
+                                    <a href="javascript:void(0);"><i class="fa-regular fa-circle-question"></i>help </a>
+                                </div>
+                            </ul>
+                        </div>
+                        <hr color="javascript:void(0);D9D9D9" style="height: 3px;">
+                        <div class="extra-links">
+                            <ul>
+                                <li><a href="javascript:void(0);">Refund Policy</a></li>
+                                <li><a href="javascript:void(0);">Termss OF Use</a></li>
+                                <li><a href="javascript:void(0);">Privacy Policy</a></li>
+                                <li><a href="javascript:void(0);">Affiliates</a></li>
+                                <li><a href="javascript:void(0);">Acceptabel use Policy</a></li>
+                                <li><a href="javascript:void(0);">Cookie Policy</a></li>
+                                <li><a href="javascript:void(0);">Language</a></li>
+                                <li><a href="javascript:void(0);">Monitization</a></li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- sidebar ends -->
+                </div>
+                <!-- sidebar column ends -->
+                    <div class="col-6 center-main p-0">
+                        <div class="container-fluid chatting-main">
+                            <div class="date text-center">
+                                <span>14/11/2023</span>
+                            </div>
+                            <div class="row announcement d-flex align-items-center my-2">
+                                <div class="col-md-2 image">
+    
+                                    <img src="../assets/images/icons/messege.png" width="60" height="60" alt="">
+                                </div>
+                                <div class="col-md announcement-content">
+                                    Today lets talk about this new technoloy innovations that come out everyday
+                                </div>
+                            </div>
+                            <div class="chat-box-1 d-flex">
+                                <div class="image">
+                                    <img src="../assets/images/Group 14.png" width="50" alt="">
+                                </div>
+                                <div class="chat-content-box">
+                                    <div
+                                        class="chat-profile-about chat-header d-flex align-items-center justify-content-between p-2 pe-3">
+                                        <h4 class="chat-profile-name">@cheelbase</h4>
+                                        <div class="chat-profile-number">
+                                            <div class="icons d-flex">
+                                                <img src="../assets/images/icons/tick.png" alt="">
+                                                <img src="../assets/images/icons/crown.png" alt="">
+                                                <span class="phone">12********</span>
+                                            </div>
+    
+                                        </div>
+                                        <div class="chat-profile-lock">
+                                            <img src="../assets/images/icons/visibility_lock.png" alt="">
+                                            <span class="time">16:19</span>
+                                        </div>
+                                    </div>
+                                    <div class="chat-image pt-2">
+                                        <img src="../assets/images/burger-off.png" alt="">
+                                    </div>
+                                    <div class=" chat-footer p-3">
+                                        <p>I want to bring this burger to your house tonight if that is ok with your
+                                            roomates?</p>
+                                        <div class="viewers text-end">
+                                            <span>15 view</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="chat-box-2 ">
+                                <div class="msg-1 p-2">
+                                    <p>Yes please no problem bring</p>
+                                    <div class="time text-end">
+                                        <span>16:19</span>
+                                    </div>
+                                    <span class="viewed">15 viewed</span>
+                                </div>
+                                <div class="msg-1 msg-2 p-2 mt-1">
+                                    <p>Yes please no problem bring</p>
+                                    <div class="time text-end">
+                                        <span>16:19</span>
+                                    </div>
+                                    <span class="viewed">15 viewed</span>
+                                </div>
+                            </div>
+    
+                            <div class="chat-box-1 chat-box-3 d-flex ">
+                                <div class="image">
+                                    <img src="../assets/images/Group 14.png" width="50" alt="">
+                                </div>
+                                <div class="chat-content-box">
+                                    <div
+                                        class="chat-profile-about chat-header d-flex align-items-center justify-content-between p-2 pe-3">
+                                        <h4 class="chat-profile-name">@cheelbase</h4>
+                                        <div class="chat-profile-number">
+                                            <div class="icons d-flex">
+                                                <img src="../assets/images/icons/tick.png" alt="">
+                                                <img src="../assets/images/icons/crown.png" alt="">
+                                                <span class="phone">12********</span>
+                                            </div>
+    
+                                        </div>
+                                        <div class="chat-profile-lock">
+                                            <img src="../assets/images/icons/visibility_lock.png" alt="">
+                                            <span class="time">16:19</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class=" chat-footer p-3">
+                                        <p>I want to bring this burger to your house tonight if that is ok with your
+                                            roomates?</p>
+                                        <div class="viewers text-end">
+                                            <span>15 view</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="chat-box-2 ">
+                                <div class="msg-1 p-2">
+                                    <p>Yes please no problem bring</p>
+                                    <div class="time text-end">
+                                        <span>16:19</span>
+                                    </div>
+                                    <span class="viewed">15 viewed</span>
+                                </div>
+                                <div class="msg-1 msg-2 p-2 mt-1">
+                                    <p>Yes please no problem bring</p>
+                                    <div class="time text-end">
+                                        <span>16:19</span>
+                                    </div>
+                                    <span class="viewed">15 viewed</span>
+                                </div>
+                            </div>
+                            <div class="chat-box-1 chat-box-3 ">
+                                <div class="inner d-flex">
+                                    <div class="image">
+                                        <img src="../assets/images/Group 14.png" width="50" alt="">
+                                    </div>
+                                    <div class="chat-content-box">
+                                        <div
+                                            class="chat-profile-about chat-header d-flex align-items-center justify-content-between p-2 pe-3">
+                                            <h4 class="chat-profile-name">@cheelbase</h4>
+                                            <div class="chat-profile-number">
+                                                <div class="icons d-flex">
+                                                    <img src="../assets/images/icons/tick.png" alt="">
+                                                    <img src="../assets/images/icons/crown.png" alt="">
+                                                    <span class="phone">12********</span>
+                                                </div>
+    
+                                            </div>
+                                            <div class="chat-profile-lock">
+                                                <img src="../assets/images/icons/visibility_lock.png" alt="">
+                                                <span class="time">16:19</span>
+                                            </div>
+                                        </div>
+    
+                                        <div class=" chat-footer p-3">
+                                            <p>I want to bring this burger to your house tonight if that is ok with your
+                                                roomates?</p>
+                                            <div class="viewers text-end">
+                                                <span>15 view</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner d-flex mt-4">
+                                    <div class="image">
+                                        <img src="../assets/images/Group 14.png" width="50" alt="">
+                                    </div>
+                                    <div class="chat-content-box">
+                                        <div
+                                            class="chat-profile-about chat-header d-flex align-items-center justify-content-between p-2 pe-3">
+                                            <h4 class="chat-profile-name">@cheelbase</h4>
+                                            <div class="chat-profile-number">
+                                                <div class="icons d-flex">
+                                                    <img src="../assets/images/icons/tick.png" alt="">
+                                                    <img src="../assets/images/icons/crown.png" alt="">
+                                                    <span class="phone">12********</span>
+                                                </div>
+    
+                                            </div>
+                                            <div class="chat-profile-lock">
+                                                <img src="../assets/images/icons/visibility_lock.png" alt="">
+                                                <span class="time">16:19</span>
+                                            </div>
+                                        </div>
+    
+                                        <div class=" chat-footer p-3">
+                                            <p>I want to bring this burger to your house tonight if that is ok with your
+                                                roomates?</p>
+                                            <div class="viewers text-end">
+                                                <span>15 view</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- products section start -->
+    
+                            <div class="container-fluid products section product-ad-1" id="product-ad-1">
+                                <div class="container d-flex justify-content-end align-items-center  ">
+                                    <i class="fa-solid fa-xmark close-icon  cancel-btn"
+                                        onclick="document.getElementById('product-ad-1').style.display= 'none';"></i>
+                                </div>
+                                <div class="row products-cards-columns px-5 gap-4">
+                                    <div class="col-md product1 mt-5">
+                                        <div class="card  product-card">
+                                            <img src="../assets/images/product.jpeg " class="card-img-top" alt="Product 1">
+                                            <div class="card-icons">
+                                                <i class="fab fa-whatsapp"></i>
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Product 1</h5>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="card-text">$20.00</p>
+                                                    <a href="javascript:void(0);" class="view-more">more</a>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="col-md product1 mt-5">
+                                        <div class="card  product-card">
+                                            <img src="../assets/images/product.jpeg" class="card-img-top" alt="Product 2">
+                                            <div class="card-icons">
+                                                <i class="fab fa-whatsapp"></i>
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Product 1</h5>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="card-text">$20.00</p>
+                                                    <a href="javascript:void(0);" class="view-more">more</a>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <!-- product section end  -->
+                            <div class="chat-box-1  mt-0">
+                                <div class="inner d-flex">
+                                    <div class="image">
+                                        <img src="../assets/images/Group 14.png" width="50" alt="">
+                                    </div>
+                                    <div class="chat-content-box">
+                                        <div
+                                            class="chat-profile-about chat-header d-flex align-items-center justify-content-between p-2 pe-3">
+                                            <h4 class="chat-profile-name">@cheelbase</h4>
+                                            <div class="chat-profile-number">
+                                                <div class="icons d-flex">
+                                                    <img src="../assets/images/icons/tick.png" alt="">
+                                                    <img src="../assets/images/icons/crown.png" alt="">
+                                                    <span class="phone">12********</span>
+                                                </div>
+    
+                                            </div>
+                                            <div class="chat-profile-lock">
+                                                <img src="../assets/images/icons/visibility_lock.png" alt="">
+                                                <span class="time">16:19</span>
+                                            </div>
+                                        </div>
+    
+                                        <div class=" chat-footer p-3">
+                                            <p>I want to bring this burger to your house tonight if that is ok with your
+                                                roomates?</p>
+                                            <div class="viewers text-end">
+                                                <span>15 view</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-box-2  ">
+                                    <div class="msg-1 p-2">
+                                        <p>Yes please no problem bring</p>
+                                        <div class="time text-end">
+                                            <span>16:19</span>
+                                        </div>
+                                        <span class="viewed">15 viewed</span>
+                                    </div>
+                                    <div class="msg-1 msg-2 p-2 mt-1">
+                                        <p>Yes please no problem bring</p>
+                                        <div class="time text-end">
+                                            <span>16:19</span>
+                                        </div>
+                                        <span class="viewed">15 viewed</span>
+                                    </div>
+                                </div>
+
+                                <div class="inner-2 d-flex">
+                                    <div class="image">
+                                        <img src="../assets/images/Group 14.png" width="50" alt="">
+                                    </div>
+                                    <div class="chat-content-box">
+                                        <div
+                                            class="chat-profile-about chat-header d-flex align-items-center justify-content-between p-2 pe-3">
+                                            <h4 class="chat-profile-name">@cheelbase</h4>
+                                            <div class="chat-profile-number">
+                                                <div class="icons d-flex">
+                                                    <img src="../assets/images/icons/tick.png" alt="">
+                                                    <img src="../assets/images/icons/crown.png" alt="">
+                                                    <span class="phone">12********</span>
+                                                </div>
+    
+                                            </div>
+                                            <div class="chat-profile-lock">
+                                                <img src="../assets/images/icons/visibility_lock.png" alt="">
+                                                <span class="time">16:19</span>
+                                            </div>
+                                        </div>
+    
+                                        <div class=" chat-footer p-3">
+                                            <p>I want to bring this burger to your house tonight if that is ok with your
+                                                roomates?</p>
+                                            <div class="viewers text-end">
+                                                <span>15 view</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="chat-box-2 ">
+                                    <div class="msg-1 p-2">
+                                        <p>Yes please no problem bring</p>
+                                        <div class="time text-end">
+                                            <span>16:19</span>
+                                        </div>
+                                        <span class="viewed">15 viewed</span>
+                                    </div>
+                                    <div class="msg-1 msg-2 p-2 mt-1">
+                                        <p>Yes please no problem bring</p>
+                                        <div class="time text-end">
+                                            <span>16:19</span>
+                                        </div>
+                                        <span class="viewed">15 viewed</span>
+                                    </div>
+                                </div>
+
+                                <div class="inner-3 d-flex">
+                                    <div class="image">
+                                        <img src="../assets/images/Group 14.png" width="50" alt="">
+                                    </div>
+                                    <div class="chat-content-box">
+                                        <div
+                                            class="chat-profile-about chat-header d-flex align-items-center justify-content-between p-2 pe-3">
+                                            <h4 class="chat-profile-name">@cheelbase</h4>
+                                            <div class="chat-profile-number">
+                                                <div class="icons d-flex">
+                                                    <img src="../assets/images/icons/tick.png" alt="">
+                                                    <img src="../assets/images/icons/crown.png" alt="">
+                                                    <span class="phone">12********</span>
+                                                </div>
+    
+                                            </div>
+                                            <div class="chat-profile-lock">
+                                                <img src="../assets/images/icons/visibility_lock.png" alt="">
+                                                <span class="time">16:19</span>
+                                            </div>
+                                        </div>
+    
+                                        <div class=" chat-footer p-3">
+                                            <p>I want to bring this burger to your house tonight if that is ok with your
+                                                roomates?</p>
+                                            <div class="viewers text-end">
+                                                <span>15 view</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="three-burgers mt-5 justify-content-center">
+                                <div class="burgers d-flex justify-content-between align-items-center ">
+                                    <img src="../assets/images/Group 18685.png" class="burger-one" alt="">
+                                    <img src="../assets/images/Group 18685.png"  class="burger-two" alt="">
+                                    <img src="../assets/images/Group 18685.png"  class="burger-three" alt="">
+                                </div>
+                            </div> 
+
+                            <div class="truck-info-2">
+                                <div class="truck-2 mt-4 d-flex  justify-content-center ">
+                          
+                                    <img src="../assets/images/Rectangle 5166.png" class="img-truck-2" alt="">
+    
+    
+                                        <div class="title-info-2">
+                                            <div class="title-2">
+                                                <span>
+                                                    Title {Today let's talk about this new technoloy innovations that come out} everyday
+            
+                                                </span> 
+                                            </div>
+                                            <div class="info-2">
+                                            <span >
+                                                Descriptio {Today let's talk about this new technoloy innovations that come out} everyday
+    
+                                            </span>
+                                            </div>
+                                            <div class="sponsorship-2 mt-3 justify-content-between justify-content-center text-center  d-flex">
+                                                <p class="sponsor-2">Sponsored by <span>{Advertiser's name}</span></p>
+                                                <button class=" btn-sub-2">Subscribe</button>
+                                             
+                                               </div>
+                                           
+                                        </div>
+                                       </div>
+                               </div> 
+
+                               
+                               <div class="chat-box-2  mt-3">
+                                <div class="msg-1 p-2">
+                                    <p>Yes please no problem bring</p>
+                                    <div class="time text-end">
+                                        <span>16:19</span>
+                                    </div>
+                                    <span class="viewed">15 viewed</span>
+                                </div>
+                                <div class="msg-1 msg-2 p-2 mt-1">
+                                    <p>Yes please no problem bring</p>
+                                    <div class="time text-end">
+                                        <span>16:19</span>
+                                    </div>
+                                    <span class="viewed">15 viewed</span>
+                                </div>
+                            </div>
+
+                            <div class="burger">
+                                <img src="../assets/images/Group 18484 (1).png" alt="">
+                            </div>
+                               
+                            <div class="type-message mt-3 d-flex">
+                                <img src="../assets/images/Group 14.png" alt="">
+                                <hr class="lined ">
+                                <div class="icons-list   d-flex">
+                                    <img src="../assets/images/icons/Vector.png" class="img-icon" alt="">
+                                    <img src="../assets/images/icons/Vector (3).png" class="img-icon2" alt="">
+                                    <img src="../assets/images/icons/camera icon.png" class="img-icon3" alt="">
+                                    <img src="../assets/images/icons/recorder icon.png" class="img-icon4" alt="">
+                                    
+                                </div>
+                            </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- right sidebar starts  -->
+                <div class="col-3 right-sidebar-section  ">
+
+                    <!-- section right-side-bar start -->
+                    <div class="continer-fluid  ">
+                        <!-- video section -->
+                     
+                            <div class="truck-info">
+                                <div class="truck d-flex justify-content-center ">
+                          
+                                    <img src="../assets/images/Rectangle 5166.png" class="img-truck" alt="">
+    
+    
+                                        <div class="title-info">
+                                            <div class="title">
+                                                <span>
+                                                    Title {Today let's talk about this new technoloy innovations that come out} everyday
+            
+                                                </span> 
+                                            </div>
+                                            <div class="info">
+                                            <span >
+                                                Descriptio {Today let's talk about this new technoloy innovations that come out} everyday
+    
+                                            </span>
+                                            </div>
+                                            
+                                           
+                                        </div>
+                                       
+                                        
+                               </div>
+                               <div class="sponsorship mt-4 d-flex">
+                                <p class="sponsor">Sponsored by <span>{Advertiser's name}</span></p>
+                                <button class=" btn-sub">Subscribe</button>
+                             
+                               </div>
+                            </div>
+
+                            <div class="burger-info mt-1">
+                                <img src="../assets/images/Group 18484 (1).png" class="burger-img" alt="">
+                            </div>
+
+                            <p class="label-feature ">Featured</p>
+
+                            <div class="feature-main justify-content-start ">
+
+                                <div class=" mt-4 d-flex">
+                                    <img src="../assets/images/col2.jpg" class="img-feature1 " alt="">
+                                    <img src="../assets/images/col2.jpg" class="img-feature2 " alt="">
+    
+                                </div>
+                                <div class="lorem-ipsum justify-content-start mt-1 d-flex ">
+                                    <p class="col-5 lorem-ip1">Lorem ipsum dolor sit amet...</p>
+                                    <p class="col-5 lorem-ip2">Lorem ipsum dolor sit amet...</p>
+                                    
+                                </div>
+
+                                <div class="one-million d-flex justify-content-start">
+                                    <p class="million1">1 million views</p>
+
+                                    <p class="million2">1 million views</p>
+                                </div>
+                               
+                                
+                            </div>
+
+                            <div class="video-camera mt-1">
+                                <div class="icons-img">
+                                    <div class="vector-1 justify-content-between align-items-center">
+                                        <img src="../assets/images/icons/Vector3.png" class="img-heart justify-content-between text-center" alt="">
+                                        <p class="text-five"> 5000</p>
+                                    </div>
+    
+                                    <div class="vector-2">
+                                        <img src="../assets/images/icons/Vector (1).png" alt="">
+                                        <p class="text-five"> 6000</p>
+                                        
+                                    </div>
+    
+                                    
+                                        <div class="vector-3">
+                                            <img src="../assets/images/icons/Vector (2).png" alt="">
+                                            <p class="text-five"> 7000</p>
+                                            
+                                        </div>
+    
+                                        <div class=" img-vector d-flex">
+                                            <img src="../assets/images/icons/Avatar.png" class="avatar" alt="">
+                                            <p class="col-2 username ">user 
+                                                name</p>
+                                        </div>
+
+                                        <button class=" btn btn-visit">Visit shop </button>
+                                        <h6 class="explore">Explore our product catalog camer</h6>
+                                </div>
+                            
+                               
+                                    </div>
+
+                                    <div class="feature-main justify-content-start ">
+
+                                        <div class="feature-images text-center">
+                                            <img src="../assets/images/icons/XMLID_504_.png" class="play text-center " alt="">
+                                            
+                                        </div>
+                                       
+        
+                                        <div class="site">
+                                            <div class="visit-site  justify-content-between  text-center d-flex">
+                                                <p class="img-visit  mt-3">VISIT SITE</p>
+                                                <img src="assets/images/icons/Visit site icon.png" class="visit-pic mt-3 " alt="">
+                                            
+                                            </div>
+                                        </div>
+
+                                        <div class="lorem-ipsum justify-content-start mt-1  ">
+                                            <p class=" web-title">Your website titile</p>
+                                            <p class="subtitle">Subtitle with amazing features and benefits</p>
+                                            
+                                            
+                                        </div>
+                                        <div  class="ad-main  d-flex">
+                                            <p class="ad  pt-1 text-center">Ad</p>
+                                            <p class="text-center your-product ">Your product name</p>
+                                        </div>
+                                        
+                                    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </main>
+       
+    <div class="modal modal-3 fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered ">
+              <div class="modal-content">
+               <h4 class="modal-title text-light" id="exampleModalToggleLabel3">You want to make group audio call?</h4>
+                <div class="modal-body">
+                    <div class="channel d-flex  gap-3">
+                        <img src="../assets/images/icons/fact_check.png" class="mb-3" width="50" alt="">
+                        <div class="content">
+                            <b>You’re responsible for your livestream</b> 
+                            <p>Your live stream need to follow our <b class="guideline">guidelines</b> and is reviewed against theme</p>
+                        </div>
+
+                     
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-between">
+                    <div class="info d-flex">
+                        <div class="record-call d-flex">
+                            <img src="../assets/images/icons/mic_double (1).png" alt="">
+                            <p>Record this call?</p>
+                        </div>
+                        <div class="yes">
+                            <p>yes</p>
+                            <input type="radio" class="text-light">
+
+                        </div>
+
+                        <div class="no">
+                            <p>no</p>
+                            <input type="radio" name="" class="text-light" id="">
+                        </div>
+                    </div>
+                  <a class="btn " href="javascrip-void(0)"  data-bs-dismiss="modal">Yes</a>
+                  <a class="btn " data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">No</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="modal modal-4 fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel4" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered ">
+              <div class="modal-content justify-content-between justify-content-center align-items-center">
+              
+                    <p class="col-8 modal-title " id="exampleModalToggleLabel4">The admins may be recording this call.Everyone that speaks may be  included in the public recording.</p>
+              
+                <div class="modal-body-4 justify-content-between justify-content-center align-items-center">
+                  
+                        <div class="col-8 content">
+                          
+                            <p>Hi {Username}, {Username} initiated this group call, Would like to join? Remember anything you say can be heard by everyone on this group call.</p>
+                        </div>
+                </div>
+                <div class="footer d-flex ">
+                   
+                  <button class="btn-yes"  data-bs-toggle="modal">Yes</button>
+                  <button class="btn" data-bs-toggle="modal" >No</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

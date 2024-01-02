@@ -2,15 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
 }
-:root{
-    button{
 
-        color-scheme: #16146C;
-    }
-}
-.camera-div{
-    list-style: none;
-}
 .navbar {
     background-color: #100B43;
     display: flex;
@@ -20,10 +12,31 @@ body {
     z-index: 1;
 }
 
+.videocam{
+
+    margin-left: 20px;
+}
+
+.video_chat{
+    margin-left: 5px;
+}
+
+.add_call{
+    margin-left: 15px;
+}
+
+
+.img-icon{
+    width: 20px;
+    height: 18px;
+}
+
+
 .notifications i{
     color: #FCC810;
     margin-left: 0px;
 }
+
 .dropdown-item i{
     margin-right: 12px;
 }
@@ -100,6 +113,13 @@ body {
     font-size: 18px;
 }
 
+.dropdown-items{
+
+    height: 90px;
+    width: 100%;
+}
+
+
 .lines .dropdown i{
     color: white;
 }
@@ -111,6 +131,10 @@ font-weight: 600;
 .dropdown-menu .wallet-items span{
     margin-left: 20px;
     color: #16146C;
+}
+
+.dropdown{
+    top:-5px;
 }
 .cheelbase-pro-btn button{
     background: #30146C;

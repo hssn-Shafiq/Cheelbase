@@ -26,6 +26,9 @@
     border-radius: 50%;
   }
 
+  .cancel-btn{
+    margin-top: 20px;
+  }
   .card-icons .fa-shopping-cart {
     color: white;
     background-color: #110c46;
