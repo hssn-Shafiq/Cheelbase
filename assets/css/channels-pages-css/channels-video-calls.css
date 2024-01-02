@@ -1,0 +1,228 @@
+body{
+    background: #100b43;
+    font-family: sans-serif;
+    color: white;
+}
+.video-main{
+    border: 1px solid rgba(125, 145, 170, 1);
+}
+.video-main .col-md-8{
+    width: 70% !important;
+}
+.video-main .requesting-profile{
+    border-bottom: 1px solid rgba(125, 145, 170, 1);
+    padding-bottom: 10px;
+}
+.video-main .requesting-profile .name{
+    gap: 7rem;
+}
+.video-main .requesting-profile .name h2{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+.video-main .requesting-profile .members{
+    margin-top: -31px;
+}
+.video-main .requesting-profile .members i{
+    font-size: 14px;
+    background: rgba(53, 70, 87, 1);
+    padding: 8px 10px;
+
+    border-radius: 5px;
+}
+.video-main .requesting-profile .members i span{
+    margin-left: 8px;
+}
+
+.video-main .call .time i{
+ color: red;
+}
+.video-main .call .time span{
+    margin-left: 8px;
+}
+.video-main .call .video-call .video-call-profile{
+    background: rgba(24, 20, 20, 0.35);
+    border-radius: 8px;
+    position: absolute;
+    top: 14em;
+    left: 2em;
+}
+.video-main .call .video-call .video-call-profile .profile-content h4{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+.video-main .call .video-call .video-call-profile .profile-content span{
+    font-size: 14px;
+}
+.video-main .call .video-call .pin-icons i{
+    font-size: 16px;
+
+}
+.video-main .video-call .video-call-others-profile{
+    position: absolute;
+    top: 13em;
+    right: 27em;
+}
+
+.video-main .video-call .range-slider{
+    background: rgba(24, 20, 20, 0.35);
+    width: 50px;
+    position: absolute;
+    left: 2em;
+    top: 35em;
+    border-radius: 10px;
+
+}
+ .video-main .video-call .range-slider  .input-range {
+      height: 100px;
+      border-radius: 5px;
+      background: #d3d3d3;
+      outline: none;
+      opacity: 0.7;
+      writing-mode: bt-lr; /* IE */
+      -webkit-appearance: slider-vertical; /* WebKit */
+      
+    }
+    .video-main .video-call .range-slider  .input-range::-webkit-slider-thumb{
+        /* -webkit-appearance: none; */
+        /* appearance: none; */
+        border-radius: 50%; 
+        cursor: pointer;
+    }
+
+  .video-main .video-call .video-icons{
+    width: fit-content;
+    padding: 7px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 42em;
+    left: 17.5em;
+
+    i{
+        margin-left: 8px;
+        color: white;
+        font-size: 20px;
+      }  
+     
+   
+}
+.video-main .video-call .video-icons i:first-child{
+    color: rgba(230, 230, 230, 0.432);
+}
+.video-main .video-call .video-icons i:last-child{
+    background: red;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+
+
+/* /// rightbar-messenger css */
+
+.video-main .rightbar-messenger{
+    background: rgba(129, 186, 255, 0.09);
+    border-radius: 30px;
+    
+}
+.video-main .rightbar-messenger .like-icons{
+    border-bottom: 1px solid rgba(230, 230, 230, 0.432);
+
+    i{
+        font-size: 35px;
+    }
+    sub{
+        font-size: 10px !important;
+        margin-left: 10px;
+    }
+}
+.video-main .rightbar-messenger .chatting .profile-1{
+    height: 80px;
+    
+    .content{
+        margin-top: 2.5em;
+    }
+    h5{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    span{
+        background: rgba(74, 87, 103, 1);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+        display: block;
+        width: fit-content;
+        max-width: 300px;
+    }
+    .time{
+        font-size: 8px;
+        color: rgba(191, 191, 191, 1);
+    }
+
+}
+.video-main .rightbar-messenger .chatting .reply{
+      text-align: end;
+      
+      h5{
+        font-size: 12px;
+         margin-right: 5px;
+    }
+    span{
+        background: rgba(19, 27, 38, 1);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .time{
+        font-size: 8px;
+        color: rgba(191, 191, 191, 1);
+    }
+}
+.video-main .rightbar-messenger .chatting .typing{
+    margin-top: 1em !important;
+
+    .content{
+        margin-top: 9em !important;
+    }
+    h5{
+        color: rgba(191, 191, 191, 1);
+    }
+}
+.video-main .rightbar-messenger .chatting .chat-input{
+    margin: 9em auto 0px auto;
+    background-color: white;
+    width: fit-content;
+  padding: 5px 8px 5px 10px;
+  border-radius: 30px;
+
+  .plus-icon{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  i{
+    color: black;
+    cursor: pointer;
+  }
+  input{
+    border-radius: 30px;
+    border: 1px solid rgba(0, 51, 44, 1);
+    padding:0px 55px 0px 30px;
+    width: 15em;
+  }
+}
+
+.video-main .rightbar-messenger .chatting .chat-input .emoji-icon{
+ position: absolute;
+ right: 17.5em;
+}
+.video-main .rightbar-messenger .chatting .chat-input .share-icons{
+    position: absolute;
+    right: 5em;
+    z-index: 2;
+}
+
+
+  

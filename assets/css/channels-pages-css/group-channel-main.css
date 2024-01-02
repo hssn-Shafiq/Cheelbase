@@ -1,0 +1,19 @@
+.my-groups .group-box{
+    width: 450px;
+}
+.my-groups .group-box .box-header{
+    height:fit-content;
+}
+.my-groups .group-box .members i, .my-groups .group-box .members span{
+    font-size: 20px;
+}
+.my-groups .group-box .box-footer i{
+    font-size: 25px;
+    font-weight: 600;
+}
+.my-groups .group-box .box-footer .public-text{
+    color: red;
+}
+.my-groups .group-box{
+    border-bottom-left-radius: 11rem;
+}
