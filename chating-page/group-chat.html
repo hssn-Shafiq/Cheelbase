@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../assets/css/sidebar-left-chats.css">
     <link rel="stylesheet" href="../assets/css/Rightsider.css">
     <link rel="stylesheet" href="../assets/css/chatting/group-chat.css">
+    <link rel="stylesheet" href="../assets/css/channels-pages-css/channel-chatting-page.css">
 </head>
 
 <body>
@@ -64,6 +65,14 @@
                         <!-- <input class="form-control me-sm-2" type="text" placeholder="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
                         <div class="notifications d-flex">
+
+                            <i class="fa-solid fa-circle-plus dropdown dropstart" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" data-bs-toggle="modal" href="#exampleModalToggle5" role="button" >Record Audio of Call</a>
+                                
+                            </div>
+                        </i>
 
                             <div class="notifications mt-2">
                                 <img src="../assets/images/icons/notifications.png" class="img-icon" alt="">
@@ -2575,6 +2584,12 @@
 
                     </div>
 
+                    <div class="btn-continue text-center">
+                        <a href="../chating-page/group-chat-second.html">
+                            <button class="btn btn-primary "> Continue to Next</button>
+                        </a>
+                    </div>
+
                 </div>
           
 
@@ -2780,6 +2795,19 @@
                     </div>
                
     </main>
+    <div class="modal modal-5 fade" id="exampleModalToggle5" aria-hidden="true" aria-labelledby="exampleModalToggleLabel5" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered justify-content-center align-items-center">
+          <div class=" modal-contentt ">
+            <div class="group-call  ">
+                <p class="col-10 text-light" id="exampleModalToggleLabel5">This group call is being recorded</p>
+                <button class="btn btn-ok text-center">ok</button>
+          
+            </div>
+                
+          </div>
+        </div>
+      </div>
+
     <footer>
         <!-- place footer here -->
     </footer>

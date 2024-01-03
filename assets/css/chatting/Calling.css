@@ -4,8 +4,13 @@
  }
  .calling-main{
     background-color: rgb(209, 236, 250);
-  
     width: 80%;
+
+}
+
+.calling-main-2{
+  width: 80%;
+
 }
 
 .calling-person{
@@ -15,7 +20,12 @@
     border-radius: 5px;
     margin-left: 7px;
 
+}
 
+.calling-person-2{
+    background-color:#110C46;
+    height: 70px;
+    width: 101.2%;
 }
 
 .marinaa{
@@ -23,6 +33,11 @@
 }
 
 .ellipse{
+    margin-left: 30px;
+}
+
+
+.ellipse-2{
     margin-left: 30px;
 }
 .person{
@@ -43,6 +58,12 @@
    display:inline;   
 }
 
+.last-seen-2{
+    color: whitesmoke; 
+    font-size: small;
+    display:inline;   
+ }
+
 .icons{
    margin-left: 30px;
 }
@@ -57,7 +78,7 @@
 .calling-options{
     float: right;
     width: 90px;
-  padding-top: 42%;
+  padding-top: 48%;
 }
 
 .options{

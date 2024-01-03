@@ -8,6 +8,11 @@
     margin: 0;
 }
 
+.max-width-2 {
+    width: 99%;
+    margin: 0;
+}
+
 .height-main {
     height: 90vh;
 }
@@ -67,6 +72,11 @@
     line-height: 0px;
 }
 
+.img-width-2 {
+    height: 80px;
+    line-height: 0px;
+}
+
 .left-img {
     width: 85%;
     height: 78vh;
@@ -86,12 +96,26 @@
     /* margin-top: 10px; */
 }
 
+.width-col-2 {
+    width: 20% !important;
+    /* margin-top: 10px; */
+}
+
+.btn-continue{
+    background-color: #30146C;
+   
+}
+
 .label-text {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     margin-left: 25px;
     margin-top: 20px;
+}
+
+.labeled-text{
+    color: #30146C;
 }
 
 .product-img {
@@ -108,6 +132,10 @@
     gap: 2px;
 }
 
+.listing-product2 {
+    width: 100%;
+    gap: 20px;
+}
 .food-girl-img {
     width: 100%;
 }
@@ -135,6 +163,11 @@
 }
 
 .icons-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.icons-links-2 a {
     text-decoration: none;
     color: black;
 }

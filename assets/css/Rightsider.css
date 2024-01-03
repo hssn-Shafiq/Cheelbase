@@ -16,6 +16,14 @@
     float: right;
 }
 
+.right-sidebar-section-3{
+    width: 20%;
+    padding: 2px 1px;
+    height:fit-content;
+    background-color: white;
+
+}
+
 .truck-info{
     background-color: whitesmoke;
     background-size: cover;

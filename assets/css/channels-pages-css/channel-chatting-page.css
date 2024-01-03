@@ -201,7 +201,8 @@ font-size: 20px;
 
 
 .burger{
-    margin-top: 140px;
+    height: 200px;
+    width: 30%;
 }
 
 
@@ -272,6 +273,7 @@ font-size: 20px;
     height: 60px;
     width: 100%;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .icons-list{
@@ -500,13 +502,8 @@ font-size: 20px;
     
     border-radius: 10px;
 }
-.modal-3 .modal-header{
 
-}
-.modal-title{
-   margin-bottom: 50px;
-    margin-left: 20px;
-}
+
  .modal-content{
     background: #06022d;
     height: 100px;
@@ -547,10 +544,7 @@ font-size: 20px;
     font-weight: bold;
 }
 
-.modal-4 .modal-body{
-    margin-left: 30px;
-}
-.modal-4 .modal-body-4 .channel .content{
+.modal-4 .modal-body-4 .modal-description{
  
     background:none;
     color: #7ED321;
@@ -563,7 +557,147 @@ font-size: 20px;
     font-weight: 400;
 }
 
-.modal-4 .modal-content .modal-footer .btn{
+.modal-4 .modal-content .footer {
+
+      width: 45%;
+
+}
+
+.modal-4 .modal-content .footer .btn-yes{
     border: none;
+    color: #FFFFFF;
     background: none;
 }
+
+.modal-4 .modal-content .footer .btn-no{
+    border: none;
+    color: #EB001B;
+    background: none;
+}
+
+
+
+
+.modal-5{
+    background: rgba(17, 12, 70, 0.92);
+}
+.modal-5 .modal-contentt{
+    background-color:#0c0a33d6;
+    width:306px;
+    height:155px;
+    border-radius: 5px;
+}
+
+.modal-5 .group-call{
+    margin-top: 40px;
+   float: right;
+   width: 85%;
+}
+
+.btn-ok{
+    border: none;
+    background: none;
+    color: #FCC810;
+    float: right;
+    width: 64%;
+}
+
+
+.modal-5{
+   
+}
+
+.modal-dialog{
+    
+    border-radius: 10px;
+}
+
+
+ .modal-content{
+    background: #06022d;
+    height: 100px;
+    width: 140%;
+    border-radius: 10px;
+    line-height: 20px;
+}
+.modal-3 .modal-body {
+    background: rgba(189, 188, 206, 0.85) !important;
+    padding: 5rem 2rem;
+    width: 100%;
+    border-radius: 24px;
+  
+}
+.modal-3 .modal-footer .btn{
+    width: fit-content;
+    background: transparent !important;
+
+}
+
+.guideline{
+    color: #110C46;
+}
+
+.modal{
+    background: rgba(17, 12, 70, 0.92);
+}
+.modal-content-6{
+    height: 75vh;
+    width: 100%;
+    background-color:#06022d;
+}
+
+
+.modal-header{
+    background-color: rgba(17, 12, 70, 1);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+}
+ .modal-6 .modal-title6{
+    color: white;
+    font-size: 15px;
+    padding-block: 20px;
+    
+}
+.modal-6 .modal-body-6{
+    background-color: #BDBCCED9;
+    height: 40vh;
+    width: 97%;
+    border-radius: 10px;
+  
+}
+.modal-6 .modal-body-6 .intro{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+}
+.modal-6 .modal-body .channels-name .channel .content h4{
+color: rgba(14, 14, 14, 1);
+font-weight: 600;
+font-size: 20px;
+}
+.modal-6 .modal-body .channels-name .channel .content span{
+    color: rgba(36, 34, 34, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-radio{
+    width:20.19px;
+    height:20.19px;
+}
+
+
+.img-recorder{
+    height: 30px;
+    width: 23%;
+}
+
+.icons-list{
+    padding-inline: 30px;
+    }
+.recorder{
+    font-size: 13px;
+}
+.footer{
+    
+}
+
