@@ -11,7 +11,9 @@ body {
     padding: 10px 20px;
     z-index: 1;
 }
-
+.camera-div{
+    list-style: none;
+}
 .videocam{
 
     margin-left: 20px;
@@ -119,9 +121,14 @@ body {
     width: 100%;
 }
 
+.lines{
+    list-style: none;
+    margin-left: 10px;
+}
 
 .lines .dropdown i{
     color: white;
+    font-size: 25px;
 }
 .dropdown-menu .wallet-items
 {
@@ -133,7 +140,10 @@ font-weight: 600;
     color: #16146C;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b2ef6dd414a76d9420595a3521f933f3a0a396ee
 .cheelbase-pro-btn button{
     background: #30146C;
     color: white;
@@ -141,4 +151,17 @@ font-weight: 600;
 .cheelbase-pro-btn button:hover{
     background: #380e92;
     color: white;
+}
+
+
+@media (max-width: 550px){
+    .navbar{
+        padding: 10px 0px;
+    }
+    .navbar .navbar-brand{
+        font-size: 22px;
+    }
+    .navbar .navbar-brand img{
+        width: 20px;
+    }
 }

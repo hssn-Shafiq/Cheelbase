@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/sidebar-left-chats.css">
+    <link rel="stylesheet" href="../assets/css/channels-pages-css/channels-main.css">
+    <link rel="stylesheet" href="../assets/css/channels-pages-css/channels-video-calls.css">
+</head>
+
+<body>
+    <!-- navbar starts -->
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/images/cheelbase-logo.png" alt=""
+                        width="25">
+                    Cheelbase</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="javascript:void(0);collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0 gap-3">
+                        <li class="nav-item dropdown">
+                            <a class="btn dropdown cursor-pointer create-btn" href="javascript:void(0);" id="dropdownId"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Create <i
+                                    class="fas fa-plus-circle"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="video.html">Video</a>
+                                <a class="dropdown-item" href="cheels.html">Cheels</a>
+                                <a class="dropdown-item" href="/channels-pages/channels-main.html">Gallery</a>
+                                <a class="dropdown-item" href="productpage.html">Products</a>
+                                <a class="dropdown-item" href="javascript:void(0);">Food Items</a>
+                                <a class="dropdown-item" href="property.html">Properties</a>
+                            </div>
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="javascript:void(0);">Chats <span>174</span></a>
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="javascript:void(0);">Calls <span>4</span></a>
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="/status-pages/status.html">Status <span>14</span></a>
+
+                        </li>
+                        <li class="nav-item chat-link-item">
+                            <a class="nav-link" href="javascript:void(0);">Updates <span>7</span></a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex  nav-icon">
+                        <div class="notifications d-flex">
+
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-message"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-bell"></i>
+                            </div>
+                            <div class="camera-div">
+                                <li class="dropdown dropstart" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa-solid fa-camera"></i>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <h4 class="p-2">Post to</h4>
+                                        <a class="dropdown-item" href="javascript:void(0);"><img
+                                                src="../assets/images/icons/camera.png" alt="" width="25"
+                                                class="mx-3">Status</a>
+                                        <a class="dropdown-item" href="/channels-pages/channels-main.html"><img
+                                                src="../assets/images/icons/mobile-video.png" class="mx-3" alt=""
+                                                width="25">Contact Chats</a>
+                                        <a class="dropdown-item" href="cheels.html"><img
+                                                src="../assets/images/icons/tv-monitor.png" alt="" class="mx-3"
+                                                width="25">Channel</a>
+                                        <a class="dropdown-item" href="video.html"><img
+                                                src="../assets/images/icons/picture.png" alt="" class="mx-3"
+                                                width="25">Gallery</a>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="user d-flex flex-row ">
+                            <img src="../assets/images/thubnail.jpeg" alt="Chat 1" class=" rounded-circle" width="30"
+                                height="30">
+                            <label for="user" class="mt-1">@marinaojak</label>
+                        </div>
+                        <div class="lines">
+                            <li class="dropdown dropstart account-dropdown">
+                                <i class="fa-solid fa-ellipsis-vertical dropdown" id="dropdownId"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                <div class="dropdown-menu account-dropdown-menu" aria-labelledby="dropdownId">
+                                    <div class="accounts-title d-flex align-items-center justify-content-evenly">
+                                        <div class="user d-flex flex-row ">
+                                            <img src="../assets/images/thubnail.jpeg" alt="Chat 1"
+                                                class=" rounded-circle" width="30" height="30">
+                                            <label for="user" class="mt-1">@marinaojak</label>
+                                        </div>
+                                    </div>
+
+                                    <a class="dropdown-item wallet-items" href="javascript:void(0);"><img
+                                            src="../assets/images/icons/wallet.png" alt="" width="20"
+                                            class="mx-3">Wallet:
+                                        <span>$800,09</span></a>
+                                    <a class="dropdown-item wallet-items" href="gallery.html"><img
+                                            src="../assets/images/icons/point.png" class="mx-3" alt=""
+                                            width="20">Points:
+                                        <span>14,701</span></a>
+                                    <a href="javascript:void(0);" class="dropdown-item text-end cheelbase-pro-btn">
+                                        <button class="btn ">Cheelbase pro</button>
+                                    </a>
+                                    <hr class="dropdown-divider">
+                                    </hr>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img
+                                            src="../assets/images/icons/setting.png" alt="" width="25" class="mx-3">
+                                        Settings</a>
+                                    <a class="dropdown-item" href="../channels-pages/channels-main.html"><img
+                                            src="../assets/images/icons/connection.png" class="mx-3" alt=""
+                                            width="25">Channels</a>
+                                    <a class="dropdown-item" href="cheels.html"><img
+                                            src="../assets/images/icons/group.png" alt="" class="mx-3" width="25">Full
+                                        Groups</a>
+                                    <a class="dropdown-item" href="video.html"><img
+                                            src="../assets/images/icons/contact-book.png" alt="" class="mx-3"
+                                            width="25">Contact</a>
+                                    <a class="dropdown-item" href="resturants.html"><img
+                                            src="../assets/images/icons/phone-call.png" class="mx-3" alt=""
+                                            width="25">Calls </a>
+                                    <a class="dropdown-item" href="../welcomepage.html"><img
+                                            src="../assets/images/icons/link.png" alt="" class="mx-3" width="25">Link
+                                        Devices</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img
+                                            src="../assets/images/icons/agenda.png" alt="" class="mx-3" width="25">Save
+                                        Messeges</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img
+                                            src="../assets/images/icons/crowd.png" alt="" class="mx-3" width="25">Invite
+                                        Friends</a>
+                                    <a class="dropdown-item" href="javascript:void(0);"><img
+                                            src="../assets/images/icons/customer-service.png" alt="" class="mx-3"
+                                            width="25">Cheelbase FAQ's</a>
+                                </div>
+                            </li>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar ends  -->
+
+    <main class="p-2">
+        <div class="container-fluid video-main ">
+            <div class="row">
+                <div class="col-md-8 p-3">
+                    <div class="requesting-profile text-light d-flex align-items-center justify-content-between ">
+                        <div class="name d-flex align-items-center ">
+                            <h2>@marina</h2>
+                            <div class="members">
+                                <i class="fa-solid fa-users"> <span>15</span></i>
+                            </div>
+                        </div>
+                        <div class="request d-flex align-items-center gap-3">
+                            <span>Marina is requesting to join you live</span>
+                            <img src="../assets/images/Oval 5 Copy 2.png" width="30" alt="">
+                        </div>
+                    </div>
+                    <div class="call">
+                        <div class="time">
+                            <i class="fa-solid fa-record-vinyl"></i><span>live<span>00:12:26</span></span>
+                        </div>
+                        <div class="video-call">
+                            <img src="../assets/images/video-call.png" width="100%" alt="">
+                            <div class="video-call-profile d-flex align-items-center gap-3 p-1">
+                                <div class="profile-img"><img src="../assets/images/Oval 5 Copy 2.png" alt=""
+                                        width="40"></div>
+                                <div class="profile-content">
+                                    <h4>@Marina</h4>
+                                    <span>This is my comments</span>
+                                </div>
+                                <div class="pin-icons d-flex flex-column align-items-center justify-content-start">
+                                    <i class="fa-solid fa-reply"></i>
+                                    <i class="fa-solid fa-thumbtack"></i>
+                                </div>
+                            </div>
+                            <div class="video-call-others-profile d-flex flex-column gap-2">
+                                <img src="../assets/images/video-call-2.png" width="80" alt="">
+                                <img src="../assets/images/video-call-2.png" width="80" alt="">
+
+                            </div>
+
+                            <div class="range-slider d-flex flex-column align-items-center p-2">
+                                <input class="input-range" orient="vertical" type="range" step="0.5" value="5" min="1"
+                                    max="10">
+                                <i class="fa fa-volume-up"></i>
+                            </div>
+                            <div class="video-icons">
+                                <i class="fa fa-volume-down"
+                                    onclick="this.style.color = 'rgba(230, 230, 230, 0.432)';"></i>
+                                <i class="fa-solid fa-video"
+                                    onclick="this.style.color = 'rgba(230, 230, 230, 0.432)';"></i>
+                                <i class="fa-solid fa-camera-rotate"
+                                    onclick="this.style.color = 'rgba(230, 230, 230, 0.432)';"></i>
+                                <i class="fa-solid fa-microphone-slash"
+                                    onclick="this.style.color = 'rgba(230, 230, 230, 0.432)';"></i>
+                                <i class="fa-solid fa-share-from-square"
+                                    onclick="this.style.color = 'rgba(230, 230, 230, 0.432)';"></i>
+                                <i class="fa-solid fa-phone-slash"
+                                    onclick="this.style.color = 'rgba(230, 230, 230, 0.432)';"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col rightbar-messenger p-2 m-2">
+                    <div class="like-icons d-flex align-items-center justify-content-between p-2 pt-3">
+                        <i class="fa-regular fa-thumbs-up"><sub>17 k</sub></i>
+                        <i class="fa-regular fa-message"><sub>30 k</sub></i>
+                        <i class="fa-regular fa-star"><sub>30 k</sub></i>
+                        <i class="fa-solid fa-share-nodes"><sub>30 k</sub>
+                        </i>
+                    </div>
+
+                    <div class="chatting mt-0">
+                        <div class="profile-1 d-flex align-items-center gap-3">
+                            <div class="image">
+                                <img src="../assets/images/Ellipse 11.png" width="30" alt="">
+                            </div>
+                            <div class="content ">
+                                <h5>Caesy</h5>
+                                <span>Hello Guys! Whats your opinion? </span>
+                                <div class="time text-center ">2:00pm</div>
+                            </div>
+                        </div>
+                        <div class="profile-1 d-flex align-items-center gap-3">
+                            <div class="image">
+                                <img src="../assets/images/Ellipse 12.png" width="30" alt="">
+                            </div>
+                            <div class="content ">
+                                <h5>John</h5>
+                                <span>Images are better. </span>
+                                <div class="time text-end me-4 ">2:00pm</div>
+                            </div>
+                        </div>
+                        <div class="reply mt-4">
+                            <div class="content ">
+                                <h5>You</h5>
+                                <span>Yes, It will decrease the loading </span>
+                                <div class="time text-center mt-2 ">2:01pm</div>
+                            </div>
+                        </div>
+                        <div class="profile-1 d-flex align-items-center gap-3">
+                            <div class="image">
+                                <img src="../assets/images/Ellipse 11 (1).png" width="30" alt="">
+                            </div>
+                            <div class="content mt-5">
+                                <h5>Jack</h5>
+                                <span>Anyone is up for illustrations. I think there are less relatable images according
+                                    to our brand. </span>
+                                <div class="time text-center ">2:00pm</div>
+                            </div>
+                        </div>
+
+                        <div class="profile-1 typing d-flex align-items-center gap-3 ">
+                            <div class="image">
+                                <img src="../assets/images/Group 12.png" width="40" alt="">
+                            </div>
+                            <div class="content">
+                                <h5>John is typing...</h5>
+                                <img src="../assets/images/Group 18748.png" width="200px" height="150px" alt="">
+                               
+                            </div>
+                        </div>
+
+                        <div class="chat-input  d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-plus plus-icon"></i>
+                            <div class="emoji-icon">
+                                <i class="fa-regular fa-face-smile"></i>
+                            </div>
+                            <input type="text">
+                            <div class="share-icons">
+                                <i class="fa-solid fa-paperclip"></i>
+                                <i class="fa-solid fa-camera"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="assets/js/main.js"></script>
+    <!-- Add FontAwesome icons (WhatsApp and Cart) -->
+
+</body>
+
+</html>
