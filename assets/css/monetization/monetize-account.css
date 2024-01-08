@@ -1,0 +1,9 @@
+body{
+    font-family: sans-serif;
+}
+
+.credit-wallet{
+    background-color: beige;
+    height: 30px;
+    width: 80%;
+}
