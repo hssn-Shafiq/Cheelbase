@@ -1,0 +1,46 @@
+.chatting-main .invitation{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0,0,0,1);
+}
+.chatting-main .invitation a{
+    text-decoration: none;
+    color: rgba(28, 26, 128, 1);
+    font-weight: 600;
+
+}
+
+.table{
+    --bs-table-bg: transparent !important;
+}
+.table tr td:nth-child(2){
+
+color: rgba(48, 20, 108, 1);
+p{
+    font-weight: 600  !important;
+}
+}
+.table tr td:nth-child(3){
+
+    color: rgba(48, 20, 108, 1);
+    p{
+        font-weight: 600  !important;
+    }
+}
+.table tr td:nth-child(4){
+    p{
+        font-weight: 600  !important;
+    }
+}
+.table tr td:nth-child(1){
+
+    color: rgba(48, 20, 108, 1);
+}
+.table tr td:last-child{
+    i{
+        color: white;
+        font-size: 25px;
+        margin-left: 10px;
+        /* background: orange; */
+    }
+}
