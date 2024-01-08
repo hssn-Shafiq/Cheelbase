@@ -53,4 +53,9 @@
     font-family: sans-serif;
     margin-left: 25px;
     margin-top: 20px;
+    width: fit-content;
+}
+.under-line-bar{
+    text-decoration: none;
+    color: black;
 }

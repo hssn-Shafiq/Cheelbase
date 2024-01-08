@@ -1,0 +1,334 @@
+.group-3img {
+    width: 100%;
+    margin: 0 auto;
+    /* margin-left: 18px; */
+}
+
+.single-img-below-third {
+    width: 100%;
+}
+
+.images-position {
+    /* position: absolute; */
+    margin-top: 20px;
+}
+
+.images-position .room-img-width {
+    width: 100%;
+}
+
+.whatsapp-yellow-position {
+    position: relative;
+    left: 23rem;
+    bottom: 1.3rem;
+}
+
+.images-position span {
+    /* background: ; */
+    color: #FFBB50;
+}
+
+.sale-btn {
+    width: 100px;
+    background-color: #FFBB50;
+    border: none;
+    border-radius: 5px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.images-position .Comefortable-text {
+    width: 320px;
+}
+.icon-img-color{
+    font-size: small;
+}
+
+.icon-img-color img {
+    color: #3B3A5D;
+    /* width: 10px; */
+}
+
+.icon-img-color span {
+    color: #3B3A5D;
+}
+
+.icon-img-color .width-img {
+    width: 20px;
+}
+
+.side-two-text {
+    background: #F6F6F6;
+    /* padding: 30px; */
+    margin-bottom: 30px;
+    /* width: 325px; */
+    /* margin-left: 10px; */
+    height: 113px;
+
+}
+
+.side-two-text .Burger {
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+    text-align: start;
+    color: #30146C;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+
+.side-two-text .text {
+    width: 43%;
+    float: left;
+    text-align: end;
+    color: #30146C;
+    font-weight: 600;
+    margin-top: 15px;
+
+
+}
+
+/* .side-two-text .text-line {
+    font-size: 10px;
+    margin-left: 60px;
+    margin-top: 50px;
+
+} */
+.text-line {
+    font-size: 10px;
+    margin-left: 45px;
+}
+
+.more-btn {
+    /* width: 100%; */
+    margin: 0 auto;
+}
+
+.more-btn .btn {
+    /* width: 50%; */
+    float: left;
+
+}
+
+.more-btn .btn:hover {
+    border: none;
+}
+
+.more-btn .btn .btn-more-side {
+    width: 10px;
+    font-size: 10px;
+    margin-left: 20px;
+    border: none;
+    color: #1C1A80;
+    font-weight: 500;
+
+    float: left;
+}
+
+.more-btn .img-after-more {
+    width: 72%;
+    float: left;
+    text-align: end;
+}
+
+.img-after-more img {
+    width: 30px;
+    font-size: 10px;
+}
+
+.moblie-img {
+    width: 54%;
+    margin: 0;
+
+}
+
+.moblie-img img {
+    width: 82%;
+    position: relative;
+    bottom: 13rem;
+    left: 3rem;
+}
+
+.moblie-img span {
+    width: 100%;
+    position: relative;
+    bottom: 12rem;
+    left: 3rem;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.moblie-img button {
+    width: 93%;
+    position: relative;
+    bottom: 11rem;
+    left: 2rem;
+    border: none;
+    background-color: #FCC810;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.col-width-set-moblie {
+    width: 14%;
+    margin-left: 27px;
+}
+
+.icon-start-side {
+    width: 90%;
+    margin: 0 auto;
+}
+.icon-start-side-width{
+    width: 100% !important;
+}
+
+.icon-start-side .side-first-icon {
+    width: 20%;
+    float: left;
+    font-size: 10px;
+
+}
+
+.icon-start-side .side-text-icon {
+    width: 26%;
+    float: left;
+    font-size: 10px;
+}
+
+.icon-start-side .side-second-icon {
+    width: 20%;
+    float: left;
+    font-size: 10px;
+
+}
+
+.icon-start-side .side-third-icon {
+    width: 24%;
+    float: left;
+    font-size: 10px;
+
+}
+
+.icon-start-side .side-fourth-icon {
+    width: 10%;
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    background-color: #D9D9D9;
+    ;
+
+}
+
+.icon-start-side img {
+    width: 17px;
+}
+
+.fith-img-below-bugger {
+    width: 100%;
+}
+
+.fith-img-below-bugger img {
+    width: 100%;
+}
+
+.baby-featured {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.baby-product {
+    position: relative;
+    bottom: 19rem;
+    width: 45%;
+    float: left;
+    background-color: #16146C;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+/* .baby-product span {
+    
+    width: 30%;
+} */
+
+.featured {
+    position: relative;
+    bottom: 19rem;
+    /* left: 0.6rem; */
+    width: 45%;
+    float: right;
+    background-color: #EB001B;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: start;
+}
+
+.whattsapp-icon {
+    width: 150px;
+    float: right;
+    position: relative;
+    bottom: 3.5rem;
+    left: 1.4rem;
+    gap: 20px;
+
+}
+
+.whattsapp-icon img {
+    width: 50px;
+    margin-left: 14px;
+}
+
+.text-below-Toddler {
+    width: 100%;
+    text-align: center;
+}
+
+.text-below-Toddler span {
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.courrency {
+    width: 100%;
+    /* text-align: center; */
+    float: left;
+}
+
+.courrency1 {
+    width: 50%;
+    color: #31A015;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 30px;
+
+}
+
+.btn-bg-button {
+    width: 50%;
+    text-align: center;
+}
+
+.img-3-width {
+    width: 297px;
+    margin-top: 20px;
+}
+
+.courrency .btn-bg-button {
+    border: none;
+    width: 50%;
+    background: none;
+    text-align: end;
+    /* font-size: 10px; */
+}
+
+.vector-2x {
+    font-size: 10px;
+}

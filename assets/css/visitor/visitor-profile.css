@@ -1,5 +1,5 @@
 * {
-    padding: 1px;
+    padding: 0px;
     margin: 0px;
 }
 
@@ -8,69 +8,12 @@
     margin: 0;
 }
 
-.max-width-2 {
-    width: 99%;
-    margin: 0;
-}
-
 .height-main {
-    background-image: url('/assets/images/Rectangle\ 1128.png');
-    width: 101%;
-    height: 108vh;
-
+    height: 90vh;
 }
 
-.visit-image-2{
-    background-image: url('/assets/images/Group\ 3465296.png');
-    background-size: cover;
-    height: 48vh;
-    width: 20%;
-    margin-top: 19.1rem;
-}
-
-.marina-ojok{
-    background-color:white ;
-    width: 20%;
-    height: fit-content;
-    border-radius: 5px;
-    position: relative;
-    top:35.8rem;
-    left: 15.6rem;
-}
-
-.visit-image-position-2{
-    margin-top: 20px;
-}
-
-.fluid-main{
-    margin: 0;
-    padding: 1px;    
-}
-.btn-profile-2{
-    float: right;
-    top: 10px;
-    right: 3px;
-    background-color: #30146C;
-    border-radius: 5px;
-    position: relative;
-}
-
-.btn-container-2{
-    float: right;
-    background-color: #30146C;
-    border-radius: 5px; 
-    position: relative;
-    bottom: 4rem;
-    right: 3px;
-}
-.img-circle{
-    float: right;
-    text-align: center;
-    margin-top: 14.7rem;
-    width: 16%;
-}
-.vist-img-2 {
-    width: 100%;
+.vist-img {
+    width: 99%;
     height: 89%;
     position: absolute;
 
@@ -81,10 +24,6 @@
     top: 13em;
 }
 
-.img-size{
-    width:23px;
-height:23px;
-}
 .vist-avtar {
     position: relative;
     top: 13em;
@@ -107,7 +46,6 @@ height:23px;
     width: 50%;
 }
 
-
 .btn-view {
     width: 100px;
     height: 30px;
@@ -125,11 +63,6 @@ height:23px;
 }
 
 .img-width {
-    height: 80px;
-    line-height: 0px;
-}
-
-.img-width-2 {
     height: 80px;
     line-height: 0px;
 }
@@ -153,26 +86,12 @@ height:23px;
     /* margin-top: 10px; */
 }
 
-.width-col-2 {
-    width: 20% !important;
-    /* margin-top: 10px; */
-}
-
-.btn-continue{
-    background-color: #30146C;
-   
-}
-
 .label-text {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     margin-left: 25px;
     margin-top: 20px;
-}
-
-.labeled-text{
-    color: #30146C;
 }
 
 .product-img {
@@ -189,10 +108,6 @@ height:23px;
     gap: 2px;
 }
 
-.listing-product2 {
-    width: 100%;
-    gap: 20px;
-}
 .food-girl-img {
     width: 100%;
 }
@@ -220,11 +135,6 @@ height:23px;
 }
 
 .icons-links a {
-    text-decoration: none;
-    color: black;
-}
-
-.icons-links-2 a {
     text-decoration: none;
     color: black;
 }
