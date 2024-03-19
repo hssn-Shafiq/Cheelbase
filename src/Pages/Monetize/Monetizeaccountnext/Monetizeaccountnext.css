@@ -1,0 +1,236 @@
+body{
+    font-family: sans-serif;
+}
+
+.credit-wallet{
+   
+    height: 43px;
+    padding-inline:7px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+
+
+.img-wallet{
+    height: 20px;
+    width: 20px;
+}
+
+.wallet{
+    background-color:#FFB802;
+    height: 34px;
+    width: 15%;
+    border-radius: 18px;
+    border: none;
+    position: relative;
+    left: 42rem;
+}
+
+.withdraw{
+    font-weight: 550;
+}
+
+.money{
+    background-color: #D9D9D9;
+    height: 35px;
+    width: 50%;
+   border-radius: 18px;
+    border: none;
+    position: relative;
+    right: 2rem;
+}
+
+.add{
+    background-color: #FFB802;
+    height: 35px;
+    width: 50%;
+    border-radius: 18px;
+    border: none;
+
+}
+
+.add-save{
+    width: 100%;
+}
+.send{
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.send-add{
+    position: relative;
+    left: 38rem;
+    width: 30%;
+}
+
+.wallet{
+ float: right;
+}
+
+.credit{
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.center-main{
+    width: 79%;
+    background-color: #FFFFFF;
+}
+
+.price{
+    color: #FFB802;
+    font-weight: bold;
+}
+
+.img-rectangle{
+    height: 37%;
+    width: 70%;
+    position: relative;
+    left: 7rem;
+    top: 5rem;
+}
+
+.monetize{
+    position: relative;
+    left: 25rem;
+    height: 38px;
+    width: 10%;
+    background-color: #30146C;
+    border: none;
+    color: #FFFFFF;
+
+}
+
+.credit{
+    font-weight: bold;
+}
+
+.content{
+    font-weight: bold;
+}
+
+
+
+.img-box{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 22rem;
+    top: -4.1rem;
+}
+
+.profile{
+    height: 110px;
+    width: 42%;
+    background-color: #30146C;
+    color: #FFFFFF;
+
+}
+
+.dots{
+    
+}
+
+.dot{
+   position: relative;
+    top: -4rem;
+}
+
+.dots{
+    gap: 102px;
+
+}
+.amount{
+    position: relative;
+    left: 14rem;
+    top: -1.5rem;
+    width: 1%;
+}
+
+.cheel{
+    color: #30146C;
+}
+
+.setup{
+    height: 40px;
+    width: 11%;
+    background-color: #FFB802;
+    border: none;
+    position: relative;
+    left: 20rem;
+    top: 4rem;
+}
+
+.setups{
+    height: 40px;
+    width: 24%;
+    background-color: #FFB802;
+    border: none;
+    position: relative;
+    left: 20rem;
+    top: 2rem;
+}
+
+
+.place-ad{
+    height: 20px;
+    width: 30%;
+}
+
+.places{
+    width: 98%;
+    height: 97px;
+}
+
+.affiliate{
+    position: relative;
+    top: 5rem;
+    width: 50%;
+}
+
+.affiliated{
+    font-weight: bold;
+}
+
+.affiliate-typo{
+    font-size: small;  
+}
+
+.earning-info{
+    float: right;
+    position: relative;
+    top: -28rem;
+    width: 50%;
+    height: 50%;
+}
+
+
+
+.info{
+    
+}
+
+.setupping{
+    width: 30%;
+    height: 37px;
+    border: none;
+    background-color: #FFB802;
+    position: relative;
+    left: 21rem;
+}
+
+.earn{
+    width: 45%;
+    position: relative;
+    left: 31.2rem;
+    top: -5rem;
+}
+
+.products{
+    width: 43%;
+    position: relative;
+    left: 31.5rem;
+}
+
+.sell{
+}

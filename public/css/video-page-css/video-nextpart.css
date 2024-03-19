@@ -1,0 +1,111 @@
+.container-width {
+   width: 99%;
+}
+
+.tube-title {
+   width: 180px;
+}
+
+.para {
+   font-size: 10px;
+}
+
+.single-you {
+   width: 72%;
+}
+
+.tube-side-img {
+   float: right;
+}
+
+.tube-below-title {
+   width: 100%;
+   float: left;
+
+}
+
+.tube-below-date {
+   width: 50%;
+   float: left;
+   margin-top: 15px;
+}
+
+.tube-below-date.p {
+   width: 50%;
+   text-align: start;
+}
+
+.tube-below-date1 {
+   font-size: 14px;
+}
+
+.tube-below-icon {
+   width: 50%;
+   float: left;
+   display: flex;
+   margin-top: 15px;
+}
+
+.space {
+   margin-left: 15px;
+}
+
+.tube-below-img {
+   width: 100%;
+   float: left;
+}
+
+.tube-below-img1 {
+   width: 10%;
+   float: left;
+}
+
+.tube-below-img2 {
+   width: 80%;
+   float: left;
+   /* display: flex; */
+}
+.button-sub{
+   width: 50%;
+   float: left;
+}
+.button-sub1{
+   width: 50%;
+   float: left;
+   text-align: end;
+
+}
+.button-sub2{
+   background: #DC2626;
+   color: white;
+   border-radius: 20px;
+   padding: 10px;
+   width: 140px;
+}
+.button-sub2:hover{
+   background-color: black;
+   color:  #DC2626;
+}
+.button-sub3{
+   text-decoration: none;
+   border: none;
+   font-size: 15px;
+   font-weight: 600;
+}
+.button-sub3:hover{
+   color:#DC2626;
+}
+
+.channels-heading h3 {
+    color: #160966;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.channels-heading {
+    background: rgb(217, 217, 217);
+    text-align: center;
+    padding: 5px;
+    margin: -49px 14px -7px;
+    box-shadow: rgb(185, 185, 185) 1px 0px 2px;
+}

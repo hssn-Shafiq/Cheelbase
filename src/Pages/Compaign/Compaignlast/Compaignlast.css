@@ -1,0 +1,201 @@
+/* .verification-profile-main{
+    text-align: center;
+} */
+
+body{
+    font-family: sans-serif;
+}
+
+.verification-identity-main .verification-identity .profile-title-box {
+    gap: 7rem !important;
+}
+
+.verification-identity-main{
+    
+}
+.verification-identity-main .verification-identity .verification-content{
+    position: relative;
+    left: 26rem;
+}
+
+.header{
+    font-weight: bold;
+}
+.verification-identity-main .verification-identity .profile-title-box .content{
+padding-left: 8px;
+padding-right: 8px;
+padding-bottom: 2px;
+padding-top: 8px;
+width: 163vh;
+}
+.verification-identity-main .verification-identity .profile-title-box .content h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #16146C;
+    width: 293px;
+}
+.verification-identity-main .verification-identity .profile-title-box .content p{
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: sans-serif;
+    position: relative;
+    right: 3rem;
+}
+.verification-identity{
+    width: 420px;
+}
+.verification-identity-main .verification-identity .verification-content .profile-identity{
+
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 420px;
+    padding-bottom: 40px;
+}
+
+.id-verification p{
+    position: relative;
+    left: 2px;
+}
+
+
+
+.verification-identity-main .verification-identity .verification-content .profile-identity .profile-photo .profile{
+
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.verification-identity-main .verification-identity .verification-content .profile-identity .profile-photo .photo{
+    line-height: 0px;
+}
+
+
+
+.id-information {
+    margin-top: 30px;
+}
+.person-information{
+    margin-top: 13px;
+    margin-left: -15px;
+    width: 70%;
+}
+.person-information p{
+    margin-top: -14px;
+}
+
+ .important-information{
+    
+    color: #16146C;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 17px;
+
+}
+
+.id-information .next{
+    /* width: 50%; */
+    text-align: center;
+}
+
+.id-information .next-button{
+    background-color: #16146C;
+    border-radius: 2px;
+    color: whitesmoke;
+    height: 35px;
+    width: 90px;
+
+
+}
+
+.radio-card{
+
+    margin-left: 235px;
+    width: 22.62px;
+    height: 24.43px;
+    border:3px rounded #1C1B1F;
+    
+
+}
+
+.radio-passport{
+
+    margin-left: 287px;
+    width: 22.62px;
+    height: 24.43px;
+    border:3px, rounded, #1C1B1F;
+    
+
+}
+
+.radio-license{
+
+    margin-left: 236.6px;
+    width: 22.62px;
+    height: 24.43px;
+    border:3px, rounded, #1C1B1F;
+    
+
+}
+
+.radio-id{
+
+    margin-left: 292px;
+    width: 22.62px;
+    height: 24.43px;
+    border:3px, rounded, #1C1B1F;
+    
+
+}
+
+.card{
+    color: #16146C;
+    margin-left: 3px;
+
+}
+.passport{
+    color: #16146C;
+    margin-left: 3px;
+}
+
+.license{
+    color: #16146C;
+    margin-left: 3px;
+}
+
+.state{
+    color: #16146C;
+    margin-left: 3px;
+}
+
+
+.mobile-img{
+    margin-left: 20px;
+}
+
+.photo-tips{
+    margin-left: 60px;
+    color: #16146C;
+}
+
+
+.selfie-list{
+margin-left: -19px;
+/* margin-right: 6px; */
+}
+
+.tick-mark{
+    margin-top: 10rem;
+    margin-left: 10px;
+}
+
+.selfie{
+    width: 114%;   
+}
+
+.content{
+    width: 244%;
+}

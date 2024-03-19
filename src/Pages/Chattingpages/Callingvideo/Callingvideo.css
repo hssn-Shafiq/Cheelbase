@@ -1,0 +1,25 @@
+.img-video{
+    background-image: url('/public/images/Rectangle\ 5115.png');
+    width: 1010px;
+    height: 782px;
+}
+
+.img-rectangle{
+    float: right;
+    
+}
+
+
+.calling-options{
+    padding-top: 59%;
+    float: right;
+    width: 50%;
+    
+}
+
+.options{
+    background-color: #110C46;
+    height: 126px;
+    width: 618.97px;
+    padding-inline: 25px;
+}

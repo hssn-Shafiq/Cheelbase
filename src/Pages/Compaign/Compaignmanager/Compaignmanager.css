@@ -1,0 +1,69 @@
+
+.start{
+    background-color:#30146C;
+}
+.boost{
+    font-weight: bold;
+}
+
+.business{
+    position: relative;
+    top: -1.7rem;
+    width: 30%;
+}
+
+.boost-business{
+    background-color: #f7f2f2;
+    height: 169px;
+    width: 114%;
+    border-radius: 10px;
+}
+
+.start{
+    float: right;
+    position: relative;
+    right: 6rem;
+    top: -1.4rem;
+}
+
+.img-click{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #d2d2d2;
+    border-radius: 30px;
+}
+
+.leaderboard{
+    width:300px;
+    height: 40px;
+    background-color: #f7f2f2;
+    border-radius: 10px;
+}
+
+
+.analytical{
+    position: relative;
+    top: -1.5rem;
+    color: #000000A8;
+}
+
+.analytidays{
+    color: #000000A8;
+    position: relative;
+    top: -10.2rem;
+}
+
+.days{
+    position: relative;
+
+    text-decoration: none;
+}
+.views{
+    text-decoration: none;
+    color: black;
+}
+
+.img-click{
+    width:83.22px;
+    height:96.44px;
+}

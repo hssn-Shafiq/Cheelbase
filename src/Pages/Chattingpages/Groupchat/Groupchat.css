@@ -1,0 +1,318 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(202, 246, 246);
+}
+
+.dropdown-items{
+    height: 80px;
+    width: 200%;
+}
+
+.calling-options{
+    height: 80px;
+    width: 200%;
+}
+
+.volume{
+    size:5px;
+}
+
+.camera{
+    size: 5px;
+}
+
+.voice{
+    size: 5px;
+}
+
+.share-screen{
+    size: 5px;
+}
+
+.decline{
+    size: 5px;
+}
+
+
+.max-width {
+    width: 99%;
+}
+
+.bg-color-below1 {
+    background-color: #100B43;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.shield{
+    
+    margin-left: 40px;
+}
+
+.img-shield{
+    margin-top: 10px;
+}
+
+.img-online{
+    
+    float: right;
+    margin-top: 43px;
+    width:12.75px;
+    height:12.75px;
+}
+.person-one{
+    margin-left: 10px;
+}
+.voice{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.img-voice{
+    width: 24px;
+    height: 24px;
+}
+
+.key-voice
+{
+    width: 14px;
+    height: 19px;
+}
+
+.calling-info{
+    margin-left: 25px;
+    display: flex;
+}
+.img-name{
+    font-size: small;
+    margin-right: 15px;
+}
+.online-1{
+    background-image: url('/public/images/icons/Oval\ 5\ \(4\).png');
+    width: 63.74px;
+    height:63.74px;
+}
+.online-2{
+    background-image: url('/public/images/icons/Oval\ 5\ \(1\).png');
+    width: 63.74px;
+    height:63.74px;
+}
+
+.online-3{
+    background-image: url('/public/images/icons/Oval\ 5\ \(2\).png');
+    width: 63.74px;
+    height:63.74px;
+}
+
+
+.online-4{
+    background-image: url('/public/images/icons/Oval\ 5\ \(3\).png');
+    width: 63.74px;
+    height:63.74px;
+}
+
+.technoloy-innovations{
+    background-color: whitesmoke;
+    width: 90%;
+    height: 80px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.technoloy{
+    margin-left: 6px;
+    margin-top: 25px;
+}
+
+.innovations{
+    font-weight: 550;
+
+  margin-left: 29px;
+}
+
+.size-innovation{
+}
+.directory{
+    background-color: #D9D9D98C;
+    border-radius: 30px;
+    text-align: center;
+    width:66px;
+    height:62.96px;
+}
+
+.img-topic{
+    width:41.67px;
+height:33.31px;
+margin-top: 10px;
+}
+.group{
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.cheel{
+    font-weight: bold;
+}
+
+
+.img-group{
+    width:44.83px;
+    height:44.83px;
+}
+
+.img-grp{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.cheelbase-group{
+    background-color: #100B43;
+    width:120%;
+    height:60px;
+    border-radius: 5px;
+    margin-left: 2px;
+  
+}
+
+.cheelbase-group2{
+    background-color: #100B43;
+    width:137.7%;
+    height:60px;
+}
+
+.amarina{
+    margin-left: 10px;
+    line-height: 10px;
+}
+.sizing-innovation{
+    width:41.67px;
+    height:33.31px;
+}
+.form {
+
+    position: relative;
+}
+
+.form .fa-search {
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span {
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan {
+    padding-left: 7px;
+}
+
+.left-pan i {
+
+    padding-left: 10px;
+}
+
+.form-input {
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 50px;
+}
+
+.form-input:focus {
+
+    box-shadow: none;
+    border: none;
+}
+
+.btn-space {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.bg-color-below1 {
+    width: 179vh;
+    margin-right: 10px;
+}
+
+.margin-side {
+    margin-left: -12px;
+    width: 60%;
+}
+
+.form-control {
+    width: 85%;
+    /* margin-left: 10px; */
+}
+
+.form {
+    margin-left: 20px;
+}
+
+.youtube-img {
+    margin: 10px;
+    /* width: 50%; */
+}
+
+.youtube-img .widht-youtube-img {
+    width: 100%;
+}
+
+.youtube-img .widht-youtube-img .text-below h6 {
+    /* line-height: 10px; */
+    margin-top: 10px;
+}
+
+.view {
+    width: 46%;
+    font-size: 12px;
+}
+
+.like-share {
+    width: 46%;
+}
+
+.SUBSCRIBE {
+    background: #DC2626;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    text-decoration: none;
+    border: none;
+    font-size: 12px;
+}
+
+.SUBSCRIBE:hover {
+    background-color: white;
+    color: #DC2626;
+}
+
+.SUBSCRIBE-TEXT {
+    width: 70%;
+    margin-left: 80px;
+    /* margin: 0 auto; */
+    font-size: 13px;
+}
+
+.See-More {
+    width: fit-content;
+    border: none;
+    background-color: #D1D5DB;
+    font-size: 13px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+.iframe-text{
+    margin-left: 10px;
+    font-size: 10px;
+    width: 100%;
+}

@@ -1,0 +1,49 @@
+.cat-photos-1{
+  position: relative;
+  top:1rem;
+}
+
+.card-cat{
+  background-image: url('/public/images/product-1.jpg');
+  height: 43vh;
+  border-radius: 5px;
+}
+
+
+.catbody{
+  position: relative;
+  top: 7rem;
+}
+
+
+.feature{
+  height: 27px;
+  width: 57%;
+  color: white;
+  border-radius: 5px;
+  background-color: #EB001B;
+  float: right;
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+
+.icons{
+  position: relative;
+
+  top: 13.5rem;
+  left: 8.5rem;
+}
+
+
+
+.amount{
+  color: #31A015;
+}
+
+
+.more{
+  color: #110C46;
+  border: none;
+  background: none;
+}

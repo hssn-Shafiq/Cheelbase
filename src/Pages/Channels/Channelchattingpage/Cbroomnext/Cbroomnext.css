@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+}
+.form-cb-room {
+h3{
+font-size: 25px;
+font-weight: 300;
+}
+ .text-box-label{
+
+ font-size: 15px;
+ font-weight: 300;
+ }
+ input{
+    background: rgba(217, 217, 217, 0.67);
+    padding: 1px !important;
+    padding-left: 5px !important;
+    font-size: 15px;
+    border: 0.4px solid rgba(0, 0, 0, 0.57);
+ }
+}
+.form-cb-room .form-inner{
+
+    box-shadow: 2px 3px 5px -5px black;
+}
+.form-cb-room .btn{
+
+    background: rgba(17, 12, 70, 1)  !important;
+    color: red;
+    border-radius: 4px ;
+    padding: 7px 20px !important;
+    border: none !important;
+}
+.form-cb-room .team{
+    width: 40%;
+    margin: 10px auto;
+}
+.form-cb-room .team .btn{
+    color: white;
+}
+.form-cb-room .team ul{
+    list-style: none;
+}
+.form-cb-room .team ul li a{
+    text-decoration: none;
+    color: black;
+}
+.form-cb-room .team .btn{
+    width: fit-content;
+    margin: 0px auto;
+}

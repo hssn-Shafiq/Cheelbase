@@ -1,0 +1,31 @@
+.topcheel {
+    margin-top: 15px;
+}
+
+.topcheel .btn {
+    color: #eb001b;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.topcheel-columns .col-sm-3 img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.topcheel-columns .col-sm-3 p {
+    font-size: xx-small;
+}
+.channels-heading h3{
+    color: #160966;
+    font-weight: 700;
+    font-size: 18px;
+}
+.channels-heading {
+    background: rgb(217, 217, 217);
+    text-align: center;
+    padding: 5px;
+    margin: -49px 14px -7px;
+    box-shadow: rgb(185, 185, 185) 1px 0px 2px;
+}

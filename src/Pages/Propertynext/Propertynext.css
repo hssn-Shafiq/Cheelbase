@@ -1,0 +1,213 @@
+.row-width {
+    width: 25% !important;
+}
+.add-width{
+    width: 53% !important;
+}
+
+.search-bar1 {
+    background: #30146C;
+}
+
+.Featured {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.property-feature {
+    width: 25%;
+    display: flex;
+    border-radius: 15px;
+}
+
+.property-img {
+    border-radius: 20px;
+}
+
+.property-small-width {
+    width: 100%;
+    float: left;
+}
+
+.property-small-img {
+    width: 30%;
+    float: left;
+    display: flex;
+}
+
+.property-small-text {
+    width: 100%;
+    float: left;
+    height: 100px;
+    background: #EAF1FF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.property-small-text1 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+.property-small-text2 {
+
+    font-size: 9px;
+    margin-left: 15px;
+    margin-bottom: 10px !important;
+    margin-block: auto;
+}
+
+.property-small-img2 {
+    width: 215px;
+    margin-left: 10px;
+}
+
+.property-small-img1 {
+    float: left;
+    text-align: end;
+}
+
+.property-small-width1 {
+    width: 46% !important;
+    margin: 0 auto;
+}
+
+.img-product {
+    width: 100%;
+    border-radius: 10px;
+}
+.channels-heading h3 {
+    color: #160966;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.channels-heading {
+    background: rgb(217, 217, 217);
+    text-align: center;
+    padding: 5px;
+    margin: -49px 14px -7px;
+    box-shadow: rgb(185, 185, 185) 1px 0px 2px;
+}
+
+
+.container-width{
+    width: 99%;
+}
+
+.property-nextpart-width {
+    width: 60% !important;
+    float: left;
+}
+
+.property-nextpart-width1 {
+    width: 35% !important;
+    float: left;
+    margin-left: 10px;
+    height: fit-content;
+}
+
+.Johny-text {
+    font-size: 10px;
+    font-weight: 500;
+    float: left;
+    margin-top: 6px;
+}
+
+.Johny-text1 {
+    font-size: 8px;
+    float: left;
+    color: #858585;
+    margin-bottom: 0px;
+    margin-top: -14px;
+}
+
+.img-flex {
+    height: fit-content;
+}
+
+.Deskripsi {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.Deskripsi p {
+    font-size: 10px;
+    margin-left: -10px;
+}
+
+.Deskripsi h6 {
+    font-size: 10px;
+    color: #C97B2C;
+    text-align: end;
+    margin-top: -13px;
+
+}
+
+.bgcolor {
+    background: #FCFCFC;
+
+}
+
+.posi {
+    position: relative;
+}
+
+.posi1 {
+    position: absolute;
+    left: 27%;
+    top: 50%;
+}
+
+.ten {
+
+    background: #05050580;
+    color: white;
+    height: 100px;
+    width: 104px;
+    padding: 25px;
+    border-radius: 15px;
+
+}
+
+.map-border {
+    border-radius: 20px;
+}
+
+.btn1-sell {
+    width: 45%;
+    background: #30146C;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Ellipse-btn {
+    background: #30146C;
+    border-radius: 20px;
+    width: 40px;
+}
+
+.btn-whats {
+    width: 50px;
+    margin-top: 5px;
+
+}
+.channels-heading h3 {
+    color: #160966;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.channels-heading {
+    background: rgb(217, 217, 217);
+    text-align: center;
+    padding: 5px;
+    margin: -49px 14px -7px;
+    box-shadow: rgb(185, 185, 185) 1px 0px 2px;
+}

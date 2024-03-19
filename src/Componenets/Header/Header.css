@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #100B43;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1;
+}
+
+.notifications i{
+    color: #FCC810;
+    margin-left: 0px;
+}
+.dropdown-item i{
+    margin-right: 12px;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.navbar-brand{
+    color: #FCC810;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+.navbar-brand:hover{
+    color: #FCC810; 
+}
+.navbar .create-btn{
+    background: #FCC810;
+    color: black;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 3px 10px;
+}
+.navbar .create-btn:focus{
+    background: #FCC810;
+}
+.navbar .create-btn i{
+    margin-left: 15px;
+    color: #100B43;
+    background: white;
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.notifications i,.call i,.lines i{
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.call i,.lines i{
+    color: white;
+}
+.navbar .user .user-icon{
+    background: white;
+    color: black;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.navbar .user label{
+    color: white;
+    margin-left: 5px;
+}

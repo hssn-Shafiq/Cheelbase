@@ -1,0 +1,393 @@
+body{
+    background: #100b43;
+    font-family: sans-serif;
+    color: white;
+}
+.video-main{
+    border: 1px solid rgba(125, 145, 170, 1);
+}
+.video-main .col-md-8{
+    width: 70% !important;
+}
+.video-main .requesting-profile{
+    border-bottom: 1px solid rgba(125, 145, 170, 1);
+    padding-bottom: 10px;
+}
+.video-main .requesting-profile .name{
+    gap: 7rem;
+}
+.video-main .requesting-profile .name h2{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+.video-main .requesting-profile .members{
+    margin-top: -31px;
+}
+.video-main .requesting-profile .members i{
+    font-size: 14px;
+    background: rgba(53, 70, 87, 1);
+    padding: 8px 10px;
+
+    border-radius: 5px;
+}
+.video-main .requesting-profile .members i span{
+    margin-left: 8px;
+}
+
+.video-main .call .time i{
+ color: red;
+}
+.video-main .call .time span{
+    margin-left: 8px;
+}
+.video-main .call .video-call .video-call-profile{
+    background: rgba(24, 20, 20, 0.35);
+    border-radius: 8px;
+    position: absolute;
+    top: 14em;
+    left: 2em;
+}
+.video-main .call .video-call .video-call-profile .profile-content h4{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+.video-main .call .video-call .video-call-profile .profile-content span{
+    font-size: 14px;
+}
+.video-main .call .video-call .pin-icons i{
+    font-size: 16px;
+
+}
+.video-main .video-call .video-call-others-profile{
+    position: absolute;
+    top: 13em;
+    right: 27em;
+}
+
+.video-main .video-call .range-slider{
+    background: rgba(24, 20, 20, 0.35);
+    width: 50px;
+    position: absolute;
+    left: 2em;
+    top: 35em;
+    border-radius: 10px;
+
+}
+ .video-main .video-call .range-slider  .input-range {
+      height: 100px;
+      border-radius: 5px;
+      background: #d3d3d3;
+      outline: none;
+      opacity: 0.7;
+      writing-mode: bt-lr; /* IE */
+      -webkit-appearance: slider-vertical; /* WebKit */
+      
+    }
+    .video-main .video-call .range-slider  .input-range::-webkit-slider-thumb{
+        /* -webkit-appearance: none; */
+        /* appearance: none; */
+        border-radius: 50%; 
+        cursor: pointer;
+    }
+
+  .video-main .video-call .video-icons{
+    width: fit-content;
+    padding: 7px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 42em;
+    left: 17.5em;
+
+    i{
+        margin-left: 8px;
+        color: white;
+        font-size: 20px;
+      }  
+     
+   
+}
+.video-main .video-call .video-icons i:first-child{
+    color: rgba(230, 230, 230, 0.432);
+}
+.video-main .video-call .video-icons i:last-child{
+    background: red;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+
+
+/* /// rightbar-messenger css */
+
+.video-main .rightbar-messenger{
+    background: rgba(129, 186, 255, 0.09);
+    border-radius: 30px;
+    
+}
+.video-main .rightbar-messenger .like-icons{
+    border-bottom: 1px solid rgba(230, 230, 230, 0.432);
+
+    i{
+        font-size: 35px;
+    }
+    sub{
+        font-size: 10px !important;
+        margin-left: 10px;
+    }
+}
+.video-main .rightbar-messenger .chatting .profile-1{
+    height: 80px;
+    
+    .content{
+        margin-top: 2.5em;
+    }
+    h5{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    span{
+        background: rgba(74, 87, 103, 1);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+        display: block;
+        width: fit-content;
+        max-width: 300px;
+    }
+    .time{
+        font-size: 8px;
+        color: rgba(191, 191, 191, 1);
+    }
+
+}
+.video-main .rightbar-messenger .chatting .reply{
+      text-align: end;
+      
+      h5{
+        font-size: 12px;
+         margin-right: 5px;
+    }
+    span{
+        background: rgba(19, 27, 38, 1);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .time{
+        font-size: 8px;
+        color: rgba(191, 191, 191, 1);
+    }
+}
+.video-main .rightbar-messenger .chatting .typing{
+    margin-top: 1em !important;
+
+    .content{
+        margin-top: 9em !important;
+    }
+    h5{
+        color: rgba(191, 191, 191, 1);
+    }
+}
+.video-main .rightbar-messenger .chatting .chat-input{
+    margin: 9em auto 0px auto;
+    background-color: white;
+    width: fit-content;
+  padding: 5px 8px 5px 10px;
+  border-radius: 30px;
+
+  .plus-icon{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  i{
+    color: black;
+    cursor: pointer;
+  }
+  input{
+    border-radius: 30px;
+    border: 1px solid rgba(0, 51, 44, 1);
+    padding:0px 55px 0px 30px;
+    width: 15em;
+  }
+}
+
+.video-main .rightbar-messenger .chatting .chat-input .emoji-icon{
+ position: absolute;
+ right: 17.5em;
+}
+.video-main .rightbar-messenger .chatting .chat-input .share-icons{
+    position: absolute;
+    right: 5em;
+    z-index: 2;
+}
+
+
+  
+.sidebar{
+    height: 150vh;
+}
+.my-channels .channels-box{
+    width: 90%;
+    background: #30146C;
+    border-radius: 10px;
+    padding: 5px;
+    border-bottom-left-radius: 15rem;
+}
+.my-channels .channels-box .box{
+    width: 100%;
+ border-radius: 5px;
+}
+.my-channels .channels-box .box .title h2{
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    /* letter-spacing: 0.4px; */
+}
+.my-channels .channels-box .box .title span{
+    color: #F70404;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.my-channels .channels-box .box .content p{
+    color: black;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 4px;
+}
+.my-channels .channels-box hr{
+    margin: 4px 0px !important;
+    margin-top: -4px !important;
+}
+
+.my-channels .channels-box .members i, .my-channels .channels-box .members span{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.my-channels .channels-box .box-footer i, .my-channels .channels-box .box-footer .admin-text{
+    font-size: 12px;
+    text-transform: lowercase;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.my-channels .channels-box .box-footer .boost-text {
+    color: #16146C;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.create-now-btn{
+    background-color: #16146C;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 15px;
+    border: none;
+}
+.create-now-btn:hover{
+    color: white;
+    border: none;
+    outline: none;
+}
+.create-now-box ul{
+    box-shadow: 0px 0px 2px rgb(190, 189, 189);
+}
+.create-now-box ul .dropdown-header i{
+color: #16146C;
+font-size: 20px;
+}
+.create-now-box  .icon-items{
+    font-size: 13px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.create-now-box  .icon-items i{
+    color: #16146C;
+}
+
+.create-now-box ul .dropdown-header span{
+    color: #30146C;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    /* width: fit-content; */
+}
+
+.create-now-box .footer-btn{
+    width:212.57px;
+    background-color: #16146C;
+    color: white;
+    border-radius: 20px;
+}
+
+
+/* // model css */
+
+.modal{
+    --bs-modal-width: 800px !important;
+}
+.modal form{
+    gap: 10rem !important;
+    background: #ededed;
+}
+.modal form .form{
+    width: 50%;
+}
+
+/* Custom styles */
+.file-input-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .file-input-container input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .upload-icon {
+    width: 50px; /* Adjust the icon size */
+    height: 50px; /* Adjust the icon size */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .modal form .form select{
+    background-color: #ededed;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .modal form .form select:focus{
+    border: none !important;
+    box-shadow: none;
+  }
+  .modal form .form label{
+    font-size: 15px;
+  }
+  .modal form .form p{
+    background: #EAE6E6;
+    padding: 8px;
+    font-size: 15px;
+  }
+  .modal form .submit-btn{
+    margin-top: 2rem;
+    width:212.57px;
+    background-color: #16146C;
+    color: white;
+    border-radius: 20px;
+  }

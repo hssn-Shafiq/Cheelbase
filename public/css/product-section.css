@@ -1,0 +1,67 @@
+.products-cards-columns{
+    display: flex;
+    justify-content: space-between;
+}
+.products-cards-columns .product1{
+    /* background: #E0E3EE; */
+  border-radius: 10px;
+    width: 230px;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 2px 2px 5px #00000057;
+}
+.product-card .card-body .view-more{
+    float: right;
+    color: black;
+    font-size: 10px;
+}
+.card-icons  {
+    position: absolute;
+    right: 15px;
+    bottom: 65px;
+    font-size: 20px;
+    /* background-color: #fcc810; */
+    /* color: white; */
+    padding: 8px;
+    border-radius: 50%;
+  }
+
+  .cancel-btn{
+    margin-top: 20px;
+  }
+  .card-icons .fa-shopping-cart {
+    color: white;
+    background-color: #110c46;
+    padding: 8px;
+    border-radius: 50%;
+  }
+  .card-icons .fa-whatsapp {
+   background-color: #fcc810;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+  }
+
+  .product-card{
+    width: 100%;
+    border: none;
+    text-align: start;
+  }
+  .product-card img{
+    height: 230px;
+  }
+  .product-card .card-title{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .product-card .card-text{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #31a015;
+  }
+  .product-card a{
+    text-align: end;
+    
+  }

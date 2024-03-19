@@ -1,0 +1,427 @@
+body{
+    font-family: sans-serif;
+}
+
+
+
+.search-icon{
+    background-color: #FCC810;
+    border: none;
+    border-radius: 40px;
+    width: 108%;
+    height: 35px;
+    right: 1rem;
+}
+
+.search-inline{
+    color: #110C46;
+    padding-inline: 10px;
+}
+
+.form-control{
+    height: 35px;
+    width: 61%;
+    border-radius: 18px;
+}
+.faa-searchh{
+    border: 2px solid white;
+    border-radius: 18px;
+    height: 24px;
+    width: 25px;
+    font-size: small;
+
+}
+
+
+.search-bar{
+    background-color: #110C46;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 14px;
+}
+
+
+.dropdown-mark{
+    border: 2px solid;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 21px;
+    width: 20px;
+}
+
+.dropdown-menu{
+    background-color: #110C46;
+}
+
+.cat-photos{
+    position: relative;
+    top: 3rem;
+}
+
+.img-icon{
+    width:20.09px;
+    height:18px;
+}
+.market{
+    background: none;
+    border: none;
+}
+
+.all{
+    background: none;
+    border: none;
+}
+
+
+.img-market{
+    width: 100%;
+    height: 100vh;
+    line-height: 0px;
+}
+
+
+.img-rec1{
+    width:28%;
+    height:28vh
+}
+.img-rec{
+    width:28%;
+    height:30vh
+}
+
+.feature{
+    height: 27px;
+    width: 57%;
+    color: white;
+    border-radius: 5px;
+    background-color: #EB001B;
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+.photo{
+    background-image: url('/public/images/product-1.jpg');
+    height: 43vh;
+    width: 141%;
+    border-radius: 5px;
+}
+
+.house-photos-2{
+   position: relative;
+   top: 31rem;
+}
+.more{
+    color: #110C46;
+    border: none;
+    background: none;
+}
+
+.amount{
+    color: #31A015;
+}
+.rectangle-photos{
+    padding-inline: 20px;
+}
+/* Styles for wrapping the search box */
+
+.input-group{
+    
+}
+.main {
+    height: 38px;
+    width: 45%;
+}
+
+
+.icons{
+    position: relative;
+
+    top: 13.5rem;
+    left: 8.5rem;
+}
+
+.detail-section{
+    background-color:#f5eeee;
+    height: 15vh;
+    width: 141%;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.burger-photos{
+    padding-inline: 10px;
+}
+
+.burger{
+    background-image: url('/public/images/order food-1.jpg');
+    position: relative;
+    height: 31vh;
+    width: 99%;
+    border-radius: 5px; 
+}
+
+
+
+.burger-detail{
+    background-color:#fff4f4;
+    height: 31vh;
+    width: 99%;
+    position: relative; 
+    border-radius: 5px; 
+}
+
+.burgerr{
+    color: #110C46;
+    font-weight: 550;
+}
+.price{
+    color: #110C46;
+}
+
+.description{
+    font-size: small;
+}
+
+.burger-icons{
+    position: relative;
+
+    top: 5rem;
+    left: 5rem;
+}
+.btn-more{
+    background: none;
+    border: none;
+    color: #1C1A80;
+    font-weight: 550;
+}
+
+.bed{
+    background-image: url('/public/images/apartment.jpg');
+    height: 32vh;
+    width: 102%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.card{
+    background-image: url('/public/images/apartment.jpg');
+    height: 32vh;
+    position: relative;
+    border-radius: 5px;
+}
+
+.comfort{
+    font-weight: 550;
+    color: #3B3A5D;
+}
+.full-address{
+    color: #8E8E8E;
+}
+
+.card-body{
+   position: relative;
+    top: 8.5rem;
+}
+
+.aprtment{
+    line-height: 0px;
+}
+
+
+.room-detail{
+    background-color:#fff4f4;
+    height: 32vh;
+    width: 102%;
+    position: relative; 
+    border-radius: 5px; 
+
+}
+
+.price-per-month{
+    color: #FFBB50;
+    font-weight: 550;
+}
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.whatsapp-icon{
+    float: right;
+    position: relative;
+    top: 9.2rem;
+    right: 3px;
+}
+
+.btn-sale{
+    background-color: #FFBB50;
+    width:83.68px;
+    height:28.42px;
+}
+
+.left-border{
+    border: 1px solid #C8C8C8;
+    height: 20px;
+}
+
+.img-location{
+    width:16.98px;
+height:25.58px;
+}
+.img-bed{
+    height: 15px;
+}
+
+.img-whatsapp{
+
+    height: 30px;
+    width: 12%;
+    position: relative;
+    top: 10.4rem;
+   left: 16.5rem;
+}
+
+.burger-photos{
+    position: relative;
+    top: 14rem;
+}
+
+.house-photos{
+    position: relative;
+    top: 16rem;
+}
+
+.category{
+    background-color: #110C46;
+    width: 20%;
+    border-radius: 5px;
+}
+.card-cat{
+    background-image: url('/public/images/product-1.jpg');
+    height: 43vh;
+    border-radius: 5px;
+}
+
+.card-cat .card-body{
+    position: relative;
+    top: 13rem;
+
+}
+.beds-3{
+font-size: small;
+}
+
+.category-1{
+    background: none;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.img-sale{
+    width:1000px;
+height:492px;
+}
+
+.cat-photos-1{
+    position: relative;
+    top:1rem;
+}
+
+.cat-photos-2{
+    position: relative;
+    top: 8rem;
+}
+
+.cat-photos-3{
+    position: relative;
+    top: 16rem;
+}
+
+
+
+.cat-photos-4{
+    position: relative;
+    top: 25rem;
+}
+
+.cat-photos-5{
+    position: relative;
+    top: 33rem;
+}
+
+.burger-photos-1{
+    position: relative;
+    padding-inline: 10px;
+}
+
+.burger-photos-2{
+    position: relative;
+    padding-inline: 10px;
+}
+
+.burger-photos-3{
+    position: relative;   
+    padding-inline: 10px;
+}
+
+.burger-photos-4{
+    position: relative; 
+    padding-inline: 10px;
+}
+
+.burger-photos-5{
+    position: relative;
+    padding-inline: 10px;
+}
+
+.house-photos-1{
+position: relative;
+top: 2rem;
+}
+
+.house-photos-3{
+    position: relative;
+    top: 15rem;
+}
+
+.house-photos-4{
+    position: relative;
+    top: 28rem;
+}
+
+.house-photos-5{
+  position: relative;
+top: 41rem;
+}
+
+.house-photos-6{
+    position: relative;
+    top: 54rem;
+}
+
+.house-photos-7{
+    position: relative;
+    top: 67rem;
+}
+
+.abc{
+    position: relative;
+    top: 37rem;
+}

@@ -1,0 +1,83 @@
+.product{
+    width: 70%;
+    background:  #FCFCFC;
+    padding-right: 100px;
+    height: fit-content;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+}
+.product-title h3{
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+.product-title h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.short-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.long-description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000000;
+    
+}
+.card .number span{
+    color: #828282;
+    font-size: 17px;
+    font-weight: 400;
+    border: 1px groove  #828282;
+    padding: 7px 15px;
+    border-radius: 5px;
+
+}
+.product-size .size h4{
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+}
+.product-size  .catogorize{
+    font-size: 15px;
+    font-weight: 400;
+}
+.product-btn{
+    padding: 20px 10px;
+    margin-top: 10px;
+}
+.product-btn .btn-1{
+    background: #30146C;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    width: 35%;
+    text-align: start;
+    padding-left: 20px;
+}
+.product-btn .btn-2 i{
+    background: #30146C;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 60%;
+    font-weight: 500;
+}
+.number .selected{
+    background-color: #000000;
+    
+}
+.product-title .price{
+    padding-right: 30px;
+}
+.catogorize p{
+    padding-right: 28px;
+}
+.shoe-design{
+    border-radius: 10px;
+}
+

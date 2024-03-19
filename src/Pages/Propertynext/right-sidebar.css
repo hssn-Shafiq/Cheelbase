@@ -1,0 +1,448 @@
+.right-sidebar-section{
+    width: 20%;
+    padding: 2px 1px;
+    height:fit-content;
+    border: 1px solid #110C46;
+    background-color: #110C46;
+
+}
+
+.right-sidebar-section2{
+    width: 21%;
+    padding: 2px 1px;
+    height:fit-content;
+    border: 1px solid #110C46;
+    background-color: #110C46;
+    float: right;
+}
+
+.right-sidebar-section-3{
+    width: 20%;
+    padding: 2px 1px;
+    height:fit-content;
+    background-color: white;
+
+}
+
+.truck-info{
+    background-color: whitesmoke;
+    background-size: cover;
+}
+.img-truck{
+ width: 30%;
+ height: 50px;
+}
+.title-info{
+    margin-left: 5px;
+}
+
+.sponsor{
+    font-size: x-small;
+}
+
+.sponsorship{
+    padding-inline: 12px;
+}
+.btn-sub{
+
+    background-color: #dbf8f8;
+    size: x-small;
+    color: #010BFA;
+    border-radius: 12px;
+    height: 20px;
+    width: 40%;
+    font-size: x-small;
+    float: right;
+    border: none;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: xx-small;
+    line-height: 11px;
+    color: #010BFA;
+}
+
+.info{
+    font-size: xx-small;
+    line-height: 11px;
+}
+
+
+.burger-img{
+    height: 100%;
+    width: 100%;
+}
+
+.label-feature{
+    color: white;
+    margin-left: 5px;
+}
+
+.feature-images{
+    background-image: url('/public/images/XMLID_506_\ \(1\).png');
+    height: 150px;
+    width: 99%;
+    border-radius: 10px;
+}
+
+.feature-main{
+    
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+}
+
+.img-feature1{
+    margin-top: 1px;
+    width:48%;
+    height:180px;
+    border-radius: 8px;
+    margin-left: 2px;
+}
+
+.img-feature2{
+    margin-top: 1px;
+    width:48%;
+    height:180px;
+    border-radius: 8px;
+    margin-left: 6px;
+}
+
+.lorem-ip1{
+    font-size: x-small;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.lorem-ip2{
+    font-size: x-small;
+    font-weight:bold;
+    margin-left: 24px;
+}
+
+.one-million{
+    line-height: 0px;
+}
+.million1{
+    font-size: x-small;
+    margin-left: 3px;
+}
+
+.million2{
+    font-size: x-small;
+    margin-left: 64px;
+}
+
+.video-camera{
+    background-image: url('/public/images/Rectangle\ 4973.png');
+    width:100%;
+    height:400px;
+    background-size: cover;
+}
+
+.vector-1{
+    float: right;
+    width: 18%;
+    padding-top: 50%;
+}
+
+.text-five{
+    color: whitesmoke;
+    font-size: small;
+}
+  .vector-2{
+    float: right;
+    width: 0%;
+    padding-top: 74%;
+  }
+
+  .img-vector{
+    padding-top: 98%;
+    margin-left: 10px;
+  }
+  .avatar{
+    width:29.35px;
+    height:30.28px;
+  }
+  .username{
+    margin-left: 5px;
+    margin-top: 6px;
+    color: whitesmoke;
+  }
+
+  .btn-visit{
+    background-color: #FCC810;
+    border-radius: 18px;
+     width: 80%;
+    height: 33px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+  }
+  .vector-3{
+    float: right;
+    width: 0%;
+    padding-top: 99%;
+  }
+
+  .explore{
+    font-size: small;
+    color: whitesmoke;
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+.video-frame{
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+  .img{
+    background-image: url('/public/images/XMLID_506_\ \(1\).png');
+    width:100%;
+    height:150px;
+    border-radius: 12px;
+  }
+  .play{
+            margin-top: 50px;
+
+  }
+
+  .visit{
+    background-color: #B4C0CB;
+    height: 5px;
+    width: 98%;
+  }
+
+
+  .img-visit{
+    margin-left: 4px;
+    font-size: 8px;
+  }
+
+
+  .visit-pic{
+    height: 10px;
+    width: 6%;
+    font-size: 8px;
+    margin-right: 5px;
+  }
+
+  .visit-site{
+
+    background-color:#D9D9D9;
+  }
+
+  .web-title{
+    font-size: 15px;
+    font-weight: bold;
+    color: #110C46;
+
+  }
+
+  .subtitle{
+    font-size: 10px;
+    color: #110C46;
+
+  }
+
+.ad{
+    font-size: 13px;
+    font-weight: bold;
+    color: #110C46;
+    background-color: #FCC810;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.your-product{
+font-size: 13px;
+color: #989CA0;
+margin-left: 20px;
+margin-top: 5px;
+}
+
+.lorem-ipsum{
+    margin-left: 10px;
+}
+
+.ad-main{
+   margin-left: 10px;
+}
+
+.video{
+    height: 360px;
+}
+#video img{
+    height: 100%;
+}
+.video .btn{
+    position: absolute;
+    right: 0px;
+    top: 61px;
+color: red;
+
+}
+.feature .h6{
+    color: #308AFF;
+}
+.feature-child{
+    background-color: rgb(224, 227, 238);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature-child .col-sm-6 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature-child .col-sm-6 p {
+    font-size: xx-small;
+}
+
+.Sprd{
+    background-color: #FCC810;
+    padding: 8px;
+    padding-top: 0px;
+    border-radius: 10px;
+    height: 265px;
+
+}
+.sprd-content{
+    height: 10%;
+    padding: 3px 0px;
+}
+.Sprd img{
+    height: 90%;
+    border-radius: 13px;
+}
+.Sprd .h6{
+    color: red;
+    
+    
+}
+.Sprd .btn i{
+    color: pink !important;
+    background-color: white; 
+    font-size: 24px;
+    border-radius: 50%;
+    
+}
+.food-order{
+    margin-top: 7.3rem;
+}
+.food-order img{
+    position: relative;
+    z-index: 1;
+}
+
+.food-order .food{
+    border-radius: 12px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    margin: 15px auto;
+    width: 80%;
+
+}
+.food-order .food{
+    height: 250px;
+    background: white;
+    position: relative;
+    box-shadow: 6px 5px 4px #000000c2;
+    
+}
+
+.food-order .food:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 90px solid white;
+    border-left: 177px solid white;
+    border-radius: 8px;
+
+}
+  
+.food-order .food .btn{
+    color: #eb001b;
+}
+.food-order .food p i{
+    color: gold;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.apartment2{
+    background-color: #D9D9D9;
+    padding-bottom: 19px;
+  border-radius: 10px;
+}
+.apartment2 .col-sm-6{
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    width: 100%;
+    margin: 0px auto;
+}
+.apartment2 .price{
+    color: #FCC810;
+    padding: 0px 5px;
+}
+.apartment2 .apart-content,.icons{
+    margin-top: -10px;
+    padding: 0px 5px;
+}
+.apartment2 .apart-content .title{
+font-size: 11px;
+margin-top: 5px;
+}
+.apartment2 .rent-btn{
+    background-color:#FCC810;
+    color: black;
+  font-size: 11px;
+  padding: 2px 10px;
+}
+.apartment2 .address i{
+    color: #FCC810;
+    font-size: 15px;
+    margin-right: 2px;
+}
+.apartment2 .address{
+    color: grey;
+    font-size: 11px;
+    padding: 0px 5px;
+
+}
+
+
+.apartment2 .icons p{
+    font-size: 12px;
+}
+.apartment2 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.sub{
+    border:2px solid #FCC810;
+    padding: 40px 2px 2px 2px;
+    border-radius: 10px;
+}
+.sub .capt{
+
+    padding: 5px 0px 0px 0px;
+
+}
+
+.sub img{
+    border-radius: 12px !important;
+}
+.sub .h6{
+    font-size: 14px;
+ text-align: center;
+}
+.sub .btn{
+    background-color: red !important;
+    color: white;
+    border-radius: 20px;
+}

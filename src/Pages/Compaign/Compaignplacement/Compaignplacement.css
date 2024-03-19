@@ -1,0 +1,109 @@
+.category{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 18%;
+}
+
+.btn-submit{
+    background-color:#30146C;
+    height: 37px;
+    width: 13%;
+    border-radius: 2px;
+    position: relative;
+    left: 9rem;
+    top: -16rem;
+}
+
+.placement{
+    height: 30px;
+    width: 30px;
+    background-color: #F7F7F7;
+}
+.burger1{
+    margin-top: 10px;
+    width: 67%;
+}
+
+.burger{
+    background-color: #FFFFFF;
+    height: 51%;
+    width: 43%;
+    position: relative;
+    left: 44rem;
+    top: -8rem;
+    text-align: center;
+    border:5px solid #D9D9D9;
+
+}
+
+
+
+.place
+{
+    font-weight: bold;
+}
+
+.add{
+    position: relative;
+    left: 0.3rem;
+}
+
+.second-icons{
+    position: relative;
+    top: -1rem;
+}
+
+.added{
+    background-color: #D9D9D9;
+    height: 25px;
+    width: 25px;
+    border: none;
+}
+
+.img-group{
+    height: 25px;
+    width: 25px;
+}
+
+.img-ellipse{
+    height: 30px;
+    width: 30px;
+}
+
+.bag{
+    font-size: smaller;
+    position: relative;
+    top: 1rem;
+    left: 5rem;
+}
+    
+.icon{
+    padding-inline: 33px;
+    position: relative;
+    top: 3rem;
+}
+
+.second-icons{
+    position: relative;
+    top: 1rem;
+}
+
+.img-second{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 4.7rem;
+
+}
+.shop{
+    position: relative;
+    right: 2rem;
+
+}
+
+.share{
+    position: relative;
+    right: 1rem;
+}
+

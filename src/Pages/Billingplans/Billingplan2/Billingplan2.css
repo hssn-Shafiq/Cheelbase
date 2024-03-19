@@ -1,0 +1,64 @@
+
+body{
+    font-family: sans-serif;
+}
+
+.free-plan{
+    padding-top: 9%;
+}
+
+.btn-group{
+    margin-left: 20px;
+}
+
+
+.btn-month{
+    width: 240px;
+    height: 39px;
+    background-color: #1C1A80;
+    border-radius: 20px;
+    color: whitesmoke;
+    border: none;
+    padding-right: 130px;
+}
+
+.btn-year{
+    width: 193px;
+    height: 39px;
+    background-color: #FCC810;
+    border-radius: 20px;
+    color: whitesmoke;
+    right:3em;
+    padding-right: 74px;
+  
+}
+
+
+    .current-plan{
+    color: #206D0C;
+
+    }
+    
+    .next-button{
+        background-color: #FCC810;
+        border-radius: 2px;
+        color: whitesmoke;
+        height: 36px;
+    
+    }
+
+    
+    .universe{
+        padding-top: 23%;
+        text-align: center;
+    }
+    
+    .from{
+        color: #16146C6B;
+        font-weight: bold;
+    }
+    
+    .annex-universe{
+        font-weight: bold;
+        color: #206D0C;
+    }

@@ -1,0 +1,241 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.max-width {
+    width: 99%;
+    margin: 0;
+}
+
+.height-main {
+    height: 90vh;
+    width: 101%;
+    background-image: url('/public/images/Rectangle\ 1128.png');
+}
+
+.vist-img {
+    width: 99%;
+    height: 89%;
+    position: absolute;
+
+}
+
+.vist-img-position {
+    position: relative;
+    top: 13em;
+}
+
+.vist-avtar {
+    position: relative;
+    top: 13em;
+    font-size: 20px;
+}
+
+.btn-containter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+
+    width: 50%;
+}
+
+.btn-view {
+    width: 100px;
+    height: 30px;
+    background: #30146C;
+    color: #FCC810;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+    top: 150px;
+    left: 55em;
+    margin-bottom: 8px;
+}
+
+.img-width {
+    height: 80px;
+    line-height: 0px;
+}
+
+.left-img {
+    width: 85%;
+    height: 78vh;
+    margin-right: 20px;
+    margin: 0 auto;
+}
+
+.right-img {
+    width: 85%;
+    margin-left: 20px;
+    margin: 0 auto;
+
+}
+
+.width-col {
+    width: 20% !important;
+    /* margin-top: 10px; */
+}
+
+.label-text {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.product-img {
+    width: 99%;
+}
+
+.width-col1 {
+    width: 20%;
+    /* margin-left: 20px; */
+}
+
+.listing-product {
+    width: 97%;
+    gap: 2px;
+}
+
+.food-girl-img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .height-main {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .vist-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .vist-img-position {
+        width: 20% !important;
+        top: 20px !important;
+    }
+
+    .btn-view {
+        top: 36px;
+        left: 458px;
+    }
+}
+
+.icons-links a {
+    text-decoration: none;
+    color: black;
+}
+
+/* .icons-links a:focus{
+    background: #30146C;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+} */
+
+.amp-stories {
+    background-color: #30146C;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 130px;
+}
+
+.visit-image-2{
+    background-image: url('/public/images/Group 3465296.png');
+    height: 268px;
+    width: 20%;
+    position: relative;
+    top: 13.2rem;
+}
+
+.img-circle{
+    float: right;
+    position: relative;
+    top: 14.7rem;
+    right: 11.1px;
+}
+
+.marina-ojok{
+    background-color: #FFFFFF;
+    height: 24px;
+    width: 13%;
+    border-radius: 3px;
+    position: relative;
+    top: 29.9rem;
+    left: 15.9rem;
+}
+
+.listing-product2{
+    height: 150px;
+    width: 19%;
+}
+
+.btn-profile-2{
+    float: right;
+    position: relative;
+    top: 6px;
+    right: 9px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.update-cover{
+    
+    height: 39px;
+    width: 10%;
+    float: right;
+    position: relative;
+    top: 10.5rem;
+    left: rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.updateproof{
+    background-color: #30146C;
+    height: 37px;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;   
+}
+.btnproof{
+    background-color: #30146C;
+    height: 37px;
+    width: 97%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.img-sizing{
+    width: 100%;
+}
+
+.website-link{
+    padding-inline: 10px;
+}
+
+.img-size{
+    height: 25px;
+    width: 25px;
+}

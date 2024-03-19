@@ -1,0 +1,96 @@
+/* .verification-profile-main{
+    text-align: center;
+} */
+body{
+    font-family: sans-serif;
+}
+ .back-arrow{
+    position: absolute;
+    left: 19px;
+}
+
+.back-arrow i {
+    font-size: 24px;
+    color: #30146C;
+    /* font-weight: 400; */
+
+}
+
+
+.verification-content{
+    margin-left: 75px;
+}
+
+.header{
+    font-weight: bold;
+}
+
+.content h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #16146C;
+}
+
+
+.next-button p{
+    margin-top: -9px;
+    }
+
+
+.ads{
+    
+    margin-left: 10px;
+}
+
+
+.important-information{
+    
+    color: #16146C;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+
+.id-information{
+
+padding-top: 15%;
+float: right;
+width: 75%;
+}
+
+
+.instructions{
+ 
+    color: #16146C;
+}
+
+.next{
+    width: 65%;
+}
+.next-button{
+    background-color: #16146C;
+    border-radius: 2px;
+    color: whitesmoke;
+    height: 35px;
+    width: 120px;
+
+
+}
+
+.universe{
+    padding-top: 50%;
+    text-align: center;
+}
+
+.from{
+    color: #16146C6B;
+    font-weight: bold;
+}
+
+.annex-universe{
+    font-weight: bold;
+    color: #206D0C;
+}

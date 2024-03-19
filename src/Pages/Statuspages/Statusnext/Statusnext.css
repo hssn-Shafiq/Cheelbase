@@ -1,0 +1,100 @@
+.center-main{ 
+    background-color: #110C46;
+    border: 20px;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+}
+
+.post{
+    margin-left: 30%;
+}
+.bd-highlight{
+    width: 100px;
+    
+}
+
+
+
+.person-detail {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.post {
+    margin-left: 30%;
+}
+
+.minutes {
+   
+    position: relative;
+    top: -2.3rem;
+    font-size: smaller;
+    right: 23.7rem;
+}
+
+.linefirst {
+    height: 2px;
+    width: 18%;
+    border: 10px;
+    background-color: #FFFFFF;
+    ;
+}
+.border-side-1{
+    width: 18%;
+    border-bottom: 2px solid white;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+}
+.border-side-2{
+    width: 18%;
+    border-bottom: 2px solid white;
+    margin-left: 20px;
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+}
+
+.border-side-3{
+    width: 18%;
+    border-bottom: 2px solid white;
+    display: flex;
+    gap: 20px;
+    left: 2rem;
+    position: relative;
+    top: -2rem;
+}
+
+.linedd{
+    position: relative;
+    top: -0.6rem;
+    left: 1rem;
+}
+
+.border-side-4{
+    width: 13%;
+    border-bottom: 2px solid white;
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -2rem;
+    left: 0.4rem;
+}
+
+
+
+.lined{
+    position: relative;
+    left: 10rem;
+}
+
+.add{
+    position: relative;
+    left: 0.3rem;
+}

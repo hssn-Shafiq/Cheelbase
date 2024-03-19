@@ -1,0 +1,223 @@
+body{
+    font-family: sans-serif;
+}
+
+.chat-content{
+    width: 80%;
+}
+
+.searchh{
+    border: 1px solid #E1E1E1;
+    width: 55%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #E1E1E1;
+    color: #00000078;
+}
+
+.img-ellipse{
+    width:48.53px;
+    height:30px;
+    position: relative;
+    right: 3.5rem;
+}
+
+.card-title{
+    color:#30146C;
+
+}
+
+.img-icon{
+    width:15.64px;
+    height:13.98px;
+}
+
+.hi1{
+ position: relative;
+ left: 16.3rem;
+}
+.hi{
+    background-image: url('/public/images/Rectangle\ 5297.png');
+    width:70px;
+    height:51px;
+}
+
+.chat-support-main{
+    .image{
+
+
+        width: fit-content;
+        height: fit-content;
+    }
+}
+.img-star{
+    width:57.25px;
+    height:57.25px;
+    border-radius: 10px;
+}
+
+.cheel-support{
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 4px -1px black;
+    width:520px;
+    height:159.52px;
+    position: relative;
+
+    border-radius: 8px;
+}
+
+.img-tick{
+    width:18.67px;
+    height:21.86px;
+}
+
+.timing{
+    position: relative;
+    left: 14rem;
+}
+.date{
+    position: relative;
+    
+}
+
+.datee{
+    position: relative;
+    left: 25rem;
+}
+
+.dropdown-mark{
+    color: black;
+    width: 84%;
+    height:31px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    left: 10rem;
+
+ 
+}
+
+.dropdown{
+    float: right;
+    position: relative;
+    right: 0.9rem;
+    margin-top: 2px;
+}
+
+.need{
+    position: relative;
+    left: 7rem;
+    display: inline-block;
+}
+
+.dropdown-menu{
+    background-color: #FFFFFF;
+}
+
+.depend-options{
+    background-color: #FFFFFF;
+    width: 63%;
+    border: none;
+    border-radius: 5px;
+    height:31px;
+    position: relative;
+    left: 5.7rem;
+}
+
+.issue{
+    width: 462px;
+    background-color: #FFFFFF;
+    height:209px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 7rem;
+}
+.describe-issue{
+    position: relative;
+    left: 3.7rem;
+}
+
+.btn-submit{
+    background-color: #30146C;
+    Width:141px;
+    Height:28px;
+    position: relative;
+    left: 4rem;
+}
+
+.online-support{
+    color: #30146C;
+    position: relative;
+    left: 8rem;
+}
+
+.click{
+    color: #30146C;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.cheelbase{
+font-weight: 550;
+}
+
+.icons{
+    width: 30%;
+  position: relative;
+  left: 3.3rem;
+}
+
+.cheelbas{
+    position: relative;
+    left: 8.1rem;
+    width: 30%;
+    line-height: 0px;
+}
+
+.leaderboard-detail{
+    width: 41%;
+}
+
+
+
+.views{
+    position: relative;
+    left: 1rem;
+}
+
+.group-views{
+    width: 106%;
+ font-size: small;
+ position: relative;
+ left: 1rem;
+}
+
+.img-visibility{
+    width:23.19px;
+    height:20.5px;
+}
+
+.leadership-2{
+   position: relative;
+   top: 5rem;
+}
+
+.leaderboard-detail-4{
+    position: relative;
+    right: 1rem;
+}
+
+.leaderboard-detail-5{
+    position: relative;
+    left: 4rem;
+}
+
+.leaderboard-detail-6{
+    position: relative;
+    left: 9rem;
+}
+
+.max-width{
+    background: rgb(195, 255, 255);
+}

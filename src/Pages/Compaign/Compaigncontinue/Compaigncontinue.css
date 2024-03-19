@@ -1,0 +1,259 @@
+.input-text {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 35%;
+    background-color: rgb(245, 239, 239);
+    color: #000000
+}
+
+.form-group {
+    position: relative;
+    top: -3rem;
+}
+
+.upload-file {
+    height: 350px;
+    width: 34%;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    position: relative;
+    left: 3rem;
+}
+
+.img-folder {
+    position: relative;
+    top: 8rem;
+}
+
+.lined{
+    height: 2px;
+    width: 100%;
+    position: relative;
+    top: -1rem;
+}
+
+.img-gallery{
+    height: 20px;
+    width: 20px;
+}
+
+.gallery{
+    position: relative;
+    top: -1.5rem;
+}
+
+.filetype {
+    position: relative;
+    top: 8rem;
+    /* display: none; */
+
+}
+
+.dropdown-menu{
+    width: 48%;
+}
+
+.hidden-input{
+    height: 15px;
+    width: 15px; 
+    position: absolute;
+    opacity: 0;
+}
+
+.img-upload{
+    height: 15px;
+    width: 15px;
+}
+
+.filetype1 {
+    width: 140px;
+    background-color: whitesmoke;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    left: 170px;
+    /* bottom: 120px; */
+}
+
+.burger1{
+    margin-top: 10px;
+    width: 67%;
+}
+
+.burger{
+    background-color: #FFFFFF;
+    height: 55%;
+    width: 47%;
+    position: relative;
+    left: 15rem;
+    top: -4rem;
+    text-align: center;
+}
+
+
+.add{
+    position: relative;
+    left: 0.3rem;
+}
+
+.second-icons{
+    position: relative;
+    top: -1rem;
+}
+
+.added{
+    background-color: #D9D9D9;
+    height: 25px;
+    width: 25px;
+    border: none;
+}
+
+.img-group{
+    height: 25px;
+    width: 25px;
+}
+
+.img-ellipse{
+    height: 30px;
+    width: 30px;
+}
+
+.bag{
+    font-size: smaller;
+    position: relative;
+    top: 1rem;
+    left: 5rem;
+}
+    
+.icon{
+    padding-inline: 33px;
+    position: relative;
+    top: 3rem;
+}
+
+.second-icons{
+    position: relative;
+    top: 1rem;
+}
+
+.img-second{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 4.7rem;
+
+}
+.shop{
+    position: relative;
+    right: 2rem;
+
+}
+
+.share{
+    position: relative;
+    right: 1rem;
+}
+
+.compaign{
+    color: #16146C;
+    float: right;
+    position: relative;
+    top: -5.3rem;
+    right: 2rem;
+    font-weight: 540;
+}
+
+.btn-dropdown{
+    background-color: #D9D9D9;
+    height: 31px;
+    width: 63%; 
+    font-size: xx-small;
+    size: 15px;
+}
+
+.compaigns{
+    font-size: small;
+}
+
+.text{
+    height: 31px;
+    width: 50%;
+}
+
+.or{
+    font-size: small;
+}
+
+.customize{
+    font-size: small;
+}
+.number{
+    height: 31px;
+    width: 50%;   
+}
+
+.budget{
+  
+}
+
+.date{
+    height: 23px;
+    width: 50%;
+    font-size: small;
+
+}
+
+.end-date{
+    height: 23px;
+    width: 50%;
+    font-size: small;  
+}
+
+.end-continous{
+    background-color: #D9D9D9;
+    font-size: small;
+    width: 99%;
+    height: 45px;
+    border-radius: 5px;
+}
+.end{
+    height: 23px;
+    width: 30%;
+}
+
+.amount-spend{
+    font-size: xx-small;
+}
+
+.bidding-detail{
+    width: 99%;
+}
+
+.bid{
+    font-size: small;
+}
+
+.description{
+    background-color: #D9D9D9;
+}
+
+.url-name{
+    height: 28px;
+}
+
+.website-url{
+    position: relative;
+    left: 11rem;
+    top: 19rem;
+}
+
+.gender{
+    position: relative;
+    left: 2rem;
+}
+
+.select{
+    height: 31px;
+    width: 145%;
+    background-color: #D9D9D9;
+}

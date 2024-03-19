@@ -1,0 +1,207 @@
+.max-width {
+    width: 99%;
+}
+
+.bg-color-below1 {
+    background-color: #100B43;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+body {
+
+    background: #d1d5db;
+}
+
+.form {
+
+    position: relative;
+}
+
+.form .fa-search {
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span {
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan {
+    padding-left: 7px;
+}
+
+.left-pan i {
+
+    padding-left: 10px;
+}
+
+.form-input {
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 50px;
+}
+
+.form-input:focus {
+
+    box-shadow: none;
+    border: none;
+}
+
+.btn-space {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.bg-color-below1 {
+    width: 179vh;
+    margin-right: 10px;
+}
+
+.margin-side {
+    margin-left: -12px;
+    width: 60%;
+}
+
+.form-control {
+    width: 85%;
+    /* margin-left: 10px; */
+}
+
+.form {
+    margin-left: 20px;
+}
+
+.youtube-img {
+    margin: 10px;
+    /* width: 50%; */
+}
+
+.youtube-img .widht-youtube-img {
+    width: 100%;
+}
+
+.youtube-img .widht-youtube-img .text-below h6 {
+    /* line-height: 10px; */
+    margin-top: 10px;
+}
+
+.view {
+    width: 46%;
+    font-size: 12px;
+}
+
+.like-share {
+    width: 46%;
+}
+
+.SUBSCRIBE {
+    background: #DC2626;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    text-decoration: none;
+    border: none;
+    font-size: 12px;
+}
+
+.SUBSCRIBE:hover {
+    background-color: white;
+    color: #DC2626;
+}
+
+.SUBSCRIBE-TEXT {
+    width: 70%;
+    margin-left: 80px;
+    /* margin: 0 auto; */
+    font-size: 13px;
+}
+
+.See-More {
+    width: fit-content;
+    border: none;
+    background-color: #D1D5DB;
+    font-size: 13px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+.iframe-text{
+    margin-left: 10px;
+    font-size: 10px;
+    width: 100%;
+}
+
+.bg-color-below {
+    background-color: #100B43;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+body {
+
+    background: #d1d5db;
+}
+
+.form {
+
+    position: relative;
+}
+
+.form .fa-search {
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span {
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan {
+    padding-left: 7px;
+}
+
+.left-pan i {
+
+    padding-left: 10px;
+}
+
+.form-input {
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 50px;
+}
+
+.form-input:focus {
+
+    box-shadow: none;
+    border: none;
+}
+.btn-space{
+    font-size: 17px ;
+    margin-top: 10px;
+}
+.bg-color-below{
+    width: 224vh;
+}

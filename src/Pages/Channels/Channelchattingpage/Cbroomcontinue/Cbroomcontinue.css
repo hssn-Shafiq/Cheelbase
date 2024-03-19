@@ -1,0 +1,175 @@
+body{
+    font-family: sans-serif;
+}
+.form-cb-room {
+h3{
+font-size: 25px;
+font-weight: 300;
+}
+ .text-box-label{
+
+ font-size: 15px;
+ font-weight: 300;
+ }
+ input{
+    background: rgba(217, 217, 217, 0.67);
+    padding: 1px !important;
+    padding-left: 5px !important;
+    font-size: 15px;
+    border: 0.4px solid rgba(0, 0, 0, 0.57);
+ }
+}
+.form-cb-room .form-inner{
+
+    box-shadow: 2px 3px 5px -5px black;
+}
+.form-cb-room .btn{
+
+    background: rgba(17, 12, 70, 1)  !important;
+    color: red;
+    border-radius: 4px ;
+    padding: 7px 20px !important;
+    border: none !important;
+}
+.form-cb-room .team{
+    width: 40%;
+    margin: 10px auto;
+}
+.form-cb-room .team .btn{
+    color: white;
+}
+.form-cb-room .team ul{
+    list-style: none;
+}
+.form-cb-room .team ul li a{
+    text-decoration: none;
+    color: black;
+}
+.form-cb-room .team .btn{
+    width: fit-content;
+    margin: 0px auto;
+}
+
+
+
+/*******
+||||||||||||||||||||||||||||||||||||||||||
+CB Room Video page 4 css
+||||||||||||||||||||||||||||||||||||||||||
+
+*******/
+
+.cb-room-video i{
+    position: absolute;
+    left: 47%;
+    bottom: -40%;
+    font-size: 60px;
+    color: white;
+    background-color: rgba(17, 12, 70, 1);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+
+/*******
+||||||||||||||||||||||||||||||||||||||||||
+CB Room Video page 5 css
+||||||||||||||||||||||||||||||||||||||||||
+
+*******/
+
+.room-page-5 {
+
+    i{
+        background-color: rgba(17, 12, 70, 1);
+        color: white;
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 50%;
+        margin: 5px auto;
+    }
+
+    .form{
+
+        .display{
+            width: 80%;
+            margin: 10px auto;
+
+            .input-box{
+                    
+                label{
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+                input{
+                    border-radius: 30px;
+                    border: .5px solid rgba(0, 0, 0, 1);
+                    background: rgba(239, 235, 235, 1);
+                    padding-left: 10px;
+                }
+
+            }
+            .display-btn{
+                background-color: rgba(17, 12, 70, 1);
+                color: white;
+                border-radius: 20px;
+               
+            }
+            p{
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+    }
+
+
+    .modal-btn{
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(17, 12, 70, 1);
+    }
+
+}
+.modal{
+     .modal-header, .modal-footer{
+        border: none;
+     }
+    .modal-content{
+
+        background-color: rgba(48, 20, 108, 0.96) !important;
+        color: white;
+
+        label{
+         font-weight: 600;
+         font-size: 16px;
+        }
+
+        input, textarea{
+            border-radius: 30px;
+            border: none;
+            color: rgba(181, 178, 178, 1);
+            font-weight: 600;
+
+        }
+        input::placeholder{
+            color: rgba(181, 178, 178, 1);
+            font-weight: 600;
+        }
+    }
+    button[type = "submit"]{
+        background-color: rgba(17, 12, 70, 1);
+        color: white;
+    }
+}
+
+
+.video-main {
+
+    .rightbar-messenger{
+        background: transparent !important;
+    }
+}
+.video-main .video-call .video-call-others-profile{
+    top: 10em;
+}

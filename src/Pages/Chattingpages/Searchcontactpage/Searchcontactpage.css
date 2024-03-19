@@ -1,0 +1,85 @@
+body{
+    font-family: sans-serif;
+}
+
+.contact-main{
+    width: 60%;
+  
+}
+.contact{
+    font-weight: 550;
+}
+
+
+.no-of-contacts{
+    line-height: 0px;
+    color: rgb(143, 140, 140);
+}
+
+.group-channel{
+    width: 100%;
+}
+
+.create-channel{
+    padding-left: 5px;
+
+}
+
+.create-group{
+    padding-left: 5px;
+}
+
+.line{
+    height: 50px;
+}
+
+.buttons-group{
+    margin-top: 0px;
+
+}
+
+.buttons{
+    padding-inline: 30px;
+}
+.from-contacts{
+    border: none;
+    background-color:#D9D9D9
+}
+
+.businesses{
+    border: none;
+    background-color:#D9D9D9
+}
+
+.favourite{
+    border: none;
+    background-color:#D9D9D9
+}
+
+.channel{
+    border: none;
+    background-color:#D9D9D9
+}
+
+.groups{
+    border: none;
+    background-color:#D9D9D9
+}
+
+.number{
+    color:#EB001B;
+}
+
+.info{
+    
+    padding-left: 20px;
+}
+
+.last-chat{
+    line-height: 0px;
+}
+
+.img-border{
+    border:2px solid rgb(173, 168, 168);
+    border-radius: 50%;
+}
