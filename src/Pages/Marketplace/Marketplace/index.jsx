@@ -294,7 +294,7 @@ const Marketplace = () => {
                 <p className="comfort">Comfortable Apartment</p>
                 <button className="btn btn-sale mb-3">Sale</button>
               </div>
-              <div className=" d-flex gap-1">
+              <div className=" d-flex addresses gap-1">
                 <img
                   src="../images/icons/Vector (8).png"
                   className="img-location"
@@ -606,7 +606,7 @@ const Marketplace = () => {
                 <p className="comfort">Comfortable Apartment</p>
                 <button className="btn btn-sale mb-3">Sale</button>
               </div>
-              <div className="addresses d-flex gap-1">
+              <div className="address d-flex gap-1">
                 <img
                   src="../images/icons/Vector (8).png"
                   className="img-location"

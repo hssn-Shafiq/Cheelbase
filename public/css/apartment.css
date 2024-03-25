@@ -21,7 +21,8 @@
 .apartment .btn{
     background-color:#FCC810;
     color: black;
-    width: 100px;
+    width: 72px;
+    height: 32px;
 }
 .apartment .icons p{
     font-size: 12px;

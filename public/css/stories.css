@@ -179,3 +179,114 @@
   padding: 4px 32px;
   border-radius: 8px;
 }
+
+
+@media(max-width:640px)  and (min-width:360px){
+
+  body{
+    overflow-x: hidden;
+  }
+  .icon-section {
+    font-size: 4px;
+    padding: 2px;
+    
+}
+
+.icon-section p {
+  font-size: 12.7px;
+}
+
+
+.icon-section a img{
+  height: 25px;
+}
+
+#icon-btn{
+  position: relative;
+  right: 15px;
+}
+
+.find-Channels .main-title {
+  font-size: 15px;
+  margin-top: 11px;
+}
+
+.find-Channels-columns .column1 {
+  width: 117px;
+}
+
+.find-Channels-columns .column1 .subscribe-btn {
+  font-size: 5px;
+}
+
+.products-cards-columns .product1 {
+  width: 121px !important;
+}
+
+.topcheel-columns .col-sm-3 img {
+  width: 83px !important;
+}
+.topcheel-columns .col-sm-3 .p {
+  font-size: 8px !important;
+}
+
+.topcheel-columns .col-sm-3 p {
+  font-size: 6px !important;
+}
+
+.order-columns-home .cards-home .card-body .card-title {
+  font-size: 10px !important;
+}
+
+.order-columns-home .cards-home .card-body .card-text {
+  font-size: 4px !important;
+}
+
+.order-columns-home .cards-home .card-body .more {
+  font-size: 6px !important;
+}
+
+.text-muted{
+  font-size: 6px !important;
+}
+
+.gallery-icon .btn {
+  font-size: 7px !important;
+ 
+}
+
+.gallery-icon{
+  font-size: 7px;
+}
+
+.gallery-footer .gallery-footer-btn {
+  font-size: 6px !important;
+}
+
+.footer-images img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.footer-title {
+  font-size: 4px !important;
+}
+
+.mainads .h1 {
+  font-size: 20px !important;
+  margin-top: 5px;
+ 
+}
+.mainads i {
+  font-size: 20px !important;
+}
+
+.topcheel .h4{
+  margin-top: 7px;
+  font-size: 15px !important;
+}
+.topcheel .btn {
+  font-size: 15px !important;
+
+}
+}

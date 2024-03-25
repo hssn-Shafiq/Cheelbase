@@ -20,16 +20,16 @@ const RightSideBar = () => {
           <div>
             <div class="container-fluid">
               <div class="row feature-child p-0">
-                <div class="col-sm-6 p-1 mt-0">
+                <div class="img-col col-sm-6 p-1 mt-0">
                   <img src="/images/col1.jpg" class="rounded" alt="image" />
-                  <div class="mt-3">
+                  <div class="lorem mt-3">
                     <div class="p">Lorem ipsum, dolor</div>
                     <p>4k View 2Months ago</p>
                   </div>
                 </div>
-                <div class="col-sm-6 p-1 mt-0">
+                <div class="img-col col-sm-6 p-1 mt-0">
                   <img src="/images/col2.jpg" class="rounded" alt="image" />
-                  <div class="mt-3">
+                  <div class=" lorem mt-3">
                     <div class="p">Lorem ipsum, dolor</div>
                     <p>1 millions View</p>
                   </div>

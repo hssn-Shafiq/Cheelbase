@@ -1,49 +1,52 @@
-.right-sidebar-section{
-    width: 20%  !important;
+.right-sidebar-section {
+    width: 20% !important;
     padding: 2px 1px;
-    height:fit-content;
+    height: fit-content;
     border: 1px solid #110C46;
     background-color: #110C46;
 
 }
 
-.right-sidebar-section2{
+.right-sidebar-section2 {
     width: 21%;
     padding: 2px 1px;
-    height:fit-content;
+    height: fit-content;
     border: 1px solid #110C46;
     background-color: #110C46;
     float: right;
 }
 
-.right-sidebar-section-3{
+.right-sidebar-section-3 {
     width: 20%;
     padding: 2px 1px;
-    height:fit-content;
+    height: fit-content;
     background-color: white;
 
 }
 
-.truck-info{
+.truck-info {
     background-color: whitesmoke;
     background-size: cover;
 }
-.img-truck{
- width: 30%;
- height: 50px;
+
+.img-truck {
+    width: 30%;
+    height: 50px;
 }
-.title-info{
+
+.title-info {
     margin-left: 5px;
 }
 
-.sponsor{
+.sponsor {
     font-size: x-small;
 }
 
-.sponsorship{
+.sponsorship {
     padding-inline: 12px;
 }
-.btn-sub{
+
+.btn-sub {
 
     background-color: #dbf8f8;
     size: x-small;
@@ -58,194 +61,203 @@
     margin-left: 30px;
 }
 
-.title{
+.title {
     font-weight: bold;
     font-size: xx-small;
     line-height: 11px;
     color: #010BFA;
 }
 
-.info{
+.info {
     font-size: xx-small;
     line-height: 11px;
 }
 
 
-.burger-img{
+.burger-img {
     height: 100%;
     width: 100%;
 }
 
-.label-feature{
+.label-feature {
     color: white;
     margin-left: 5px;
 }
 
-.feature-images{
+.feature-images {
     background-image: url('/assets/images/XMLID_506_\ \(1\).png');
     height: 150px;
     width: 99%;
     border-radius: 10px;
 }
 
-.feature-main{
-    
+.feature-main {
+
     background-color: whitesmoke;
     border-radius: 10px;
 
 }
 
-.img-feature1{
+.img-feature1 {
     margin-top: 1px;
-    width:48%;
-    height:180px;
+    width: 48%;
+    height: 180px;
     border-radius: 8px;
     margin-left: 2px;
 }
 
-.img-feature2{
+.img-feature2 {
     margin-top: 1px;
-    width:48%;
-    height:180px;
+    width: 48%;
+    height: 180px;
     border-radius: 8px;
     margin-left: 6px;
 }
 
-.lorem-ip1{
+.lorem-ip1 {
     font-size: x-small;
     font-weight: bold;
     margin-left: 3px;
 }
-.lorem-ip2{
+
+.lorem-ip2 {
     font-size: x-small;
-    font-weight:bold;
+    font-weight: bold;
     margin-left: 24px;
 }
 
-.one-million{
+.one-million {
     line-height: 0px;
 }
-.million1{
+
+.million1 {
     font-size: x-small;
     margin-left: 3px;
 }
 
-.million2{
+.million2 {
     font-size: x-small;
     margin-left: 64px;
 }
 
-.video-camera{
+.video-camera {
     background-image: url('/assets/images/Rectangle\ 4973.png');
-    width:100%;
-    height:400px;
+    width: 100%;
+    height: 400px;
     background-size: cover;
 }
 
-.vector-1{
+.vector-1 {
     float: right;
     width: 18%;
     padding-top: 50%;
 }
 
-.text-five{
+.text-five {
     color: whitesmoke;
     font-size: small;
 }
-  .vector-2{
+
+.vector-2 {
     float: right;
     width: 0%;
     padding-top: 74%;
-  }
+}
 
-  .img-vector{
+.img-vector {
     padding-top: 98%;
     margin-left: 10px;
-  }
-  .avatar{
-    width:29.35px;
-    height:30.28px;
-  }
-  .username{
+}
+
+.avatar {
+    width: 29.35px;
+    height: 30.28px;
+}
+
+.username {
     margin-left: 5px;
     margin-top: 6px;
     color: whitesmoke;
-  }
+}
 
-  .btn-visit{
+.btn-visit {
     background-color: #FCC810;
     border-radius: 18px;
-     width: 80%;
+    width: 80%;
     height: 33px;
     margin-left: 30px;
     margin-bottom: 0px;
-  }
-  .vector-3{
+}
+
+.vector-3 {
     float: right;
     width: 0%;
     padding-top: 99%;
-  }
+}
 
-  .explore{
+.explore {
     font-size: small;
     color: whitesmoke;
     margin-top: 8px;
     margin-left: 10px;
-  }
-.video-frame{
+}
+
+.video-frame {
     background-color: whitesmoke;
     border-radius: 12px;
 }
-  .img{
+
+.img {
     background-image: url('/assets/images/XMLID_506_\ \(1\).png');
-    width:100%;
-    height:150px;
+    width: 100%;
+    height: 150px;
     border-radius: 12px;
-  }
-  .play{
-            margin-top: 50px;
+}
 
-  }
+.play {
+    margin-top: 50px;
 
-  .visit{
+}
+
+.visit {
     background-color: #B4C0CB;
     height: 5px;
     width: 98%;
-  }
+}
 
 
-  .img-visit{
+.img-visit {
     margin-left: 4px;
     font-size: 8px;
-  }
+}
 
 
-  .visit-pic{
+.visit-pic {
     height: 10px;
     width: 6%;
     font-size: 8px;
     margin-right: 5px;
-  }
+}
 
-  .visit-site{
+.visit-site {
 
-    background-color:#D9D9D9;
-  }
+    background-color: #D9D9D9;
+}
 
-  .web-title{
+.web-title {
     font-size: 15px;
     font-weight: bold;
     color: #110C46;
 
-  }
+}
 
-  .subtitle{
+.subtitle {
     font-size: 10px;
     color: #110C46;
 
-  }
+}
 
-.ad{
+.ad {
     font-size: 13px;
     font-weight: bold;
     color: #110C46;
@@ -255,38 +267,42 @@
     width: 30px;
 }
 
-.your-product{
-font-size: 13px;
-color: #989CA0;
-margin-left: 20px;
-margin-top: 5px;
+.your-product {
+    font-size: 13px;
+    color: #989CA0;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
-.lorem-ipsum{
+.lorem-ipsum {
     margin-left: 10px;
 }
 
-.ad-main{
-   margin-left: 10px;
+.ad-main {
+    margin-left: 10px;
 }
 
-#video{
+#video {
     height: 360px;
 }
-#video img{
+
+#video img {
     height: 100%;
 }
-.video .btn{
+
+.video .btn {
     position: absolute;
     right: 0px;
     top: 61px;
-color: red;
+    color: red;
 
 }
-.feature .h6{
+
+.feature .h6 {
     color: #308AFF;
 }
-.feature-child{
+
+.feature-child {
     background-color: rgb(224, 227, 238);
     width: 100%;
     border-radius: 10px;
@@ -301,7 +317,7 @@ color: red;
     font-size: xx-small;
 }
 
-.Sprd{
+.Sprd {
     background-color: #FCC810;
     padding: 8px;
     padding-top: 0px;
@@ -309,35 +325,41 @@ color: red;
     height: 265px;
 
 }
-.sprd-content{
+
+.sprd-content {
     height: 10%;
     padding: 3px 0px;
 }
-.Sprd img{
+
+.Sprd img {
     height: 90%;
     border-radius: 13px;
 }
-.Sprd .h6{
+
+.Sprd .h6 {
     color: red;
-    
-    
+
+
 }
-.Sprd .btn i{
+
+.Sprd .btn i {
     color: pink !important;
-    background-color: white; 
+    background-color: white;
     font-size: 24px;
     border-radius: 50%;
-    
+
 }
-.food-order{
+
+.food-order {
     margin-top: 7.3rem;
 }
-.food-order img{
+
+.food-order img {
     position: relative;
     z-index: 1;
 }
 
-.food-order .food{
+.food-order .food {
     border-radius: 12px;
     background-color: white;
     align-items: center;
@@ -346,69 +368,82 @@ color: red;
     width: 80%;
 
 }
-.food-order .food{
+
+.food-order .food {
     height: 250px;
     background: white;
     position: relative;
     box-shadow: 6px 5px 4px #000000c2;
-    
+
 }
 
 .food-order .food:before {
     content: '';
     position: absolute;
-    top: 0; right: 0;
+    top: 0;
+    right: 0;
     border-top: 90px solid white;
     border-left: 177px solid white;
     border-radius: 8px;
 
 }
-  
-.food-order .food .btn{
+
+.food-order .food .btn {
     color: #eb001b;
 }
-.food-order .food p i{
+
+.food-order .food p i {
     color: gold;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
-.apartment2{
+
+.apartment2 {
     background-color: #D9D9D9;
     padding-bottom: 19px;
-  border-radius: 10px;
+    border-radius: 10px;
 }
-.apartment2 .col-sm-6{
+
+.apartment2 .col-sm-6 {
     border-radius: 8px;
     background-color: #D9D9D9;
     width: 100%;
     margin: 0px auto;
 }
-.apartment2 .price{
+
+.apartment2 .price {
     color: #FCC810;
     padding: 0px 5px;
 }
-.apartment2 .apart-content,.icons{
+
+.apartment2 .apart-content,
+.icons {
     margin-top: -10px;
     padding: 0px 5px;
 }
-.apartment2 .apart-content .title{
-font-size: 11px;
-margin-top: 5px;
+
+.apartment2 .apart-content .title {
+    font-size: 11px;
+    margin-top: 5px;
 }
-.apartment2 .rent-btn{
-    background-color:#FCC810;
+
+.apartment2 .rent-btn {
+    background-color: #FCC810;
     color: black;
-  font-size: 11px;
-  padding: 2px 10px;
+    font-size: 11px;
+    padding: 2px 10px;
 }
-.apartment2 .address i{
+
+.apartment2 .address i {
     color: #FCC810;
     font-size: 15px;
     margin-right: 2px;
 }
-.apartment2 .address{
+
+.apartment2 .address {
     color: grey;
     font-size: 11px;
     padding: 0px 5px;
@@ -416,39 +451,157 @@ margin-top: 5px;
 }
 
 
-.apartment2 .icons p{
+.apartment2 .icons p {
     font-size: 12px;
 }
-.apartment2 img{
+
+.apartment2 img {
     width: 100%;
     border-radius: 15px;
 }
-.sub{
-    border:2px solid #FCC810;
+
+.sub {
+    border: 2px solid #FCC810;
     padding: 40px 2px 2px 2px;
     border-radius: 10px;
 }
-.sub .capt{
+
+.sub .capt {
 
     padding: 5px 0px 0px 0px;
 
 }
 
-.sub img{
+.sub img {
     border-radius: 12px !important;
 }
-.sub .h6{
+
+.sub .h6 {
     font-size: 14px;
- text-align: center;
+    text-align: center;
 }
-.sub .btn{
+
+.sub .btn {
     background-color: red !important;
     color: white;
     border-radius: 20px;
 }
 
 @media (max-width:470px) {
-    .right-sidebar-section{
+    .right-sidebar-section {
         width: 100% !important;
     }
+}
+
+@media (max-width:640px) and (min-width:360px) {
+    .right-sidebar-section {
+        width: 20% !important;
+
+
+    }
+
+    #video {
+        height: 200px;
+    }
+
+    #video img {
+        height: 100%;
+    }
+
+    .feature-child {
+        width: 126%;
+    }
+
+    .feature-child .img-col .lorem .p {
+        font-size: 7px;
+    }
+
+    .feature-child .img-col .lorem p {
+        font-size: 4px;
+    }
+
+
+    .Sprd {
+        height: 129px;
+    }
+
+     .sprd-content .h6 {
+        font-size: 0.6rem;
+    }
+
+    .Sprd .btn i {
+        font-size: 15px;
+    }
+
+    .sub .btn {
+        font-size: 5px;
+    }
+    .sub .h6 {
+        font-size: 5px;
+        text-align: center;
+    }
+    .apartment2 .price {
+        font-size: 10px;
+    }
+
+    .apartment2 .rent-btn {
+       font-size: 3px;
+       margin-bottom: 8px;
+    }
+
+    .apartment2 .apart-content, .icons {
+        line-height: 0px;
+    }
+
+    .apartment2 .apart-content .title {
+        font-size: 5px;
+    }
+
+    .apartment2 .address i {
+        font-size: 8px;
+ 
+    }
+
+    .apartment2 .address {
+        font-size: 6px;
+      
+    }
+
+    .apartment2 .icons p {
+        font-size: 4px;
+    }
+
+    .food-order {
+        margin-top: 2.3rem;
+    }
+
+    .food-order .food {
+        height: 160px;
+        width: 95%;
+    }
+
+    .food-order .food:before {
+        border-top: 64px solid white;
+        border-left: 86px solid white;
+   }
+
+   .food-order img {
+    height: 67px;
+    width: 95%;
+}
+
+.justify-content-around {
+    font-size: 12px;
+}
+
+.food .h4{
+    font-size: 13px;
+}
+
+
+.food-order .food .btn {
+    font-size: 10px;
+}
+
+
 }

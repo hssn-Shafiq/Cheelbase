@@ -420,3 +420,28 @@ top: 41rem;
     position: relative;
     top: 67rem;
 }
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    .search-icon {
+        width: calc(100% - 2rem); /* Adjusted width for smaller screens */
+    }
+
+    .form-control {
+        width: 70%; /* Adjusted width for smaller screens */
+    }
+
+    .main {
+        width: 70%; /* Adjusted width for smaller screens */
+    }
+
+    .icons {
+        top: 10rem; /* Adjusted top position for smaller screens */
+        left: 5rem; /* Adjusted left position for smaller screens */
+    }
+
+    .detail-section {
+        width: calc(100% - 2rem); /* Adjusted width for smaller screens */
+    }
+
+    /* Add more adjustments for other elements as needed */
+}

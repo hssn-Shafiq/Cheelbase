@@ -1,10 +1,10 @@
-body{
+body {
     font-family: sans-serif;
 }
 
 
 
-.search-icon{
+.search-icon {
     background-color: #FCC810;
     border: none;
     border-radius: 40px;
@@ -13,17 +13,18 @@ body{
     right: 1rem;
 }
 
-.search-inline{
+.search-inline {
     color: #110C46;
     padding-inline: 10px;
 }
 
-.form-control{
+.form-control {
     height: 35px;
     width: 61%;
     border-radius: 18px;
 }
-.faa-searchh{
+
+.faa-searchh {
     border: 2px solid white;
     border-radius: 18px;
     height: 24px;
@@ -33,7 +34,7 @@ body{
 }
 
 
-.search-bar{
+.search-bar {
     background-color: #110C46;
     width: 100%;
     background-size: cover;
@@ -41,7 +42,7 @@ body{
 }
 
 
-.dropdown-mark{
+.dropdown-mark {
     border: 2px solid;
     color: white;
     border-radius: 10px;
@@ -50,47 +51,49 @@ body{
     width: 20px;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: #110C46;
 }
 
-.cat-photos{
+.cat-photos {
     position: relative;
     top: 3rem;
 }
 
-.img-icon{
-    width:20.09px;
-    height:18px;
+.img-icon {
+    width: 20.09px;
+    height: 18px;
 }
-.market{
+
+.market {
     background: none;
     border: none;
 }
 
-.all{
+.all {
     background: none;
     border: none;
 }
 
 
-.img-market{
+.img-market {
     width: 100%;
     height: 100vh;
     line-height: 0px;
 }
 
 
-.img-rec1{
-    width:28%;
-    height:28vh
-}
-.img-rec{
-    width:28%;
-    height:30vh
+.img-rec1 {
+    width: 28%;
+    height: 28vh
 }
 
-.feature{
+.img-rec {
+    width: 28%;
+    height: 30vh
+}
+
+.feature {
     height: 27px;
     width: 57%;
     color: white;
@@ -102,49 +105,51 @@ body{
     right: 5px;
 }
 
-.photo{
+.photo {
     background-image: url('/public/images/product-1.jpg');
     height: 43vh;
     width: 141%;
     border-radius: 5px;
 }
 
-.house-photos-2{
-   position: relative;
-   top: 31rem;
+.house-photos-2 {
+    position: relative;
+    top: 34rem;
 }
-.more{
+
+.more {
     color: #110C46;
     border: none;
     background: none;
 }
 
-.amount{
+.amount {
     color: #31A015;
 }
-.rectangle-photos{
+
+.rectangle-photos {
     padding-inline: 20px;
 }
+
 /* Styles for wrapping the search box */
 
-.input-group{
-    
-}
+.input-group {}
+
 .main {
     height: 38px;
     width: 45%;
 }
 
 
-.icons{
+.icons {
     position: relative;
 
     top: 13.5rem;
     left: 8.5rem;
 }
 
-.detail-section{
-    background-color:#f5eeee;
+.detail-section {
+    background-color: #f5eeee;
     height: 15vh;
     width: 141%;
     position: relative;
@@ -152,54 +157,56 @@ body{
 
 }
 
-.burger-photos{
+.burger-photos {
     padding-inline: 10px;
 }
 
-.burger{
+.burger {
     background-image: url('/public/images/order food-1.jpg');
     position: relative;
     height: 31vh;
     width: 99%;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 
 
-.burger-detail{
-    background-color:#fff4f4;
-    height: 31vh;
+.burger-detail {
+    background-color: #fff4f4;
+    height: 25vh;
     width: 99%;
-    position: relative; 
-    border-radius: 5px; 
+    position: relative;
+    border-radius: 5px;
 }
 
-.burgerr{
+.burgerr {
     color: #110C46;
     font-weight: 550;
 }
-.price{
+
+.price {
     color: #110C46;
 }
 
-.description{
-    font-size: small;
+.description {
+    font-size: x-small;
 }
 
-.burger-icons{
+.burger-icons {
     position: relative;
 
     top: 5rem;
     left: 5rem;
 }
-.btn-more{
+
+.btn-more {
     background: none;
     border: none;
     color: #1C1A80;
     font-weight: 550;
 }
 
-.bed{
+.bed {
     background-image: url('/public/images/apartment.jpg');
     height: 32vh;
     width: 102%;
@@ -207,44 +214,53 @@ body{
     border-radius: 5px;
 }
 
-.card{
+.card {
     background-image: url('/public/images/apartment.jpg');
     height: 32vh;
     position: relative;
     border-radius: 5px;
 }
 
-.comfort{
+.comfort {
     font-weight: 550;
     color: #3B3A5D;
-}
-.full-addresses{
-    color: #8E8E8E;
+    font-size: small;
 }
 
-.card-body{
-   position: relative;
+.full-addresses {
+    color: #8E8E8E;
+    position: relative;
+    left: 24px;
+}
+
+.card-body {
+    position: relative;
     top: 8.5rem;
 }
 
-.aprtment{
+.aprtment {
     line-height: 0px;
 }
 
+.apartment .btn{
+    position: relative;
+    left: 22px;
+}
 
-.room-detail{
-    background-color:#fff4f4;
+.room-detail {
+    background-color: #fff4f4;
     height: 32vh;
     width: 102%;
-    position: relative; 
-    border-radius: 5px; 
+    position: relative;
+    border-radius: 5px;
 
 }
 
-.price-per-month{
+.price-per-month {
     color: #FFBB50;
     font-weight: 550;
 }
+
 /* Bootstrap 4 text input with search icon */
 
 .has-search .form-control {
@@ -263,165 +279,954 @@ body{
     color: #aaa;
 }
 
-.whatsapp-icon{
+.whatsapp-icon {
     float: right;
     position: relative;
     top: 9.2rem;
     right: 3px;
 }
 
-.btn-sale{
+.btn-sale {
     background-color: #FFBB50;
-    width:83.68px;
-    height:28.42px;
+    width: 83.68px;
+    height: 28.42px;
 }
 
-.left-border{
+.left-border {
     border: 1px solid #C8C8C8;
     height: 20px;
+    margin-left: 4px;
 }
 
-.img-location{
-    width:16.98px;
-height:25.58px;
+.img-location {
+    width: 16.98px;
+    height: 25.58px;
 }
-.img-bed{
+
+.img-bed {
     height: 15px;
 }
 
-.img-whatsapp{
+.img-whatsapp {
 
     height: 30px;
     width: 12%;
     position: relative;
     top: 10.4rem;
-   left: 16.5rem;
+    left: 16.5rem;
 }
 
-.burger-photos{
+.burger-photos {
     position: relative;
-    top: 14rem;
+    top: 11rem;
 }
 
-.house-photos{
+.house-photos {
     position: relative;
-    top: 16rem;
+    top: 15rem;
+
 }
 
-.category{
+.category {
     background-color: #110C46;
     width: 20%;
     border-radius: 5px;
 }
-.card-cat{
+
+.card-cat {
     background-image: url('/public/images/product-1.jpg');
     height: 43vh;
     border-radius: 5px;
 }
 
-.card-cat .card-body{
+.card-cat .card-body {
     position: relative;
     top: 13rem;
 
 }
-.beds-3{
-font-size: small;
+
+.beds-3 {
+    font-size: small;
 }
 
-.category-1{
+.category-1 {
     background: none;
     border: none;
     letter-spacing: 1px;
 }
 
-.img-sale{
-    width:1000px;
-height:492px;
+.img-sale {
+    width: 1000px;
+    height: 492px;
 }
 
-.cat-photos-1{
+.cat-photos-1 {
     position: relative;
-    top:1rem;
+    top: 1rem;
 }
 
-.cat-photos-2{
+.cat-photos-2 {
     position: relative;
     top: 8rem;
 }
 
-.cat-photos-3{
+.cat-photos-3 {
     position: relative;
     top: 16rem;
 }
 
 
 
-.cat-photos-4{
+.cat-photos-4 {
     position: relative;
     top: 25rem;
 }
 
-.cat-photos-5{
+.cat-photos-5 {
     position: relative;
     top: 33rem;
 }
 
-.burger-photos-1{
+.burger-photos-1 {
     position: relative;
     padding-inline: 10px;
 }
 
-.burger-photos-2{
+.burger-photos-2 {
     position: relative;
     padding-inline: 10px;
 }
 
-.burger-photos-3{
-    position: relative;   
-    padding-inline: 10px;
-}
-
-.burger-photos-4{
-    position: relative; 
-    padding-inline: 10px;
-}
-
-.burger-photos-5{
+.burger-photos-3 {
     position: relative;
     padding-inline: 10px;
 }
 
-.house-photos-1{
-position: relative;
-top: 2rem;
+.burger-photos-4 {
+    position: relative;
+    padding-inline: 10px;
 }
 
-.house-photos-3{
+.burger-photos-5 {
+    position: relative;
+    padding-inline: 10px;
+}
+
+.house-photos-1 {
+    position: relative;
+    top: 2rem;
+}
+
+.house-photos-2{
+    position: relative;
+    top: 29rem;
+}
+
+.house-photos-3 {
     position: relative;
     top: 15rem;
 }
 
-.house-photos-4{
+.house-photos-4 {
     position: relative;
     top: 28rem;
 }
 
-.house-photos-5{
-  position: relative;
-top: 41rem;
+.house-photos-5 {
+    position: relative;
+    top: 41rem;
 }
 
-.house-photos-6{
+.house-photos-6 {
     position: relative;
     top: 54rem;
 }
 
-.house-photos-7{
+.house-photos-7 {
     position: relative;
     top: 67rem;
 }
 
-.next-button-continue{
+.next-button-continue {
     position: relative;
-    top: 48rem;
+    top: 42rem;
 }
+
+
+@media (max-width: 640px) and (min-width:360px){
+
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .search-bar {
+        width: 100% !important;
+    }
+
+    .marketplace img {
+        width: 100% !important;
+        height: 35vh !important;
+    }
+
+    .rectangle-photos img {
+        width: 34% !important;
+        height: 15vh !important;
+    }
+
+    .rectangle-photos {
+        width: 99% !important;
+    }
+
+    .card-cat {
+        background-image: url('/public/images/productcat.jpg');
+        height: 15vh !important;
+        width: 19% !important;
+        border-radius: 5px;
+    }
+
+    .feature {
+        width: 82% !important;
+        height: 16px !important;
+        font-size: 10px !important;
+    }
+
+    .icons {
+        position: relative;
+        top: 5.9rem !important;
+        left: 1.7rem !important;
+        gap: 2px !important;
+    }
+
+    .usd {
+        font-size: 3px !important;
+    }
+
+    .card-cat .card-body {
+        position: relative;
+        top: 5rem !important;
+    }
+
+    .card-cat .card-body p {
+        font-size: 9px !important;
+    }
+
+    .card-cat .icons img {
+        height: 15px !important;
+
+    }
+
+    .more {
+        font-size: 7px !important;
+    }
+
+    .burger-photos {
+        position: relative;
+        top: 8rem !important;
+    }
+
+    .burger {
+        background-image: url('/public/images/smallburger.png');
+        position: relative;
+        height: 8vh !important;
+        width: 98% !important;
+        border-radius: 5px;
+    }
+
+    .burger-detail {
+        height: 13vh !important;
+        width: 99% !important;
+
+    }
+
+    .burger-price {
+        font-size: 7px !important;
+    }
+
+    .description {
+        font-size: 3px !important;
+    }
+
+    .icons-burger img {
+        height: 14px !important;
+    }
+
+    .icons-burger {
+        position: relative;
+        right: 53px !important;
+        gap: 4px !important;
+    }
+
+    .btn-more {
+
+        font-size: 5px !important;
+    }
+
+    .burger-1 {
+        width: 20% !important;
+    }
+
+    .house-photos {
+        position: relative;
+        top: 9rem !important;
+    }
+
+    .house-photos .card {
+        background-image: url('/public/images/apartmentsmall.jpg');
+        height: 9vh !important;
+        width: 23% !important;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    .img-whatsapp {
+        position: relative;
+        top: 3.3rem !important;
+        left: 4.4rem !important;
+    }
+
+    .house-photos .card .card-body {
+        position: relative;
+        top: 3rem !important;
+    }
+
+    .price-per-month {
+        font-size: 10px !important;
+        position: relative;
+        bottom: 20px !important;
+        right: 14px !important;
+    }
+
+    .apartment {
+        position: relative;
+        bottom: 24px !important;
+        width: 50% !important;
+    }
+
+
+    .apartment .btn {
+        width: 48px !important;
+        height: 25px !important;
+        font-size: 11px !important;
+        position: relative;
+        left: -9px !important;
+    }
+
+    .comfort {
+        font-size: 5px !important;
+        position: relative;
+        right: 13px !important;
+    }
+
+    .img-location {
+        width: 6.98px !important;
+        height: 15.58px !important;
+    }
+
+    .full-addresses {
+        font-size: 2px !important;
+        margin-top: 6px !important;
+        position: relative;
+        left: 2px !important;
+    }
+
+    .address {
+        position: relative;
+        bottom: 9px !important;
+    }
+
+    .addresses {
+        position: relative;
+        bottom: 29px !important;
+        right: 12px !important;
+    }
+
+    .icons-details {
+        position: relative;
+        bottom: 32px !important;
+        right: 18px !important;
+    }
+
+    .img-bed {
+        height: 8px !important;
+    }
+
+    .bed-2 {
+        width: 5% !important;
+    }
+
+    .beds-3 {
+        font-size: 7px !important;
+
+    }
+
+
+    .house-photos-2 {
+        position: relative;
+        top: 17rem !important;
+    }
+
+    .house-photos-2 .card {
+        background-image: url('/public/images/apartmentsmall.jpg');
+        height: 9vh !important;
+        width: 23% !important;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    .house-photos-2 .card .card-body {
+        position: relative;
+        top: 3rem !important;
+    }
+
+   
+
+    .house-photos-2 .card .card-body .address {
+        position: relative;
+        bottom: 28px !important;
+        right: 15px !important;
+    }
+
+    .house-photos-2 .card .card-body .full-addresses {
+        font-size: 2px !important;
+        margin-top: 6px !important;
+        position: relative;
+        left: 2px !important;
+    }
+
+
+
+    .house-photos-2 .card .card-body .addresses {
+        position: relative;
+        bottom: 29px !important;
+        right: 12px !important;
+        font-size: 3px !important;
+    }
+
+    .next-button-continue {
+        position: relative;
+        top: 24rem !important;
+    }
+
+}
+
+
+@media (max-width: 896px) and (min-width:414px) {
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .marketplace img {
+        width: 100%;
+        height: 35vh !important;
+    }
+
+    .rectangle-photos img {
+        width: 34%;
+        height: 10vh;
+    }
+
+    .rectangle-photos {
+        width: 100%;
+        position: relative;
+        right: 14px;
+    }
+
+    .card-cat {
+        background-image: url('/public/images/productcat.jpg');
+        height: 11vh !important;
+        width: 19% !important;
+        border-radius: 5px;
+    }
+
+    .feature {
+        width: 82% !important;
+        height: 16px;
+        font-size: 10px;
+    }
+
+    .icons {
+        position: relative;
+        position: relative;
+        top: 6rem !important;
+        left: 2.3rem !important;
+        gap: 2px !important;
+    }
+
+    .usd {
+        font-size: 3px;
+    }
+
+    .card-cat .card-body {
+        position: relative;
+        top: 5rem;
+    }
+
+    .card-cat .card-body p {
+        font-size: 9px;
+    }
+
+    .card-cat .icons img {
+        height: 15px;
+
+    }
+
+    .more {
+        font-size: 7px;
+    }
+
+    .burger-photos {
+        position: relative;
+        top: 8rem;
+    }
+
+    .burger {
+        background-image: url('/public/images/smallburger.png');
+        position: relative;
+        height: 6vh !important;
+        width: 98%;
+        border-radius: 5px;
+    }
+
+    .burger-detail {
+        height: 13vh !important;
+        width: 99%;
+
+    }
+
+    .burger-price {
+        font-size: 7px;
+    }
+
+    .description {
+        font-size: 3px;
+    }
+
+    .icons-burger img {
+        height: 14px
+    }
+
+    .icons-burger {
+        position: relative;
+        right: 53px;
+        gap: 4px !important;
+    }
+
+    .btn-more {
+
+        font-size: 5px;
+    }
+
+    .burger-1 {
+        width: 20%;
+    }
+
+    .house-photos {
+        position: relative;
+        top: 9rem !important;
+    }
+
+    .house-photos .card {
+        background-image: url('/public/images/apartmentsmall.jpg');
+        height: 7vh !important;
+        width: 23% !important;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    .img-whatsapp {
+        position: relative;
+        top: 3.3rem !important;
+        left: 5.1rem !important;
+    }
+
+    .house-photos .card .card-body {
+        position: relative;
+        top: 3rem !important;
+    }
+
+    .price-per-month {
+        font-size: 10px;
+        position: relative;
+        bottom: 18px !important;
+        right: 14px !important;
+    }
+
+    .apartment {
+        position: relative;
+        bottom: 24px !important;
+        width: 50% !important;
+    }
+
+
+    .apartment .btn {
+        width: 48px !important;
+        height: 25px !important;
+        font-size: 11px !important;
+        position: relative;
+        left: -9px !important;
+    }
+
+    .comfort {
+        font-size: 5px !important;
+        position: relative;
+        right: 13px !important;
+    }
+
+    .img-location {
+        width: 6.98px !important;
+        height: 15.58px !important;
+    }
+
+    .full-addresses {
+        font-size: 3px !important;
+        margin-top: 6px !important;
+        position: relative;
+        left: 2px !important;
+    }
+
+    .address {
+        position: relative;
+        bottom: 9px !important;
+    }
+
+    .addresses {
+        position: relative;
+        bottom: 29px !important;
+        right: 12px !important;
+    }
+
+    .icons-details {
+        position: relative;
+        bottom: 32px !important;
+        right: 18px !important;
+    }
+
+    .img-bed {
+        height: 8px !important;
+    }
+
+    .bed-2 {
+        width: 5% !important;
+    }
+
+    .beds-3 {
+        font-size: 7px !important;
+
+    }
+
+
+    .house-photos-2 {
+        position: relative;
+        top: 17rem !important ;
+    }
+
+    .house-photos-2 .card {
+        background-image: url('/public/images/apartmentsmall.jpg');
+        height: 7vh !important;
+        width: 23% !important;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    .house-photos-2 .card .card-body {
+        position: relative;
+        top: 3rem !important;
+    }
+
+
+    .house-photos-2 .card .card-body .address {
+        position: relative;
+        bottom: 28px !important;
+        right: 15px !important;
+    }
+
+    .house-photos-2 .card .card-body .full-addresses {
+        font-size: 2px !important;
+        margin-top: 6px !important;
+        position: relative;
+        left: 2px !important;
+    }
+
+
+
+    .house-photos-2 .card .card-body .addresses {
+        position: relative;
+        bottom: 29px !important;
+        right: 12px !important;
+    }
+
+    .next-button-continue {
+        position: relative;
+        top: 24rem !important;
+    }
+
+}
+
+
+@media (max-width: 667px) and (min-width:375px) {
+
+    body {
+        overflow-x: hidden!important;
+    }
+
+    .search-bar {
+        width: 100% !important;
+    }
+
+    .marketplace img {
+        width: 100% !important;
+        height: 35vh !important;
+    }
+
+    .rectangle-photos img {
+        width: 34% !important;
+        height: 10vh !important;
+    }
+
+    .rectangle-photos {
+        width: 100% !important;
+        position: relative;
+        right: 14px !important;
+    }
+
+    .card-cat {
+        background-image: url('/public/images/productcat.jpg');
+        height: 14vh !important;
+        width: 19% !important;
+        border-radius: 5px;
+    }
+
+    .feature {
+        width: 82% !important;
+        height: 16px !important;
+        font-size: 10px !important;
+    }
+
+    .icons {
+        position: relative;
+        top: 5.9rem !important;
+        left: 2rem !important;
+        gap: 2px !important;
+    }
+
+    .usd {
+        font-size: 3px !important;
+    }
+
+    .card-cat .card-body {
+        position: relative;
+        top: 5rem !important;
+    }
+
+    .card-cat .card-body p {
+        font-size: 9px !important;
+    }
+
+    .card-cat .icons img {
+        height: 15px !important;
+
+    }
+
+    .more {
+        font-size: 7px !important;
+    }
+
+    .burger-photos {
+        position: relative;
+        top: 8rem !important;
+    }
+
+    .burger {
+        background-image: url('/public/images/smallburger.png');
+        position: relative;
+        height: 8vh !important;
+        width: 98% !important;
+        border-radius: 5px;
+    }
+
+    .burger-detail {
+        height: 13vh !important;
+        width: 99% !important;
+
+    }
+
+    .burger-price {
+        font-size: 7px !important;
+    }
+
+    .description {
+        font-size: 3px !important;
+    }
+
+    .icons-burger img {
+        height: 14px !important;
+    }
+
+    .icons-burger {
+        position: relative;
+        right: 53px;
+        gap: 4px !important;
+    }
+
+    .btn-more {
+
+        font-size: 5px !important;
+    }
+
+    .burger-1 {
+        width: 20%;
+    }
+
+    .house-photos {
+        position: relative;
+        top: 9rem !important;
+    }
+
+    .house-photos .card {
+        background-image: url('/public/images/apartmentsmall.jpg');
+        height: 9vh !important;
+        width: 23% !important;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    .img-whatsapp {
+        position: relative;
+        top: 3.3rem !important;
+        left: 4.6rem !important;
+    }
+
+    .house-photos .card .card-body {
+        position: relative;
+        top: 3rem !important;
+    }
+
+    .price-per-month {
+        font-size: 10px !important;
+        position: relative;
+        bottom: 18px !important;
+        right: 14px !important;
+    }
+
+    .apartment {
+        position: relative;
+        bottom: 24px !important;
+        width: 50% !important;
+    }
+
+
+    .apartment .btn {
+        width: 48px !important;
+        height: 25px !important;
+        font-size: 11px !important;
+        position: relative;
+        left: -9px !important;
+    }
+
+    .comfort {
+        font-size: 5px !important;
+        position: relative;
+        right: 13px !important;
+    }
+
+    .img-location {
+        width: 6.98px !important;
+        height: 15.58px !important;
+    }
+
+    .full-addresses {
+        font-size: 2px !important;
+        margin-top: 6px !important;
+        position: relative;
+        left: 2px !important;
+    }
+
+    .address {
+        position: relative;
+        bottom: 9px !important;
+    }
+
+    .addresses {
+        position: relative;
+        bottom: 29px !important;
+        right: 12px !important;
+    }
+
+    .icons-details {
+        position: relative;
+        bottom: 32px !important;
+        right: 18px !important;
+    }
+
+    .img-bed {
+        height: 8px !important;
+    }
+
+    .bed-2 {
+        width: 5% !important;
+    }
+
+    .beds-3 {
+        font-size: 7px !important;
+
+    }
+
+
+    .house-photos-2 {
+        position: relative;
+        top: 17rem !important;
+    }
+
+    .house-photos-2 .card {
+        background-image: url('/public/images/apartmentsmall.jpg');
+        height: 9vh !important;
+        width: 23% !important;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    .house-photos-2 .card .card-body {
+        position: relative;
+        top: 3rem !important;
+    }
+
+    .house-photos-2 .card .card-body .address {
+        position: relative;
+        bottom: 9px !important;
+    }
+
+    .house-photos-2 .card .card-body .address {
+        position: relative;
+        bottom: 28px !important;
+        right: 15px !important;
+    }
+
+    .house-photos-2 .card .card-body .full-addresses {
+        font-size: 3px !important;
+        margin-top: 6px !important;
+        position: relative;
+        left: 2px !important;
+    }
+
+
+
+    .house-photos-2 .card .card-body .addresses {
+        position: relative;
+        bottom: 29px !important;
+        right: 12px !important;
+    }
+
+    .next-button-continue {
+        position: relative;
+        top: 25rem !important;
+    }
+
+}
+
+

@@ -157,7 +157,7 @@ const Stories = () => {
   {/* icons section start */}
   <div>
   <div className="container-fluid  icon-section">
-    <a
+    <a 
       href="javascript:void(0);"
       id="icon-btn"
       onclick="changeBackground()"

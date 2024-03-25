@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <nav className="navbar navbar-expand-sm">
+        <nav className="d-none d-lg-block navbar navbar-expand-sm">
           <div className="container-fluid">
             <a className="navbar-brand" href="/Home">
               <img
@@ -194,23 +194,22 @@ const Header = () => {
                     >
                       <div className="accounts-title d-flex align-items-center justify-content-evenly">
                         <div className="user d-flex flex-row ">
-                        {localUser ? (
-                    <>
-                      <img
-                        src={localUser.image}
-                        alt={localUser.fullname}
-                        className="rounded-circle"
-                        width={30}
-                        height={30}
-                      />
-                      <label htmlFor="user" className="mt-1">
-                        {localUser.fullname}
-                      </label>
-                    </>
-                  ) : (
-                    <span>No user logged in</span>
-                  )}
-                        
+                          {localUser ? (
+                            <>
+                              <img
+                                src={localUser.image}
+                                alt={localUser.fullname}
+                                className="rounded-circle"
+                                width={30}
+                                height={30}
+                              />
+                              <label htmlFor="user" className="mt-1">
+                                {localUser.fullname}
+                              </label>
+                            </>
+                          ) : (
+                            <span>No user logged in</span>
+                          )}
                         </div>
                       </div>
                       <a className="dropdown-item wallet-items" href="#">
@@ -328,6 +327,42 @@ const Header = () => {
                   </li>
                 </div>
               </form>
+            </div>
+          </div>
+        </nav>
+
+        {/* mobile navbar */}
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark d-block d-lg-none">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              Logo
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsibleNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Link
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Link
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Link
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </nav>
