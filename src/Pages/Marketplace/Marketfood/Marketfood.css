@@ -420,3 +420,283 @@ top: 41rem;
     position: relative;
     top: 67rem;
 }
+
+@media( max-width:640px) and (min-width:360px){
+    .search-bar {
+        width: 100% !important;
+    }
+
+    .marketstore{
+        width: 100% !important;
+    }
+
+    .img-sale {
+        width: 254px !important;
+        height: 205px !important;
+    }
+
+    .category {
+        width: 27% !important;
+        height: 32vh !important;
+    }
+
+    .category-1 {
+        font-size: 8px !important;
+        position: relative;
+        right: 17px !important;
+        width: 72% !important;
+    }
+
+    .burger-photos {
+        position: relative;
+        top: 8rem !important;
+    }
+
+    .burger {
+        background-image: url('/public/images/smallburger.png');
+        position: relative;
+        height: 8vh !important;
+        width: 98% !important;
+        border-radius: 5px;
+    }
+
+    .burger-detail {
+        height: 13vh !important;
+        width: 99% !important;
+
+    }
+
+    .burger-price {
+        font-size: 7px !important;
+    }
+
+    .description {
+        font-size: 3px !important;
+    }
+
+    .icons-burger img {
+        height: 14px !important;
+    }
+
+    .icons-burger {
+        position: relative;
+        right: 53px !important;
+        gap: 4px !important;
+    }
+
+    .btn-more {
+
+        font-size: 5px !important;
+    }
+
+    .burger-1 {
+        width: 20% !important;
+    }
+
+    .burger-photos-2 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+
+    .burger-photos-3 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+
+    .burger-photos-4 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+
+    .burger-photos-5 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+}
+
+
+@media( max-width:896px) and (min-width:414px){
+    .search-bar {
+        width: 100% !important;
+    }
+
+    .marketstore{
+        width: 100% !important;
+    }
+
+    .img-sale {
+        width: 294px !important;
+        height: 205px !important;
+    }
+
+    .category {
+        width: 27% !important;
+        height: 23vh !important;
+    }
+
+    .category-1 {
+        font-size: 8px !important;
+        position: relative;
+        right: 17px !important;
+        width: 72% !important;
+    }
+
+    .burger-photos {
+        position: relative;
+        top: 8rem !important;
+    }
+
+    .burger {
+        background-image: url('/public/images/smallburger.png');
+        position: relative;
+        height: 6vh !important;
+        width: 98% !important;
+        border-radius: 5px;
+    }
+
+    .burger-detail {
+        height: 13vh !important;
+        width: 99% !important;
+
+    }
+
+    .burger-price {
+        font-size: 7px !important;
+    }
+
+    .description {
+        font-size: 3px !important;
+    }
+
+    .icons-burger img {
+        height: 14px !important;
+    }
+
+    .icons-burger {
+        position: relative;
+        right: 53px !important;
+        gap: 4px !important;
+    }
+
+    .btn-more {
+
+        font-size: 5px !important;
+    }
+
+    .burger-1 {
+        width: 20% !important;
+    }
+
+    .burger-photos-2 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+
+    .burger-photos-3 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+
+    .burger-photos-4 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+
+    .burger-photos-5 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+}
+
+@media( max-width:667px) and (min-width:375px){
+    .search-bar {
+        width: 100% !important;
+    }
+
+    .marketstore{
+        width: 100% !important;
+    }
+
+    .img-sale {
+        width: 279px !important;
+        height: 205px !important;
+    }
+
+    .category {
+        width: 24% !important;
+        height: 31vh !important;
+    }
+
+    .category-1 {
+        font-size: 8px !important;
+        position: relative;
+        right: 17px !important;
+        width: 75% !important;
+    }
+
+    .burger-photos {
+        position: relative;
+        top: 8rem !important;
+    }
+
+    .burger {
+        background-image: url('/public/images/smallburger.png');
+        position: relative;
+        height: 8vh !important;
+        width: 98% !important;
+        border-radius: 5px;
+    }
+
+    .burger-detail {
+        height: 13vh !important;
+        width: 99% !important;
+
+    }
+
+    .burger-price {
+        font-size: 7px !important;
+    }
+
+    .description {
+        font-size: 3px !important;
+    }
+
+    .icons-burger img {
+        height: 14px !important;
+    }
+
+    .icons-burger {
+        position: relative;
+        right: 53px !important;
+        gap: 4px !important;
+    }
+
+    .btn-more {
+
+        font-size: 5px !important;
+    }
+
+    .burger-1 {
+        width: 20% !important;
+    }
+
+    .burger-photos-2 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+
+    .burger-photos-3 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+
+    .burger-photos-4 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+
+    .burger-photos-5 {
+        position: relative;
+        bottom: 2rem !important;
+    }
+}

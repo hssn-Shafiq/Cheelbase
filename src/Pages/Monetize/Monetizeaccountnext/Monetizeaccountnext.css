@@ -1,46 +1,47 @@
-body{
+body {
     font-family: sans-serif;
 }
 
-.credit-wallet{
-   
+.credit-wallet {
+
     height: 43px;
-    padding-inline:7px;
+    width: 133%;
+    padding-inline: 7px;
     border: 1px solid #D9D9D9;
     border-radius: 5px;
 }
 
 
-.img-wallet{
+.img-wallet {
     height: 20px;
     width: 20px;
 }
 
-.wallet{
-    background-color:#FFB802;
+.wallet {
+    background-color: #FFB802;
     height: 34px;
-    width: 15%;
+    width: 14%;
     border-radius: 18px;
     border: none;
     position: relative;
-    left: 42rem;
+    left: 44rem;
 }
 
-.withdraw{
+.withdraw {
     font-weight: 550;
 }
 
-.money{
+.money {
     background-color: #D9D9D9;
     height: 35px;
     width: 50%;
-   border-radius: 18px;
+    border-radius: 18px;
     border: none;
     position: relative;
     right: 2rem;
 }
 
-.add{
+.add {
     background-color: #FFB802;
     height: 35px;
     width: 50%;
@@ -49,40 +50,43 @@ body{
 
 }
 
-.add-save{
+.add-save {
     width: 100%;
 }
-.send{
+
+.send {
     font-size: smaller;
     font-weight: bold;
 }
 
-.send-add{
+
+.send-add {
     position: relative;
-    left: 38rem;
-    width: 30%;
+    left: 38.5rem;
+    width: 40%;
+    bottom: 33px !important;
 }
 
-.wallet{
- float: right;
+.wallet {
+    float: right;
 }
 
-.credit{
+.credit {
     background-color: #FFFFFF;
     border: none;
 }
 
-.center-main{
+.center-main {
     width: 79%;
     background-color: #FFFFFF;
 }
 
-.price{
+.price {
     color: #FFB802;
     font-weight: bold;
 }
 
-.img-rectangle{
+.img-rectangle {
     height: 37%;
     width: 70%;
     position: relative;
@@ -90,7 +94,7 @@ body{
     top: 5rem;
 }
 
-.monetize{
+.monetize {
     position: relative;
     left: 25rem;
     height: 38px;
@@ -98,20 +102,22 @@ body{
     background-color: #30146C;
     border: none;
     color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.credit{
+.credit {
     font-weight: bold;
 }
 
-.content{
+.content {
     font-weight: bold;
 }
 
 
 
-.img-box{
+.img-box {
     height: 20px;
     width: 20px;
     position: relative;
@@ -119,84 +125,84 @@ body{
     top: -4.1rem;
 }
 
-.profile{
-    height: 110px;
+.profile {
+    height: 125px;
     width: 42%;
     background-color: #30146C;
     color: #FFFFFF;
 
 }
 
-.dots{
-    
-}
+.dots {}
 
-.dot{
-   position: relative;
+.dot {
+    position: relative;
     top: -4rem;
 }
 
-.dots{
+.dots {
     gap: 102px;
 
 }
-.amount{
+
+.amount {
     position: relative;
     left: 14rem;
     top: -1.5rem;
     width: 1%;
 }
 
-.cheel{
+.cheel {
     color: #30146C;
 }
 
-.setup{
-    height: 40px;
-    width: 11%;
+.setup {
+    height: 37px;
+    width: 16%;
     background-color: #FFB802;
     border: none;
     position: relative;
-    left: 20rem;
-    top: 4rem;
+    left: 8rem;
+    top: 6.7rem;
 }
 
-.setups{
-    height: 40px;
-    width: 24%;
+
+.setups {
+    height: 34px;
+    width: 33%;
     background-color: #FFB802;
     border: none;
     position: relative;
-    left: 20rem;
+    left: 18rem;
     top: 2rem;
 }
 
 
-.place-ad{
+.place-ad {
     height: 20px;
     width: 30%;
 }
 
-.places{
+.places {
     width: 98%;
     height: 97px;
 }
 
-.affiliate{
+.affiliate {
     position: relative;
     top: 5rem;
     width: 50%;
 }
 
-.affiliated{
+.affiliated {
     font-weight: bold;
 }
 
-.affiliate-typo{
-    font-size: small;  
+.affiliate-typo {
+    font-size: small;
 }
 
-.earning-info{
+.earning-info {
     float: right;
     position: relative;
     top: -28rem;
@@ -206,11 +212,12 @@ body{
 
 
 
-.info{
-    
+.info {
+    font-size: small;
+    line-height: 16px;
 }
 
-.setupping{
+.setupping {
     width: 30%;
     height: 37px;
     border: none;
@@ -219,18 +226,17 @@ body{
     left: 21rem;
 }
 
-.earn{
+.earn {
     width: 45%;
     position: relative;
     left: 31.2rem;
     top: -5rem;
 }
 
-.products{
+.products {
     width: 43%;
     position: relative;
     left: 31.5rem;
 }
 
-.sell{
-}
+.sell {}

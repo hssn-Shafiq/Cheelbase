@@ -5,6 +5,7 @@ body{
 .credit-wallet{
    
     height: 43px;
+    width: 133%;
     padding-inline:7px;
     border: 1px solid #D9D9D9;
     border-radius: 5px;
@@ -19,7 +20,7 @@ body{
 .wallet{
     background-color:#FFB802;
     height: 34px;
-    width: 15%;
+    width: 14%;
     border-radius: 18px;
     border: none;
     position: relative;
@@ -33,7 +34,7 @@ body{
 .money{
     background-color: #D9D9D9;
     height: 35px;
-    width: 50%;
+    width: 48%;
    border-radius: 18px;
     border: none;
     position: relative;
@@ -43,7 +44,7 @@ body{
 .add{
     background-color: #FFB802;
     height: 35px;
-    width: 50%;
+    width: 44%;
     border-radius: 18px;
     border: none;
 
@@ -60,7 +61,8 @@ body{
 .send-add{
     position: relative;
     left: 38.5rem;
-    width: 30%;
+    width: 40%;
+    bottom: 33px !important;
 }
 
 .wallet{
@@ -84,7 +86,7 @@ body{
 
 .img-rectangle{
     height: 37%;
-    width: 70%;
+    width: 100%;
     position: relative;
     left: 7rem;
     top: 5rem;
@@ -95,7 +97,7 @@ body{
     top: 10rem;
     left: 25rem;
     height: 38px;
-    width: 19%;
+    width: 25%;
     background-color: #FFB802;
     border: none;
     border-radius: 20px;

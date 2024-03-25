@@ -435,6 +435,10 @@ body {
 }
 
 @media (max-width:640px) and (min-width:360px) {
+
+    body{
+        overflow-x: hidden;
+    }
     .search-bar {
         width: 100% !important;
     }
@@ -566,6 +570,10 @@ body {
 
 
 @media (max-width:896px) and (min-width:414px) {
+
+    body{
+        overflow-x: hidden;
+    }
     .search-bar {
         width: 100% !important;
     }
@@ -696,6 +704,11 @@ body {
 }
 
 @media (max-width:667px) and (min-width:375px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    
     .search-bar {
         width: 100% !important;
     }

@@ -33,6 +33,11 @@
     top: -4.1rem;
 }
 
+.img-2{
+    position: relative;
+    left: 5px !important;
+}
+
 .dot{
     position: relative;
     top: -7rem;
@@ -149,6 +154,7 @@
     background-color: #FFC32B;
     border: none;
     height: 36px;
+    width: 84%;
 }
 
 .email{
@@ -169,7 +175,7 @@
     background-color: #230B34;
     position: relative;
     top: 9rem;
-    left:45rem;
+    left:33rem;
 }
 
 .fest{
@@ -189,7 +195,7 @@
 
 .img1{
 position: relative;
-left: 8.6rem;
+left: 8.7rem;
 top: -0.2rem;
 }
 
